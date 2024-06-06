@@ -1,4 +1,4 @@
-color: null
+color: amber
 fieldLayouts:
   16fac39f-5345-4a2a-9f84-24043a6d30ae:
     tabs:
@@ -36,21 +36,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bfc953b-7554-4a01-8467-f1af9c7f27b4 # Subtitle
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 12e49204-99fc-4a7d-9211-ba4210e119f5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
@@ -68,7 +53,7 @@ fieldLayouts:
         uid: 1926103b-1789-4922-8839-a48a626cf1de
         userCondition: null
 handle: alertEntry
-hasTitleField: false
+hasTitleField: true
 icon: bell
 name: 'Alert Entry'
 showSlugField: false

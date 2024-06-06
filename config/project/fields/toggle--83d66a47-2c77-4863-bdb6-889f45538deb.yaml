@@ -5,8 +5,8 @@ name: Toggle
 searchable: false
 settings:
   default: false
-  offLabel: null
-  onLabel: null
+  offLabel: 'Grid View'
+  onLabel: 'Carousel View'
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

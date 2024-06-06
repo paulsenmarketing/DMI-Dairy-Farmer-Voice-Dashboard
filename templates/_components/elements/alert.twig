@@ -11,7 +11,7 @@
             <polyline points="4 17 10 11 4 5"></polyline>
             <line x1="12" x2="20" y1="19" y2="19"></line>
          </svg>
-         <h5 class="mb-1 font-medium leading-none tracking-tight">{{ data.text}}</h5>
+         <h5 class="mb-1 font-medium leading-none tracking-tight">{{ data.title}}</h5>
          <div class="text-sm opacity-70">{{ data.richText }}</div>
       </div>
 {% endmacro %}
@@ -25,7 +25,7 @@
       %}
    {% endif %}
 
-   <div role="alert" class="alert alert-info">
+   <div role="alert" class="alert alert-info relative">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
       <div class="flex flex-col">
          <span class="font-bold text-xl">{{ data.text }}</span>

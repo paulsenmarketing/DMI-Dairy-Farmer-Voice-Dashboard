@@ -36,21 +36,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bfc953b-7554-4a01-8467-f1af9c7f27b4 # Subtitle
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 9f10c05d-58e3-4e55-a06b-83cf7d67fbbc
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
@@ -61,6 +46,21 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 8fe737a8-3ccb-496d-9aac-7d838a510287
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0087aa95-b890-4686-817b-0608e2d63033
             userCondition: null
             warning: null
             width: 100

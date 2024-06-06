@@ -1,4 +1,4 @@
-color: null
+color: amber
 fieldLayouts:
   1aa54cf8-4484-4264-b8d8-3715dcfd2575:
     tabs:
@@ -57,6 +57,21 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Toggle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5964c90c-d7d7-4aad-8a72-4c7df4b1b69a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
             handle: null
             includeInCards: false
@@ -66,12 +81,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a002f34c-9a9a-4067-bf5f-e7ed6764624a
+            uid: b053f54c-e232-42e4-bb4c-bd9657386e9b
             userCondition: null
             warning: null
             width: 100
         name: Settings
-        uid: d0e0f57c-00b9-4be0-aba2-0ddc8e20af32
+        uid: d515db9d-5307-4703-9de7-3bdeeb844f3c
         userCondition: null
 handle: cardBlock
 hasTitleField: false

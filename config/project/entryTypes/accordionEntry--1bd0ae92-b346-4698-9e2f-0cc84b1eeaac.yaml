@@ -36,21 +36,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bfc953b-7554-4a01-8467-f1af9c7f27b4 # Subtitle
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8e19c822-f877-412a-bb16-e810a98f46b6
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
@@ -68,7 +53,7 @@ fieldLayouts:
         uid: 9ad77603-473e-47df-a552-b8225f4da1f2
         userCondition: null
 handle: accordionEntry
-hasTitleField: false
+hasTitleField: true
 icon: rectangle-history
 name: 'Accordion Entry'
 showSlugField: true

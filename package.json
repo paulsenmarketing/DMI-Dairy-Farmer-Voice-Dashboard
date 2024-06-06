@@ -29,6 +29,7 @@
   "dependencies": {
     "@alpinejs/collapse": "^3.13.8",
     "@alpinejs/focus": "^3.13.8",
+    "@splidejs/splide": "^4.1.4",
     "alpinejs": "^3.13.8"
   }
 }

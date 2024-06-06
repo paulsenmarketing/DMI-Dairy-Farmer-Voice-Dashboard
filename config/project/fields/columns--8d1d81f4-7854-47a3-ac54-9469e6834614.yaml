@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: columns
-instructions: "The number of cards on a row at fullscreen/desktop.\r\nSmaller screens will automatically reduce the number of columns."
+instructions: "The number of cards on a row at fullscreen/desktop.\r\nSmaller screens will automatically reduce the number of columns.\r\nThis setting does nothing when Carousel View is enabled."
 name: 'Cards Per Row'
 searchable: false
 settings:
