@@ -1,6 +1,7 @@
-color: null
+altTranslationKeyFormat: null
+altTranslationMethod: none
 fieldLayouts:
-  16fac39f-5345-4a2a-9f84-24043a6d30ae:
+  f25a2fdb-9cd4-4b9a-a9bf-03789ddf1642:
     tabs:
       -
         elementCondition: null
@@ -29,14 +30,14 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: ca3ed283-e995-49aa-81f4-38a48762931d
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: e8e974ce-7b91-4faa-839d-ad7572491c45
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bfc953b-7554-4a01-8467-f1af9c7f27b4 # Subtitle
+            fieldUid: 090ed5cb-45e7-4ccb-bdad-3c90def43aa4 # Image
             handle: null
             includeInCards: false
             instructions: null
@@ -45,36 +46,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 12e49204-99fc-4a7d-9211-ba4210e119f5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 9d8da8b4-7e9e-46cc-a299-ed0ecf386bf8
+            uid: 53ae511e-7d8d-44eb-ba14-86dd26a0d429
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1926103b-1789-4922-8839-a48a626cf1de
+        uid: 75c4427f-76cb-4fe4-866f-687298af44c8
         userCondition: null
-handle: alertEntry
-hasTitleField: false
-icon: bell
-name: 'Alert Entry'
-showSlugField: false
-showStatusField: false
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: ''
+fs: images
+handle: images
+name: Images
+sortOrder: 2
+subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

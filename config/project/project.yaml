@@ -1,23 +1,51 @@
-dateModified: 1715099513
+dateModified: 1717692088
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: false
+    name: Images
+    settings:
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: $S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $S3_KEY_ID
+      makeUploadsPublic: true
+      region: $S3_REGION
+      secret: $S3_SECRET
+      storageClass: ''
+      subfolder: boilerplate_images/
+    type: craft\awss3\Fs
+    url: null
 meta:
   __names__:
     1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
-    1bfc953b-7554-4a01-8467-f1af9c7f27b4: Text # Text
+    1bfc953b-7554-4a01-8467-f1af9c7f27b4: Subtitle # Subtitle
+    2d01597d-ad3e-4f0f-a29a-f1a91b1ff671: Images # Images
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
+    8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
+    9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
+    41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
+    83d66a47-2c77-4863-bdb6-889f45538deb: Toggle # Toggle
+    090ed5cb-45e7-4ccb-bdad-3c90def43aa4: Image # Image
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
+    c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
+    cfcffb85-6685-433b-b38c-b9a01894b854: Text # Text
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Entry' # Alert Entry
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
@@ -43,7 +71,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
-    schemaVersion: 3.4.4
+    schemaVersion: 3.4.5
   navigation:
     edition: standard
     enabled: true

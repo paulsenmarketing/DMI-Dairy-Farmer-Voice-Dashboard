@@ -54,7 +54,7 @@ fieldLayouts:
         userCondition: null
 handle: accordionBlock
 hasTitleField: false
-icon: ''
+icon: rectangle-history
 name: 'Accordion Block'
 showSlugField: false
 showStatusField: false

@@ -1,17 +1,15 @@
 columnSuffix: null
-handle: contentBlocks
+handle: cardFields
 instructions: null
-name: 'Content Blocks'
+name: 'Card Fields'
 searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
-    - cb84b102-9d2a-44d7-9dd4-ff477f0d8e56 # Accordion Block
-    - d956e446-2ce5-4a03-b31f-178d38c4e3e8 # Alert Entry
-    - c02a173a-659a-474f-a8d0-d1cf4b6d7fb5 # Card Block
+    - 9cda611f-c16d-47dc-ae75-72c3bf2bfa50 # Card Entry
   includeTableView: false
   maxEntries: null
-  minEntries: null
+  minEntries: 1
   pageSize: null
   propagationKeyFormat: null
   propagationMethod: all

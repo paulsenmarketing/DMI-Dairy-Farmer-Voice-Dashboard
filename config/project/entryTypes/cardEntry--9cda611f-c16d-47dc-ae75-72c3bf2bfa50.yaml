@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  16fac39f-5345-4a2a-9f84-24043a6d30ae:
+  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
     tabs:
       -
         elementCondition: null
@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: ca3ed283-e995-49aa-81f4-38a48762931d
+            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
             userCondition: null
             warning: null
             width: 100
@@ -45,7 +45,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 12e49204-99fc-4a7d-9211-ba4210e119f5
+            uid: 9f10c05d-58e3-4e55-a06b-83cf7d67fbbc
             userCondition: null
             warning: null
             width: 100
@@ -60,17 +60,32 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9d8da8b4-7e9e-46cc-a299-ed0ecf386bf8
+            uid: 8fe737a8-3ccb-496d-9aac-7d838a510287
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 090ed5cb-45e7-4ccb-bdad-3c90def43aa4 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63768956-3cbf-45f0-b5bd-c98b0488e6be
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1926103b-1789-4922-8839-a48a626cf1de
+        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
         userCondition: null
-handle: alertEntry
-hasTitleField: false
-icon: bell
-name: 'Alert Entry'
+handle: cardEntry
+hasTitleField: true
+icon: address-card
+name: 'Card Entry'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null

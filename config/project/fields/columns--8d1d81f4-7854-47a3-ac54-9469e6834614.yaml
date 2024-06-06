@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: columns
+instructions: "The number of cards on a row at fullscreen/desktop.\r\nSmaller screens will automatically reduce the number of columns."
+name: 'Cards Per Row'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 3
+  max: 5
+  min: 1
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

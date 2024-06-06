@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  16fac39f-5345-4a2a-9f84-24043a6d30ae:
+  1aa54cf8-4484-4264-b8d8-3715dcfd2575:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: ca3ed283-e995-49aa-81f4-38a48762931d
+            uid: 90db9d1d-79c6-433c-b041-96021126a3f6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bfc953b-7554-4a01-8467-f1af9c7f27b4 # Subtitle
+            fieldUid: 41b72d76-53a5-4ce0-a968-96e72740dc36 # Card Fields
             handle: null
             includeInCards: false
             instructions: null
@@ -45,34 +45,40 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 12e49204-99fc-4a7d-9211-ba4210e119f5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 9d8da8b4-7e9e-46cc-a299-ed0ecf386bf8
+            uid: 6825e26f-b14f-4de1-8236-4d7e737d2637
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1926103b-1789-4922-8839-a48a626cf1de
+        uid: 8acd79d5-78a0-439a-9eca-f81b044b2469
         userCondition: null
-handle: alertEntry
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a002f34c-9a9a-4067-bf5f-e7ed6764624a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: d0e0f57c-00b9-4be0-aba2-0ddc8e20af32
+        userCondition: null
+handle: cardBlock
 hasTitleField: false
-icon: bell
-name: 'Alert Entry'
-showSlugField: false
-showStatusField: false
+icon: address-card
+name: 'Card Block'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''
