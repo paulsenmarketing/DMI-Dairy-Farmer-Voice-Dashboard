@@ -1,0 +1,14 @@
+{% import '_components/elements/accordion.twig' as Accordion %}
+
+<div class="flex flex-col space-y-6">
+   <div class="p-8">
+      <h1 class="text-2xl font-bold">Pines Accordion Component</h1>
+      <div class="card bg-neutral-50 rounded-none p-2 ">{{ Accordion.pines(block.accordionFields) }}</div>
+   </div>
+
+   <div class="p-8">
+      <h1 class="text-2xl font-bold">Daisy Accordion Component</h1>
+      <p>Note that since there is no javascript involved, one item will always be open.</p>
+      <div class="card rounded-none p-2 ">{{ Accordion.daisy(block.accordionFields) }}</div>
+   </div>
+</div>

@@ -1,0 +1,73 @@
+dateModified: 1715099513
+email:
+  fromEmail: isaac.druin@paulsen.agency
+  fromName: craft-five-bp
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
+    1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
+    1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
+    1bfc953b-7554-4a01-8467-f1af9c7f27b4: Text # Text
+    5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
+    5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
+    75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
+    465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
+    3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
+    a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
+    aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
+    c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
+    cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
+    d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Entry' # Alert Entry
+    f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
+    fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
+  blitz:
+    edition: standard
+    enabled: true
+    licenseKey: 3SZULPNM6DS8GOPYZDGWVK60
+    schemaVersion: 5.0.0.4
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: HJKB68DS4G1FSE1F7Z0MN025
+    schemaVersion: 3.4.4
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: V8J17Z2NZOSOGNWT3ZQOFMFW
+    schemaVersion: 2.1.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: ZRSQW4E2EUP4EVF9VBCIT6AS
+    schemaVersion: 3.0.12
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: craft-five-bp
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

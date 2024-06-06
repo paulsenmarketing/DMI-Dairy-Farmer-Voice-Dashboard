@@ -1,0 +1,10 @@
+{% extends 'index.twig' %}
+
+{% block body %}
+   {# using 'with' eagerly loads the data, I guess? #}
+   {% set blocks = entry.contentBlocks.with('accordion').all() %}
+    {% for block in blocks %}
+       {% set camel = block.type.handle %}
+       {{ include("_components/blocks/#{camel}.twig") }}
+   {% endfor %}
+{% endblock body %}

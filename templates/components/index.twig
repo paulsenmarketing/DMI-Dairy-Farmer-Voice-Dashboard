@@ -1,0 +1,219 @@
+{% extends 'index.twig' %}
+{% import '_components/elements/accordion.twig' as Accordion %}
+{% import '_components/elements/banner.twig' as Banner %}
+{% import '_components/elements/command.twig' as Command %}
+{% import '_components/elements/contextMenu.twig' as ContextMenu %}
+{% import '_components/elements/copyToClipboard.twig' as CopyToClipboard %}
+{% import '_components/elements/datePicker.twig' as DatePicker %}
+{% import '_components/elements/dropdownMenu.twig' as DropdownMenu %}
+{% import '_components/elements/fullScreenModal.twig' as FullScreenModal %}
+{% import '_components/elements/hoverCard.twig' as HoverCard %}
+{% import '_components/elements/imageGallary.twig' as ImageGallary %}
+{% import '_components/elements/menuBar.twig' as MenuBar %}
+{% import '_components/elements/modal.twig' as Modal %}
+{% import '_components/elements/navigationMenu.twig' as NavigationMenu %}
+{% import '_components/elements/popover.twig' as Popover %}
+{% import '_components/elements/progress.twig' as Progress %}
+{% import '_components/elements/radioGroup.twig' as RadioGroup %}
+{% import '_components/elements/select.twig' as Select %}
+{% import '_components/elements/slideOver.twig' as SlideOver %}
+{% import '_components/elements/switch.twig' as Switch %}
+{% import '_components/elements/tabs.twig' as Tabs %}
+{% import '_components/elements/textAnimation.twig' as TextAnimation %}
+{% import '_components/elements/textArea.twig' as TextArea %}
+{% import '_components/elements/tooltip.twig' as Tooltip %}
+{% import '_components/elements/video.twig' as Video %}
+{% import '_components/elements/alert.twig' as Alert %}
+{% import '_components/elements/badge.twig' as Badge %}
+{% import '_components/elements/breadcrumbs.twig' as Breadcrumbs %}
+{% import '_components/elements/button.twig' as Button %}
+{% import '_components/elements/card.twig' as Card %}
+{% import '_components/elements/pagination.twig' as Pagination %}
+{% import '_components/elements/quote.twig' as Quote %}
+{% import '_components/elements/rangeSlider.twig' as RangeSlider %}
+{% import '_components/elements/table.twig' as Table %}
+{% import '_components/elements/textInput.twig' as TextInput %}
+
+
+
+{% block body %}
+<div class="py-16 w-full flex justify-center px-8">
+   <div class="max-w-screen-xl w-full flex flex-col space-y-8">
+      <div class="w-full flex flex-col divide divide-dashed card border border-1 border-gray-700 p-4">
+         <div class="pb-4">
+            <h1 class="text-4xl font-bold">daisyUI Components</h1>
+            <p>(these are pure unstyled Tailwind/CSS component abstractions that you can use anywhere - consult the <a class="link" href="https://daisyui.com/components/">documentation for full usage</a>).</p>
+         </div>
+         <div class="py-4">
+            <h2 class="text-2xl pb-2">Button</h2>
+            <p>Rather than typing a ton of CSS for a default button, we can just use 'btn' (compare this to the Alpine button component):</p>
+            <button class="btn">Unstyled Button</button>
+            <p>You can modify/override the base button with any vanilla Tailwind class you would like:</p>
+            <button class="btn hover:text-white hover:bg-gray-700 border-gray-700 hover:border-gray-700">Button</button>
+         </div>
+         <div class="pt-4">
+            <p>This section could be very long, but the <a class="link" href="https://daisyui.com/components">daisyUI docs are very good</a>, and you should refer to those since there are no Twig-specific alterations that need to be made to the components (unlike the Alpinejs examples which will need some work to bring into sync with Alpinejs and daisyUI).</p>
+         </div>
+
+      </div>
+
+      <div class="w-full flex flex-col divide-y-2 divide-dashed card border border-1 border-gray-700 p-4">
+      <div class="pb-4">
+         <h1 class="text-4xl font-bold">Alpinejs Components </h1>
+         <p>These give more logical control, in most cases. Some are still pure Tailwind CSS from PinesUI. Regardless, these are currently copy-paste from <a href="https://devdojo.com/pines/docs">PinesUI</a> and will need some work to be compatible with Twig props and logic.</p>
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Accordion</h2>
+            {{ Accordion.pines() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Banner (displayed at the top of the page)</h2>
+         {{ Banner.default() }}
+         <h2 class="text-2xl pb-2">Banner bottom (displayed at the bottom of the page)</h2>
+         {{ Banner.bottom() }}
+      </div>
+      <div class="flex flex-col items-center py-4">
+         <h2 class="w-full align-baseline text-2xl pb-2">Command</h2>
+         {{ Command.default() }}
+      </div>
+      <div class="flex flex-col items-center py-4">
+         <h2 class="w-full align-baseline text-2xl pb-2">Context Menu</h2>
+         {{ ContextMenu.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Copy to Clipboard</h2>
+         <p>NOTE: This will not function in dev, as clipboard access requires secure origin. See <a class="text-blue-400" href="https://web.dev/articles/async-clipboard">here</a>.</p>
+          {{ CopyToClipboard.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Date Picker</h2>
+         {{ DatePicker.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Dropdown Menu</h2>
+         {{ DropdownMenu.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Full Screen Modal</h2>
+         {{ FullScreenModal.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Hover Card</h2>
+         {{ HoverCard.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Image Gallery</h2>
+         {{ ImageGallary.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Menu Bar</h2>
+         {{ MenuBar.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Modal</h2>
+         {{ Modal.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Navigation Menu</h2>
+         {{ NavigationMenu.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Popover</h2>
+         {{ Popover.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Progress</h2>
+         {{ Progress.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Radio Group</h2>
+         {{ RadioGroup.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Select</h2>
+         {{ Select.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Slide-over</h2>
+         {{ SlideOver.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Switch</h2>
+         {{ Switch.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Tabs</h2>
+         {{ Tabs.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Text Animation</h2>
+         {{ TextAnimation.fadein() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Textarea</h2>
+         {{ TextArea.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Toast Notification</h2>
+         <p>This one will come later. It's quite the glob of code (would be a good learning goal to re-create it)</p>
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Tooltip</h2>
+         {{ Tooltip.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Typing Effect</h2>
+         {{ TextAnimation.type() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Video</h2>
+         {{ Video.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Alert</h2>
+         {{ Alert.pines() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Badge</h2>
+         {{ Badge.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Breadcrumbs</h2>
+         {{ Breadcrumbs.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Button(s)</h2>
+         {{ Button.filled() }}
+         {{ Button.outline() }}
+      </div>
+      <div class="py-4 flex flex-col space-y-4">
+         <h2 class="text-2xl pb-2">Card(s)</h2>
+         {{ Card.default() }}
+         {{ Card.imageVertical() }}
+         {{ Card.imageHorizontal() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Pagination</h2>
+         {{ Pagination.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Quote</h2>
+         {{ Quote.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">RangeSlider</h2>
+         {{ RangeSlider.default() }}
+      </div>
+      <div class="py-4">
+         <h2 class="text-2xl pb-2">Table</h2>
+         {{ Table.default() }}
+      </div>
+      <div class="pt-4">
+         <h2 class="text-2xl pb-2">Text Input</h2>
+         {{ TextInput.default() }}
+      </div>
+   </div>
+   </div>
+
+</div>
+{% endblock %}

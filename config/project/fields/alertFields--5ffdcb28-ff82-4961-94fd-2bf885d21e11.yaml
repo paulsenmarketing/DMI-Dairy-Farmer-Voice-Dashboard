@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: alertFields
+instructions: null
+name: 'Alert Fields'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - d956e446-2ce5-4a03-b31f-178d38c4e3e8 # Alert Entry
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

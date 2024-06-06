@@ -1,0 +1,67 @@
+{% macro pines(nodes) %}
+   {% if nodes is null %}
+      {{ dump('WARNING: No data was passed to the Accordion element! Placeholder data will be used.') }}
+      {% set nodes = [
+         { text: 'Placeholder Title 1', richText: 'Placeholder content for the first item. This is some example text for the accordion item.' },
+         { text: 'Placeholder Title 2', richText: 'Placeholder content for the second item. This is some more example text for the accordion item.' },
+         { text: 'Placeholder Title 3', richText: 'Placeholder content for the third item. This is yet another example text for the accordion item.' }
+      ] %}
+   {% endif %}
+   <script>
+       const accordionComponent = () => {
+           // we return all the variables and methods that we want to use in the component in an object
+           return {
+               activeAccordion: null,
+               setActiveAccordion(id) {
+                   this.activeAccordion = this.activeAccordion === id ? null : id;
+               }
+           }
+       }
+   </script>
+
+   <div x-data="accordionComponent()" class="relative w-full overflow-hidden text-sm font-normal bg-white border border-gray-200 divide-y divide-gray-200 rounded-md">
+      {% for node in nodes %}
+         <div x-data="{ id: $id('accordion') }" class="cursor-pointer group">
+            <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-4 text-left select-none group-hover:underline">
+               <span>{{ node.text }}</span>
+               <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion===id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div x-show="activeAccordion===id" x-collapse x-cloak>
+               <div class="p-4 pt-0 opacity-70 max-w-full">
+                  {{ node.richText }}
+               </div>
+            </div>
+         </div>
+      {% endfor %}
+   </div>
+
+{% endmacro %}
+
+{% macro daisy(nodes) %}
+   {% if nodes is null %}
+   {{ dump('WARNING: No data was passed to the Accordion element! Placeholder data will be used.') }}
+      {% set nodes = [
+         { text: 'Placeholder Title 1', richText: 'Placeholder content for the first item. This is some example text for the accordion item.' },
+         { text: 'Placeholder Title 2', richText: 'Placeholder content for the second item. This is some more example text for the accordion item.' },
+         { text: 'Placeholder Title 3', richText: 'Placeholder content for the third item. This is yet another example text for the accordion item.' }
+      ] %}
+      {% endif %}
+
+      <div class="join join-vertical w-full">
+         {# generate a random number and letter sequence to make sure that other accordions don't conflict #}
+         {% set identifierNum = random(0,99999) %}
+         {% set identifierLetter = random('ABCDEFGHIJKLMNOP') %}
+      {% for node in nodes %}
+            <div class="collapse collapse-arrow join-item border border-base-300">
+               <input type="radio" name="my-accordion-{{ identifierNum }}{{ identifierLetter }}" checked="checked" />
+               <div class="collapse-title text-xl font-medium">
+                  {{ node.text }}
+               </div>
+               <div class="collapse-content">
+                  <p>{{ node.richText }}</p>
+               </div>
+            </div>
+      {% endfor %}
+      </div>
+
+{% endmacro %}

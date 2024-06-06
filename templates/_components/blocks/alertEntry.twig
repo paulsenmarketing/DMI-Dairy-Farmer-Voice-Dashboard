@@ -1,0 +1,14 @@
+{% import '_components/elements/alert.twig' as Alert %}
+
+<div class="flex flex-col space-y-6">
+   <div class="p-8">
+      <h1 class="text-2xl font-bold">Pines Alert Component</h1>
+      {{ Alert.pines(block) }}
+   </div>
+
+   <div class="p-8">
+      <h1 class="text-2xl font-bold">Daisy Alert Component (info variant)</h1>
+      <p><a class="underline" href="https://daisyui.com/components/alert/">Daisy alert documentation</a></p>
+      {{ Alert.daisy(block) }}
+   </div>
+</div>
