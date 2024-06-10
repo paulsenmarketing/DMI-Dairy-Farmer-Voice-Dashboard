@@ -1,16 +1,16 @@
 columnSuffix: null
-handle: image
-instructions: null
-name: Image
+handle: siteLogo
+instructions: 'For best results, please use a .svg file type (.png is also supported).'
+name: 'Site Logo'
 searchable: false
 settings:
   allowSelfRelations: false
   allowSubfolders: false
   allowUploads: true
   allowedKinds:
-    - image
+    - transparent
   branchLimit: null
-  defaultUploadLocationSource: 'volume:277db420-2d36-439b-bb16-fc8f82ef2bd1'
+  defaultUploadLocationSource: 'volume:2d01597d-ad3e-4f0f-a29a-f1a91b1ff671' # Images
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
@@ -20,7 +20,7 @@ settings:
   restrictFiles: true
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: 'volume:277db420-2d36-439b-bb16-fc8f82ef2bd1'
+  restrictedLocationSource: 'volume:2d01597d-ad3e-4f0f-a29a-f1a91b1ff671' # Images
   restrictedLocationSubpath: null
   selectionLabel: null
   showCardsInGrid: false

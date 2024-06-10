@@ -1,10 +1,14 @@
 {% extends 'index.twig' %}
 
 {% block body %}
-   {# using 'with' eagerly loads the data, I guess? #}
+
    {% set blocks = entry.contentBlocks.all() %}
-    {% for block in blocks %}
-       {% set camel = block.type.handle %}
-       {% include("_components/blocks/#{camel}.twig") with {'block': block} only %}
-   {% endfor %}
+   <div class="space-y-8 py-8">
+      {% for block in blocks %}
+         {% set camel = block.type.handle %}
+         {# using 'with' eagerly loads the data, I guess? #}
+         {% include("_components/blocks/#{camel}.twig") with {'block': block} only %}
+      {% endfor %}
+   </div>
+
 {% endblock body %}

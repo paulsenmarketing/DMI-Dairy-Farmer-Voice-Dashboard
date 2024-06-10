@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US" data-theme="light">
 <head>
@@ -9,20 +11,7 @@
     {{ craft.vite.script("./src/main.ts", false) }}
 </head>
 <body>
-<nav class="w-full flex justify-center bg-black p-4 px-8">
-    <div class="w-full max-w-screen-2xl flex justify-between text-white">
-        <a href="www.google.com">
-            <img src="" alt="Logo">
-        </a>
-        <div class="flex gap-8">
-            <a href="">Link 1</a>
-            <a href="">Link 1</a>
-            <a href="">Link 1</a>
-            <a href="">Link 1</a>
-            <a href="">Link 1</a>
-        </div>
-    </div>
-</nav>
+{% include '_components/blocks/navigation.twig' %}
 {% block body %}
 {% endblock body %}
 </body>

@@ -1,4 +1,4 @@
-dateModified: 1717710109
+dateModified: 1718048520
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -37,7 +37,7 @@ meta:
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: Toggle # Toggle
-    090ed5cb-45e7-4ccb-bdad-3c90def43aa4: Image # Image
+    090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button

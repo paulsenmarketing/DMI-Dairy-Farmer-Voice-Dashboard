@@ -1,5 +1,11 @@
 import './style.css'
+
+// Splidejs init ----------------------------
+// splide MUST be added to the window object before Alpinejs so it's visible to Alpine when Alpine.start() is called.
+import Splide from "@splidejs/splide";
 import '@splidejs/splide/dist/css/splide.min.css'
+// @ts-ignore
+window.Splide = Splide;
 
 // Alpinejs init --------------------------
 import Alpine from 'alpinejs'
@@ -11,17 +17,6 @@ Alpine.plugin(collapse)
 // @ts-ignore
 window.Alpine = Alpine
 Alpine.start()
-
-// Splidejs -------------------------------
-import Splide from "@splidejs/splide"
-document.addEventListener("DOMContentLoaded", () => {
-    new Splide( '.splide', {
-        perPage: 3,
-        gap: 16,
-        arrows: false,
-        interval: 4000,
-    } ).mount();
-})
 
 // ----------------------------------------
 if (import.meta.hot) {

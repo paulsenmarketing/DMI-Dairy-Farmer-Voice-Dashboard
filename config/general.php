@@ -24,4 +24,11 @@ return GeneralConfig::create()
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',
     ])
+    // Add SVG as a file type (adding png)
+    ->extraFileKinds([
+        'transparent' => [
+            'label' => 'SVG/PNG',
+            'extensions' => ['svg', 'png'],
+        ],
+    ])
 ;
