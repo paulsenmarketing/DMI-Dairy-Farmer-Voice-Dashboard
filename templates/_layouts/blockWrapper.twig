@@ -1,5 +1,6 @@
-<div class="w-full flex justify-center px-8">
-   <div class="w-full max-w-screen-2xl flex justify-center">
+<div class="w-full flex justify-center px-8 py-4">
+   {# overflow-x-clip is specifically for splide carousels which seem to enjoy doing whatever the hell they want #}
+   <div class="w-full max-w-screen-xl flex justify-center overflow-x-clip">
       {% block blockWrapper %}
       {% endblock %}
    </div>

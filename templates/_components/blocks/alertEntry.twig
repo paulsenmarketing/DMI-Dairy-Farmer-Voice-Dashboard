@@ -1,7 +1,5 @@
 {% import '_components/elements/alert.twig' as Alert %}
-
-<div class="flex flex-col space-y-6">
-   <div class="px-8">
+{% extends '_layouts/blockWrapper.twig' %}
+{% block blockWrapper %}
       {{ Alert.daisy(block) }}
-   </div>
-</div>
+{% endblock %}

@@ -14,28 +14,31 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
          {% endfor %}
       </div>
    {% elseif block.toggle is not empty %}
-      <div x-data="{
+         <div x-data="{
           init() {
               new window.Splide(this.$refs.splide, {
                   perPage: 3,
+                  arrows: true,
                   gap: 16,
-                  arrows: false,
                   interval: 4000,
+                  fixedHeight: 400
               }).mount()
           }
       }">
-         <section x-ref="splide" class="splide">
-            <div class="splide__track">
-               <ul class="splide__list">
-                  {% for card in block.cardFields %}
-                     <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                        {{ Card.default(card) }}
-                     </li>
-                  {% endfor %}
-               </ul>
-            </div>
-         </section>
-      </div>
+            <section x-ref="splide" class="splide px-20">
+               <div class="splide__track">
+                  <ul class="splide__list">
+                     {% for card in block.cardFields %}
+                        <li class="splide__slide flex flex-col items-center justify-center pb-8">
+                           {{ Card.default(card) }}
+                        </li>
+                     {% endfor %}
+                  </ul>
+               </div>
+            </section>
+         </div>
+
+
 
    {% endif %}
 {% endblock %}
