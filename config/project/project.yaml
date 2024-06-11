@@ -1,4 +1,4 @@
-dateModified: 1718048520
+dateModified: 1718124894
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -43,11 +43,13 @@ meta:
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
+    bda7110e-ca4e-4a55-9e01-220b877882e9: Image # Image
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
     cfcffb85-6685-433b-b38c-b9a01894b854: Text # Text
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Entry' # Alert Entry
+    ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
 plugins:

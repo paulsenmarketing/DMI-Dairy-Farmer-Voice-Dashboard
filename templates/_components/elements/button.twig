@@ -1,4 +1,5 @@
 {% macro filled(data) %}
+
    {% if data is null %}
       {{ dump('No data was passed to the Button element! Placeholder data will be used.') }}
       {% set data = {
@@ -6,13 +7,16 @@
          buttonLink: '/' }
       %}
    {% endif %}
-   <button type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide text-white transition-colors duration-200 rounded-md bg-neutral-950 hover:bg-neutral-900 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+
+   <button type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide bg-surface-800 hover:bg-surface-900 text-primary-100 hover:text-primary-300 transition-colors duration-200 rounded-default focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none group">
       <span>{{ data.buttonText }}</span>
-      <svg class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      <i class="stroke-primary-100 group-hover:stroke-primary-300 ml-2" data-lucide="arrow-right"></i>
    </button>
+
 {% endmacro %}
 
 {% macro outline(data) %}
+
    {% if data is null %}
       {{ dump('No data was passed to the Button element! Placeholder data will be used.') }}
       {% set data = {
@@ -20,8 +24,10 @@
          buttonLink: '/' }
       %}
    {% endif %}
-   <button type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide transition-colors duration-100 bg-white border-2 rounded-md text-neutral-900 hover:text-white border-neutral-900 hover:bg-neutral-900">
+
+   <button type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 text-sm text-primary-700 hover:text-primary-800 font-medium tracking-wide transition-colors duration-200 bg-surface-50 border-2 rounded-md border-surface-900 hover:bg-surface-900">
       <span>{{ data.buttonText }}</span>
-      <svg class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      <i class="stroke-white hover:stroke-red-500 ml-2" data-lucide="arrow-right"></i>
    </button>
+
 {% endmacro %}
