@@ -47,6 +47,7 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["light"],
+    // the themes array is empty, we don't want to have to let Daisy influence colors at all (we just want the style cheats for things like breadcrumbs.twig)
+    themes: [],
   },
 }

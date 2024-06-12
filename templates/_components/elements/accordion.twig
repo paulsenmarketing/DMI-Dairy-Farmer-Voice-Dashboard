@@ -19,7 +19,7 @@
        }
    </script>
 
-   <div x-data="accordionComponent()" class="relative w-full overflow-hidden text-sm font-normal bg-white border border-gray-200 divide-y divide-gray-200 rounded-md">
+   <div x-data="accordionComponent()" class="relative w-full overflow-hidden text-sm font-normal bg-white border border-gray-200 divide-y divide-gray-200 rounded-default">
       {% for node in nodes %}
          <div x-data="{ id: $id('accordion') }" class="cursor-pointer group">
             <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-4 text-left select-none group-hover:underline">
