@@ -15,7 +15,7 @@ window.Splide = Splide;
 // Lucide for icons! We're going to give this a shot - I'm tired of seeing 20 lines of SVG in every file.
 // To use an icon, you must import it and then initialize it with the crateIcons function.
 // Full list of icons here: https://lucide.dev/icons/
-import {createIcons, ChevronDown, ChevronRight, Menu, ArrowRight, Info} from "lucide";
+import {createIcons, ChevronDown, ChevronRight, Menu, ArrowRight, Info, CircleCheckBig, MessageCircleQuestion, TriangleAlert, OctagonX} from "lucide";
 
 createIcons({
     attrs: {
@@ -27,7 +27,11 @@ createIcons({
         ChevronRight,
         Menu,
         ArrowRight,
-        Info
+        Info,
+        CircleCheckBig,
+        MessageCircleQuestion,
+        TriangleAlert,
+        OctagonX
     }
 })
 
