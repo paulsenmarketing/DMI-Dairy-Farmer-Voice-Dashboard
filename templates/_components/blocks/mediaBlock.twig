@@ -1,0 +1,25 @@
+{% extends '_layouts/blockWrapper.twig' %}
+
+{% block blockWrapper %}
+{% if block.image or block.video %}
+   <div class="flex flex-col md:flex-row w-full gap-12">
+      <div class="w-full md:w-1/2 prose my-auto">
+         <h1>{{ block.title }}</h1>
+         <p>{{ block.richText }}</p>
+      </div>
+      <div class="w-full md:w-1/2 overflow-clip">
+         {# handle an image or a video - if neighter are uploaded we're going to render a normal text block #}
+         {% if not block.mediaToggle %}
+            <img class="rounded-default" src="https://picsum.photos/800/500" alt="">
+         {% elseif block.mediaToggle %}
+            <p>video</p>
+         {% else %}
+            <p>oop</p>
+         {% endif %}
+      </div>
+   </div>
+{% else %}
+   {# if there isn't an image or video, we fall back to a dimple text block #}
+   {{ include('_components/blocks/richTextBlock.twig') }}
+{% endif %}
+{% endblock %}

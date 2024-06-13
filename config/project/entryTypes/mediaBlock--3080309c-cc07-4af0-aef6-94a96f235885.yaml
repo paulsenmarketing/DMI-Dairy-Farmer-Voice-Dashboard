@@ -1,6 +1,6 @@
-color: amber
+color: yellow
 fieldLayouts:
-  1aa54cf8-4484-4264-b8d8-3715dcfd2575:
+  172c429f-c8d8-4773-9718-4171cb7c8335:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 90db9d1d-79c6-433c-b041-96021126a3f6
+            uid: f811a342-3964-4e1d-94f4-03bfc1e2cf7a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 41b72d76-53a5-4ce0-a968-96e72740dc36 # Card Fields
+            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
             instructions: null
@@ -45,19 +45,35 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6825e26f-b14f-4de1-8236-4d7e737d2637
+            uid: a7c52fc6-3831-417a-8a60-04d28d6f66d9
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: 8acd79d5-78a0-439a-9eca-f81b044b2469
+        name: Text
+        uid: a4ab66b1-02db-44db-9c88-e12ea9553971
         userCondition: null
       -
         elementCondition: null
         elements:
           -
+            dismissible: false
             elementCondition: null
-            fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Grid Toggle
+            style: tip
+            tip: 'Make sure you select which media you would like to use! (Image is the default).'
+            type: craft\fieldlayoutelements\Tip
+            uid: eaa96b0f-8d52-4d36-bcd2-f18b8b5b9ade
+            userCondition: null
+          -
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'If you do not select an image/video, a Text Block will be rendered instead.'
+            type: craft\fieldlayoutelements\Tip
+            uid: e0c89cea-b327-4cd2-98b2-b9b05dff5528
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 42f330ea-8d32-462a-b565-473ac818c838 # Media Toggle
             handle: null
             includeInCards: false
             instructions: null
@@ -66,13 +82,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5964c90c-d7d7-4aad-8a72-4c7df4b1b69a
+            uid: 50e7bd7e-da44-44be-b004-b6e3604b5418
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
+            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9 # Image
             handle: null
             includeInCards: false
             instructions: null
@@ -81,17 +97,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b053f54c-e232-42e4-bb4c-bd9657386e9b
+            uid: 8dfd4a8e-6ebc-4454-971d-438e1c39501f
             userCondition: null
             warning: null
             width: 100
-        name: Settings
-        uid: d515db9d-5307-4703-9de7-3bdeeb844f3c
+        name: Media
+        uid: 510d8497-0cf0-4e0f-8fc0-f114eb7bb514
         userCondition: null
-handle: cardBlock
-hasTitleField: false
-icon: address-card
-name: 'Card Block'
+handle: mediaBlock
+hasTitleField: true
+icon: image
+name: 'Media Block'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

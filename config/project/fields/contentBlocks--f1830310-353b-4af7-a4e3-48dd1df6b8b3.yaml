@@ -9,6 +9,10 @@ settings:
     - cb84b102-9d2a-44d7-9dd4-ff477f0d8e56 # Accordion Block
     - d956e446-2ce5-4a03-b31f-178d38c4e3e8 # Alert Entry
     - c02a173a-659a-474f-a8d0-d1cf4b6d7fb5 # Card Block
+    - 721054c3-0bf9-4471-9b23-19a86645b4ae # Hero Block
+    - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block
+    - b1cff360-784e-4a8e-bf27-2683495ff975 # Rich Text Block
+    - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
   includeTableView: false
   maxEntries: null
   minEntries: null
