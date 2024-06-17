@@ -1,4 +1,4 @@
-dateModified: 1718643896
+dateModified: 1718660838
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -28,19 +28,25 @@ meta:
     1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
+    2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
     2d01597d-ad3e-4f0f-a29a-f1a91b1ff671: Images # Images
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
+    6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
+    22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
+    43e1e321-b408-4cb8-b7f4-c26babd2b9b5: 'Url Field' # Url Field
     70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
+    182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
+    835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel' # Fancy Carousel
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button
     721054c3-0bf9-4471-9b23-19a86645b4ae: 'Hero Block' # Hero Block
@@ -50,12 +56,14 @@ meta:
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
     ad916db7-1501-45f0-88fe-2966c21fe1aa: 'Section Header' # Section Header
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
+    b02140d6-3b36-49ff-84fa-a24d268fdc67: 'Image Card Block' # Image Card Block
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
     bda7110e-ca4e-4a55-9e01-220b877882e9: Image # Image
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
     cfcffb85-6685-433b-b38c-b9a01894b854: Text # Text
+    d894a0ee-7120-47c1-983b-df9c4510e5a6: 'Image Array' # Image Array
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Entry' # Alert Entry
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
@@ -84,6 +92,10 @@ plugins:
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
     schemaVersion: 3.4.6
+  image-optimize:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   navigation:
     edition: standard
     enabled: true

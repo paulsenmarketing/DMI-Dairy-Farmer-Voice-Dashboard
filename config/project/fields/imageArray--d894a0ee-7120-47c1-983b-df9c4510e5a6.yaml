@@ -1,20 +1,20 @@
 columnSuffix: null
-handle: factFields
+handle: imageArray
 instructions: null
-name: 'Fact Fields'
+name: 'Image Array'
 searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
-    - a421d5a5-8c99-4385-931e-df852136c717 # Fact Entry
+    - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
   includeTableView: false
-  maxEntries: 4
+  maxEntries: null
   minEntries: 1
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
-  viewMode: blocks
+  showCardsInGrid: true
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

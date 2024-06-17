@@ -14,6 +14,9 @@ settings:
     - b1cff360-784e-4a8e-bf27-2683495ff975 # Rich Text Block
     - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
     - 7d5fd0be-4db9-45f4-990d-68b6f5ee56e4 # Fact Block
+    - b02140d6-3b36-49ff-84fa-a24d268fdc67 # Image Card Block
+    - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
+    - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi Image Block
   includeTableView: false
   maxEntries: null
   minEntries: null

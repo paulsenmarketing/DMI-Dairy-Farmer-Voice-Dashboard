@@ -1,15 +1,15 @@
 columnSuffix: null
-handle: factFields
+handle: imageCardFields
 instructions: null
-name: 'Fact Fields'
+name: 'Image Card Fields'
 searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
-    - a421d5a5-8c99-4385-931e-df852136c717 # Fact Entry
+    - 22cc7cba-13f3-4e15-8405-44388d7a9d16 # Image Card Entry
   includeTableView: false
-  maxEntries: 4
-  minEntries: 1
+  maxEntries: null
+  minEntries: null
   pageSize: null
   propagationKeyFormat: null
   propagationMethod: all

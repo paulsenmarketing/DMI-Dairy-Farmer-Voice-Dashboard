@@ -1,10 +1,25 @@
 color: null
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  f62bc95f-25b8-484a-a33e-8a082448c607:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            elementCondition: null
+            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d0dd42b2-e5e1-4e92-ab8e-096dcaeb324e
+            userCondition: null
+            warning: null
+            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -30,7 +45,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: 0d256b1e-3ea0-40b0-b559-71ff8fb30f9c
             userCondition: null
             warning: null
             width: 100
@@ -45,7 +60,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8fe737a8-3ccb-496d-9aac-7d838a510287
+            uid: 89f925a7-d609-477b-ba65-a71c5aa5f3f2
             userCondition: null
             warning: null
             width: 100
@@ -60,19 +75,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: c985b04e-3511-4935-8b92-7567687f677e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 8759d8c2-25de-4a77-a3b9-42862c8bbe43
         userCondition: null
-handle: cardEntry
+handle: imageCardEntry
 hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+icon: image
+name: 'Image Card Entry'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

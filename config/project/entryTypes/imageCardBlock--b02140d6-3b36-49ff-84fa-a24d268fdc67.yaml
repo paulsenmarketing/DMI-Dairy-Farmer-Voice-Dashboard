@@ -1,6 +1,6 @@
-color: null
+color: amber
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  5637f577-4685-4365-9535-5ba32810dfc4:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: cba7f5d6-ae6c-45ba-a5db-d97679e23d32
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
+            fieldUid: 6ec7e276-7e29-49f7-8f38-66c54284cb8e # Image Card Fields
             handle: null
             includeInCards: false
             instructions: null
@@ -45,34 +45,55 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8fe737a8-3ccb-496d-9aac-7d838a510287
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: 03874f5c-bddc-4602-92ad-8be282673caa
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 3d49dad9-8f9e-404d-8f3c-d9580cdb26ac
         userCondition: null
-handle: cardEntry
-hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Grid Toggle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b78307d6-8e48-4e94-8289-14f1ec385d33
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fa1e7e6-29fd-49c9-9f36-7c44b3859526
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: cb639554-c098-4fc4-a70f-579341fdd4ee
+        userCondition: null
+handle: imageCardBlock
+hasTitleField: false
+icon: image
+name: 'Image Card Block'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

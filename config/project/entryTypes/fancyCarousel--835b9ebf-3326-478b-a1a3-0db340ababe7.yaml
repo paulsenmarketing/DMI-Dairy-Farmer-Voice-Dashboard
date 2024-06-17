@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  bb9b8d13-66fd-4c0a-a16d-6e8196fdb8d5:
     tabs:
       -
         elementCondition: null
@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: cbf69eb1-59dd-4d11-a733-a873a17c414e
             userCondition: null
             warning: null
             width: 100
@@ -45,7 +45,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8fe737a8-3ccb-496d-9aac-7d838a510287
+            uid: a4afd092-7534-4676-88f9-85d9c247b62f
             userCondition: null
             warning: null
             width: 100
@@ -60,19 +60,61 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: c4de3e96-b4da-46db-82a9-5ca6b5139151
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 2ca01790-b3a0-4ca4-8891-7bd35a67358d
         userCondition: null
-handle: cardEntry
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d894a0ee-7120-47c1-983b-df9c4510e5a6 # Image Array
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c415fe1-796a-4751-a539-2dff9d409f74
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Image Carousel 1'
+        uid: 620a899e-b538-4bc9-8ab2-1330821b1ce9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d894a0ee-7120-47c1-983b-df9c4510e5a6 # Image Array
+            handle: imageArray2
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e66d685d-3e5f-46c5-b7cb-e1631a581474
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Image Carousel 2'
+        uid: b72d10c0-91de-4845-992a-41d5ca31e952
+        userCondition: null
+handle: fancyCarousel
 hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+icon: ''
+name: 'Fancy Carousel'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

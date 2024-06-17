@@ -12,7 +12,7 @@
    <div class="flex flex-col lg:flex-row items-center gap-16">
       <div class="prose lg:w-1/2">
          <h1>{{ block.title }}</h1>
-         <h2>{{ block.richText }}</h2>
+         {{ block.richText }}
       </div>
       <div class="lg:w-1/2 grid gap-6 rounded-default grid-cols-1 sm:grid-cols-2 sm:py-24">
          {% set first = block.factFields[0] %}
