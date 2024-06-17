@@ -13,6 +13,7 @@ settings:
     - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block
     - b1cff360-784e-4a8e-bf27-2683495ff975 # Rich Text Block
     - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
+    - 7d5fd0be-4db9-45f4-990d-68b6f5ee56e4 # Fact Block
   includeTableView: false
   maxEntries: null
   minEntries: null

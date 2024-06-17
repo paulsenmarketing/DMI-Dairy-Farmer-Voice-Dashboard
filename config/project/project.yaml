@@ -1,4 +1,4 @@
-dateModified: 1718315457
+dateModified: 1718643896
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -31,10 +31,12 @@ meta:
     2d01597d-ad3e-4f0f-a29a-f1a91b1ff671: Images # Images
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
+    7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
+    70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
@@ -45,6 +47,7 @@ meta:
     2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: Alignment # Alignment
     3080309c-cc07-4af0-aef6-94a96f235885: 'Media Block' # Media Block
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
+    a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
     ad916db7-1501-45f0-88fe-2966c21fe1aa: 'Section Header' # Section Header
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
@@ -80,7 +83,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
-    schemaVersion: 3.4.5
+    schemaVersion: 3.4.6
   navigation:
     edition: standard
     enabled: true

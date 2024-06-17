@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  e01774c9-8fbe-42de-bb4c-4543e2818a94:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 58ad7a12-ec53-4190-93c5-8259f059b5e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: number
+            includeInCards: false
+            instructions: null
+            label: Number
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 08c8222b-9ba0-4706-b0ca-30fadb46c7d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: numberLabel
+            includeInCards: false
+            instructions: 'Enter the label for the number field. E.g. miles, inches, hours, etc.'
+            label: 'Number Label'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d45e80d6-0107-4452-b4d8-5b4aefaa15c4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: fact
+            includeInCards: false
+            instructions: null
+            label: Fact
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29eb4adb-3241-4b43-b63f-058e06f08996
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 528facc8-fb3c-4463-b115-03cdc2ce441d
+        userCondition: null
+handle: factEntry
+hasTitleField: false
+icon: head-side-brain
+name: 'Fact Entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

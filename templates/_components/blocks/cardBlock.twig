@@ -8,7 +8,7 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
 
 {% block blockWrapper %}
    {% if block.toggle is empty %}
-      <div class="grid grid-cols-4 gap-6 w-full">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
          {% for card in block.cardFields %}
             {{ Card.default(card) }}
          {% endfor %}
@@ -37,8 +37,5 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
                </div>
             </section>
          </div>
-
-
-
    {% endif %}
 {% endblock %}
