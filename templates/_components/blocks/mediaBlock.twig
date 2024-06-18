@@ -10,7 +10,7 @@
       <div class="w-full md:w-1/2 overflow-clip">
          {# handle an image or a video - if neighter are uploaded we're going to render a normal text block #}
          {% if not block.mediaToggle %}
-            <img class="rounded-default" src="https://picsum.photos/800/500" alt="">
+            <img class="rounded" src="https://picsum.photos/800/500" alt="">
          {% elseif block.mediaToggle %}
             <p>video</p>
          {% else %}

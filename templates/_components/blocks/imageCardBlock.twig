@@ -7,11 +7,35 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
 {% extends '_layouts/blockWrapper.twig' %}
 
 {% block blockWrapper %}
+   {% if block.toggle is empty %}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+         {% for card in block.imageCardFields %}
+            {{ Card.imageVertical(card) }}
+         {% endfor %}
+      </div>
+   {% else %}
+      <div x-data="{
+          init() {
+              new window.Splide(this.$refs.splide, {
+                  perPage: 3,
+                  arrows:true,
+                  gap: 16,
+                  interval: 4000
 
-   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {% for card in block.imageCardFields %}
-         {{ Card.imageVertical(card) }}
-      {% endfor %}
-   </div>
-
+              }).mount()
+          }
+      }">
+         <section x-ref="splide" class="splide px-20">
+            <div class="splide__track">
+               <ul class="splide__list">
+                  {% for card in block.imageCardFields %}
+                     <li class="splide__slide flex flex-col items-center justify-center pb-8">
+                        {{ Card.imageVertical(card) }}
+                     </li>
+                  {% endfor %}
+               </ul>
+            </div>
+         </section>
+      </div>
+   {% endif %}
 {% endblock %}
