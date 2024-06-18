@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: imageArray
+handle: fancyImageArray2
 instructions: null
-name: 'Image Array'
+name: 'Fancy Image Array 2'
 searchable: false
 settings:
   createButtonLabel: null
@@ -9,11 +9,11 @@ settings:
     - 482cb0dd-2361-49db-bb8c-232d0ee58caf # Image Entry
   includeTableView: false
   maxEntries: null
-  minEntries: 1
+  minEntries: null
   pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: true
+  showCardsInGrid: false
   viewMode: cards
 translationKeyFormat: null
 translationMethod: site

@@ -1,9 +1,9 @@
 <div class="w-full flex justify-center px-8 py-4 bg-surface-50">
    {% set alignment = '' %}
-   {% switch block.alignment.value %}
+   {% switch block.alignmentLMR.value %}
       {% case 'left' %}
          {% set alignment = 'text-left' %}
-      {% case 'center' %}
+      {% case 'middle' %}
          {% set alignment = 'text-center' %}
       {% case 'right' %}
          {% set alignment = 'text-right' %}

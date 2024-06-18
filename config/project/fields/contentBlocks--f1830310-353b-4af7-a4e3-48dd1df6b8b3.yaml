@@ -17,6 +17,8 @@ settings:
     - b02140d6-3b36-49ff-84fa-a24d268fdc67 # Image Card Block
     - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
     - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi Image Block
+    - 934f8a14-7f2b-4c5b-bb32-112150bd0f8b # Image Gallery Block
+    - 835b9ebf-3326-478b-a1a3-0db340ababe7 # Fancy Carousel Block
   includeTableView: false
   maxEntries: null
   minEntries: null

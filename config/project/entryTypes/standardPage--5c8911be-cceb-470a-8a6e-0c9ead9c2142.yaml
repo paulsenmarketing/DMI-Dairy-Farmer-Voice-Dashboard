@@ -1,4 +1,4 @@
-color: null
+color: emerald
 fieldLayouts:
   c4021733-cb45-4b2e-a01d-ef8978b0d74c:
     tabs:
@@ -54,7 +54,7 @@ fieldLayouts:
         userCondition: null
 handle: standardPage
 hasTitleField: true
-icon: ''
+icon: file
 name: 'Standard Page'
 showSlugField: true
 showStatusField: true

@@ -1,0 +1,34 @@
+{% extends '_layouts/blockWrapper.twig' %}
+
+{% block blockWrapper %}
+   <div class="flex flex-col lg:flex-row items-center gap-16 my-24">
+      <div class="prose lg:w-1/2">
+         <h1>{{ block.title }}</h1>
+         {{ block.richText }}
+      </div>
+      <div class="lg:w-1/2 grid gap-6 rounded grid-cols-1 sm:grid-cols-2 sm:py-24">
+         <div class="w-full" x-data="{
+          init() {
+              new window.Splide(this.$refs.splide, {
+                  perPage: 2,
+                  arrows:true,
+                  gap: 16,
+                  interval: 4000
+                 }).mount()
+                }
+            }">
+            <section x-ref="splide" class="splide px-20">
+               <div class="splide__track">
+                  <ul class="splide__list">
+                     {% for card in block.imageArray %}
+                        <li class="splide__slide flex flex-col items-center justify-center pb-8">
+                           <p class="h-32 w-32 bg-orange-600">hi</p>
+                        </li>
+                     {% endfor %}
+                  </ul>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+{% endblock %}

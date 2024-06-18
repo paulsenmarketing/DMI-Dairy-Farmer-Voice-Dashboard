@@ -49,6 +49,21 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 809b7984-2725-4016-bd55-1e7e668cb7aa # Alignment (Left, Right)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1736cd22-ebcb-49a0-b773-fc28743e3bd2
+            userCondition: null
+            warning: null
+            width: 100
         name: Text
         uid: a4ab66b1-02db-44db-9c88-e12ea9553971
         userCondition: null

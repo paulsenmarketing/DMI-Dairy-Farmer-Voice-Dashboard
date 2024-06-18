@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: alignment
+handle: alignmentLR
 instructions: null
-name: Alignment
+name: 'Alignment (Left, Right)'
 searchable: false
 settings:
   options:
@@ -13,17 +13,6 @@ settings:
         -
           - value
           - left
-        -
-          - default
-          - ''
-    -
-      __assoc__:
-        -
-          - label
-          - Center
-        -
-          - value
-          - center
         -
           - default
           - ''

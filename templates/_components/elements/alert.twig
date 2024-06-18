@@ -67,7 +67,7 @@
             <span class="font-bold text-xl">{{ data.title }}</span>
             <span>{{ data.richText }}</span>
             {% if data.button[0].buttonLink != '' %}
-            <div class="flex justify-end w-full">
+            <div class="flex ml-auto w-full max-w-44">
                {{ Button.filled(data.button[0]) }}
             </div>
             {% endif %}

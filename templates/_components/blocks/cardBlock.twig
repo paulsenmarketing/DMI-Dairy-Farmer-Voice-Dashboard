@@ -8,7 +8,7 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
 
 {% block blockWrapper %}
    {% if block.toggle is empty %}
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
          {% for card in block.cardFields %}
             {{ Card.default(card) }}
          {% endfor %}
@@ -21,7 +21,6 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
                   arrows:true,
                   gap: 16,
                   interval: 4000
-
               }).mount()
           }
       }">

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7dd9d58e1f809dd89ff59787f055b68",
+    "content-hash": "c26790b6056caf12d5491ff13b6a1f85",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1616,11 +1616,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/1b2dd98384df894c87f3d6c21ad804220f63e19c",
-                "reference": "1b2dd98384df894c87f3d6c21ad804220f63e19c",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/9beea769b1dfa4c9c4bff38f7af5da9f4e96cbe9",
+                "reference": "9beea769b1dfa4c9c4bff38f7af5da9f4e96cbe9",
                 "shasum": ""
             },
             "require": {
@@ -1720,7 +1720,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-06-12T16:34:15+00:00"
+            "time": "2024-06-17T20:10:48+00:00"
         },
         {
             "name": "craftcms/flysystem",
@@ -3209,11 +3209,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.12",
+            "version": "v10.48.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/collections.git",
+                "reference": "994cedcd2060b65918efe46da805ac31b0563034"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/f9589f1063a449111dcaa1d68285b507d9483a95",
-                "reference": "f9589f1063a449111dcaa1d68285b507d9483a95",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/994cedcd2060b65918efe46da805ac31b0563034",
+                "reference": "994cedcd2060b65918efe46da805ac31b0563034",
                 "shasum": ""
             },
             "require": {
@@ -3239,6 +3244,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3250,11 +3256,20 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "time": "2024-03-20T20:09:13+00:00"
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2024-06-04T13:31:47+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.12",
+            "version": "v10.48.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/conditionable.git",
+                "reference": "d0958e4741fc9d6f516a552060fd1b829a85e009"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/d0958e4741fc9d6f516a552060fd1b829a85e009",
@@ -3275,6 +3290,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3286,11 +3302,20 @@
             ],
             "description": "The Illuminate Conditionable package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2023-02-03T08:06:17+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.12",
+            "version": "v10.48.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/contracts.git",
+                "reference": "8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
@@ -3313,6 +3338,7 @@
                     "Illuminate\\Contracts\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3324,11 +3350,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2024-01-15T18:52:32+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.12",
+            "version": "v10.48.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/macroable.git",
+                "reference": "dff667a46ac37b634dcf68909d9d41e94dc97c27"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/dff667a46ac37b634dcf68909d9d41e94dc97c27",
@@ -3349,6 +3384,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3360,6 +3396,10 @@
             ],
             "description": "The Illuminate Macroable package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2023-06-05T12:46:42+00:00"
         },
         {
@@ -6521,11 +6561,11 @@
         },
         {
             "name": "putyourlightson/craft-blitz",
-            "version": "5.3.1",
+            "version": "5.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-blitz/zipball/d66f08922ca23023b5c650275a0beee79bbe185a",
-                "reference": "d66f08922ca23023b5c650275a0beee79bbe185a",
+                "url": "https://api.github.com/repos/putyourlightson/craft-blitz/zipball/8aa96ae49b50991d4ed81f5978d76c66d982ccb8",
+                "reference": "8aa96ae49b50991d4ed81f5978d76c66d982ccb8",
                 "shasum": ""
             },
             "require": {
@@ -6569,7 +6609,7 @@
                 "source": "https://github.com/putyourlightson/craft-blitz",
                 "issues": "https://github.com/putyourlightson/craft-blitz/issues"
             },
-            "time": "2024-05-16T11:14:54+00:00"
+            "time": "2024-06-18T10:31:04+00:00"
         },
         {
             "name": "putyourlightson/craft-sprig-core",

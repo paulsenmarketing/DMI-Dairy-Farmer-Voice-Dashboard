@@ -1,4 +1,4 @@
-color: null
+color: amber
 fieldLayouts:
   bb9b8d13-66fd-4c0a-a16d-6e8196fdb8d5:
     tabs:
@@ -72,7 +72,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: d894a0ee-7120-47c1-983b-df9c4510e5a6 # Image Array
+            fieldUid: b0894349-cbe1-4e8e-bd56-0e0740480ead # Fancy Image Array 1
             handle: null
             includeInCards: false
             instructions: null
@@ -81,7 +81,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0c415fe1-796a-4751-a539-2dff9d409f74
+            uid: 18ec8cd3-61f3-4503-ae29-2022619dcf04
             userCondition: null
             warning: null
             width: 100
@@ -93,8 +93,8 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: d894a0ee-7120-47c1-983b-df9c4510e5a6 # Image Array
-            handle: imageArray2
+            fieldUid: 4e063b31-51d1-48bf-b2e6-b84cff84b74c # Fancy Image Array 2
+            handle: null
             includeInCards: false
             instructions: null
             label: null
@@ -102,17 +102,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e66d685d-3e5f-46c5-b7cb-e1631a581474
+            uid: ad9901ce-89ae-49ad-a47a-df06cf4c4251
             userCondition: null
             warning: null
             width: 100
         name: 'Image Carousel 2'
-        uid: b72d10c0-91de-4845-992a-41d5ca31e952
+        uid: e392aa42-3be0-43f8-a505-d77c632f3535
         userCondition: null
-handle: fancyCarousel
+handle: fancyCarouselBlock
 hasTitleField: true
-icon: ''
-name: 'Fancy Carousel'
+icon: wand-magic-sparkles
+name: 'Fancy Carousel Block'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -1,11 +1,11 @@
-dateModified: 1718724351
+dateModified: 1718740333
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   images:
-    hasUrls: false
+    hasUrls: true
     name: Images
     settings:
       addSubfolderToRootUrl: true
@@ -20,9 +20,9 @@ fs:
       region: $S3_REGION
       secret: $S3_SECRET
       storageClass: ''
-      subfolder: boilerplate_images/
+      subfolder: ''
     type: craft\awss3\Fs
-    url: null
+    url: $S3_ASSET_DOMIAN
 meta:
   __names__:
     1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
@@ -30,6 +30,7 @@ meta:
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
     2d01597d-ad3e-4f0f-a29a-f1a91b1ff671: Images # Images
+    4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
     6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
@@ -40,23 +41,28 @@ meta:
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
     43e1e321-b408-4cb8-b7f4-c26babd2b9b5: 'Url Field' # Url Field
+    68dd303d-90e5-40b0-bce7-c0069a17ad01: 'Rich Text (50 word limit)' # Rich Text (50 word limit)
     70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
     182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
-    835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel' # Fancy Carousel
+    482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
+    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
+    835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
+    934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button
     721054c3-0bf9-4471-9b23-19a86645b4ae: 'Hero Block' # Hero Block
-    2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: Alignment # Alignment
+    2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: 'Alignment (Left, Middle, Right)' # Alignment (Left, Middle, Right)
     3080309c-cc07-4af0-aef6-94a96f235885: 'Media Block' # Media Block
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
     ad916db7-1501-45f0-88fe-2966c21fe1aa: 'Section Header' # Section Header
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
     b02140d6-3b36-49ff-84fa-a24d268fdc67: 'Image Card Block' # Image Card Block
+    b0894349-cbe1-4e8e-bd56-0e0740480ead: 'Fancy Image Array 1' # Fancy Image Array 1
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
     bda7110e-ca4e-4a55-9e01-220b877882e9: Image # Image
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
