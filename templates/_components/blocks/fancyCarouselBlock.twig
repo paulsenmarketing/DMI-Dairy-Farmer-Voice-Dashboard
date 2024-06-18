@@ -1,34 +1,68 @@
 {% extends '_layouts/blockWrapper.twig' %}
 
+{% set arr = [1,2,3,4,5,6,7,8] %}
+
 {% block blockWrapper %}
-   <div class="flex flex-col lg:flex-row items-center gap-16 my-24">
-      <div class="prose lg:w-1/2">
+   <div class="flex flex-col lg:flex-row items-center gap-16 my-24 w-full">
+      <div class="prose lg:w-1/2 ">
          <h1>{{ block.title }}</h1>
          {{ block.richText }}
       </div>
-      <div class="lg:w-1/2 grid gap-6 rounded grid-cols-1 sm:grid-cols-2 sm:py-24">
-         <div class="w-full" x-data="{
-          init() {
-              new window.Splide(this.$refs.splide, {
-                  perPage: 2,
-                  arrows:true,
-                  gap: 16,
-                  interval: 4000
-                 }).mount()
-                }
-            }">
-            <section x-ref="splide" class="splide px-20">
-               <div class="splide__track">
-                  <ul class="splide__list">
-                     {% for card in block.imageArray %}
-                        <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                           <p class="h-32 w-32 bg-orange-600">hi</p>
-                        </li>
-                     {% endfor %}
-                  </ul>
-               </div>
-            </section>
+      <div class="flex gap-16 lg:w-1/2 h-[600px] overflow-y-hidden">
+         <div id="wrapper" class="w-1/2 relative">
+            <div id="c1" class="absolute w-full top-0 left-0 flex flex-col gap-6">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/24/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/25/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/24/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/25/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/24/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/25/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/24/200/200" alt="">
+            </div>
+
+         </div>
+         <div class="w-1/2 relative">
+            <div id="c2" class="absolute w-full bottom-0 left-0 flex flex-col gap-6">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/22/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/32/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/22/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/32/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/22/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/32/200/200" alt="">
+               <img class="w-full aspect-square" src="https://picsum.photos/id/22/200/200" alt="">
+            </div>
          </div>
       </div>
    </div>
+
+   <style>
+       #wrapper {
+           transform: translate3d(0,0,0);
+       }
+      #c1 {
+          animation: slideshowUp 15s linear infinite;
+          transform: translate3d(0,0,0);
+      }
+      #c2 {
+          animation: slideshowDown 15s linear infinite;
+          transform: translate3d(0,0,0);
+      }
+
+      @keyframes slideshowUp {
+          0% {
+              transform: translateY(0%);
+          }
+          100% {
+              transform: translateY(-100%);
+          }
+      }
+      @keyframes slideshowDown {
+          0% {
+              transform: translateY(0%);
+          }
+          100% {
+              transform: translateY(100%);
+          }
+      }
+   </style>
 {% endblock %}
