@@ -1,0 +1,38 @@
+
+{% set data = [
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'},
+   {url: 'https://picsum.photos/200/300'}
+] %}
+
+<div x-data="{
+   galleryOpen: false,
+   activeUrl: null,
+   activeImageIndex: null,
+   openGallery() {
+      console.log('open gallery');
+   },
+   closeGallery() {
+      console.log('close gallery');
+   },
+   nextImg() {
+      console.log('next image');
+   },
+   prevImg() {
+      console.log('prev image');
+   }
+   }"
+   @open-gallery.window="openGallery()"
+   @close-gallery.window="closeGallery()"
+   @keyup.right.window="nextImg()"
+   @keyup.left.window="prevImg()"
+   >
+   {% for item in data %}
+      <img src="{{ item.url }}" alt="no">
+   {% endfor %}
+</div>

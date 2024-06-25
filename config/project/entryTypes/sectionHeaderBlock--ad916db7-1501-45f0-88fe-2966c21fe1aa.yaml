@@ -1,6 +1,6 @@
-color: cyan
+color: yellow
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  35029bf3-0053-401b-81fc-10f8259a5ece:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,28 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: 55413fe4-298b-4d50-a1e1-ee57926f41df
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: subtitle
+            includeInCards: false
+            instructions: null
+            label: Subtitle
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af2213d1-fe9d-4edd-806b-30ea66ba8848
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
             instructions: null
@@ -45,13 +60,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: db600871-dd94-4e03-85a1-f782736b1c10
+            uid: 440a783b-3909-45ee-85c5-4871ef4c7634
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
+            fieldUid: 2295650a-2ec5-4efe-a6ef-5f4d6f0853d7 # Alignment (Left, Middle, Right)
             handle: null
             includeInCards: false
             instructions: null
@@ -60,19 +75,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: 4d8254e8-5bc8-4080-9f04-521cc4667e2e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 1e325113-380c-447f-b1fc-e02b129c310c
         userCondition: null
-handle: cardEntry
+handle: sectionHeaderBlock
 hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+icon: head-side
+name: 'Section Header'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

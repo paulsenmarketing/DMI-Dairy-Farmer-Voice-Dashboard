@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: fancyImageArray2
+instructions: null
+name: 'Fancy Image Array 2'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 482cb0dd-2361-49db-bb8c-232d0ee58caf # Image Entry
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

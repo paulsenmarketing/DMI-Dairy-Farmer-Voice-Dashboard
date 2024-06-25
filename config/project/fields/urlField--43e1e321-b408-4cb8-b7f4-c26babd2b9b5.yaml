@@ -1,0 +1,14 @@
+columnSuffix: null
+handle: urlField
+instructions: 'A URL should be a properly formatted URL. A telephone number or an email address can also be used.'
+name: 'Url Field'
+searchable: true
+settings:
+  maxLength: 255
+  types:
+    - url
+    - tel
+    - email
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

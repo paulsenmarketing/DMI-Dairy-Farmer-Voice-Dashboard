@@ -1,6 +1,6 @@
-color: cyan
+color: yellow
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  33ebdfdb-0053-4c6a-ac90-a5eed9abec64:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: 7c3ffcbf-9406-49c9-9069-46589de78626
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
             instructions: null
@@ -45,7 +45,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: db600871-dd94-4e03-85a1-f782736b1c10
+            uid: 2be076f4-0ddd-449e-9cdc-edbaf71e90c9
             userCondition: null
             warning: null
             width: 100
@@ -60,19 +60,34 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: e873590e-7cd2-4d5a-b5d9-e1bbbebf1d7f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1126c5a-1878-4d28-813a-f0cf930bba12
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 952e4074-c63e-43c2-b298-cf10dd829e26
         userCondition: null
-handle: cardEntry
+handle: heroBlock
 hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+icon: mask
+name: 'Hero Block'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

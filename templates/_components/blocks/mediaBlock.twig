@@ -1,0 +1,33 @@
+{% extends '_layouts/blockWrapper.twig' %}
+
+   {% set alignment = '' %}
+   {% switch block.alignmentLR.value %}
+   {% case 'left' %}
+      {% set alignment = 'md:flex-row' %}
+   {% case 'right' %}
+      {% set alignment = 'md:flex-row-reverse' %}
+   {% endswitch %}
+
+{% block blockWrapper %}
+{% if block.image or block.video %}
+   <div class="flex flex-col {{ alignment }} w-full gap-12">
+      <div class="w-full md:w-1/2 prose my-auto">
+         <h1>{{ block.title }}</h1>
+         <p>{{ block.richText }}</p>
+      </div>
+      <div class="w-full md:w-1/2 overflow-clip">
+         {# handle an image or a video - if neighter are uploaded we're going to render a normal text block #}
+         {% if not block.mediaToggle %}
+            <img class="rounded w-full aspect-[4/3] object-cover" src="{{ block.image|first.url }}" alt="">
+         {% elseif block.mediaToggle %}
+            <p>video</p>
+         {% else %}
+            {{ dump('error loading media') }}
+         {% endif %}
+      </div>
+   </div>
+{% else %}
+   {# if there isn't an image or video, we fall back to a dimple text block #}
+   {{ include('_components/blocks/richTextBlock.twig') }}
+{% endif %}
+{% endblock %}

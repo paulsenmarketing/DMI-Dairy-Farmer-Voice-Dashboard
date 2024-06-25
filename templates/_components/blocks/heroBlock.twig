@@ -1,0 +1,14 @@
+{% import '_components/elements/button.twig' as Button %}
+
+<div class="w-full h-[75vh] bg-surface-800 flex justify-center items-center">
+   <div class="w-full sm:w-4/5 h-full sm:h-4/5 relative overflow-visible">
+      <div class="absolute w-3/4 md:min-h-max md:h-auto lg:w-auto right-1/2 lg:right-0 top-1/2 translate-x-1/2 lg:translate-x-0 -translate-y-1/2 z-50 p-4 md:p-8 rounded prose-sm md:prose bg-surface-50">
+         <h1>{{ block.title }}</h1>
+         {# TODO: limit the characters on this rich text - and on all component, for that matter #}
+         <p>{{ block.richText }}</p>
+         {{ Button.filled(block.button[0])}}
+      </div>
+      <div style="background-image: url({{ block.image|first.url }});" class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded">
+      </div>
+   </div>
+</div>

@@ -1,0 +1,50 @@
+{% extends '_layouts/blockWrapper.twig' %}
+
+{% set arr = [1,2,3,4,5,6,7,8] %}
+
+{% set image %}
+   <img class="w-[150px] lg:w-[200px] aspect-square" src="https://picsum.photos/id/24/200/200" alt="">
+{% endset %}
+
+{% block blockWrapper %}
+   <div class="flex flex-col lg:flex-row items-center gap-16 my-24 w-full">
+      <div class="prose lg:w-1/2 ">
+         <h1>{{ block.title }}</h1>
+         {{ block.richText }}
+      </div>
+      <div class="flex gap-16 w-full lg:w-1/2 h-[600px] overflow-y-hidden">
+         <div class="wrapper w-1/2 flex flex-col">
+            <div id="c1" class="w-full flex flex-col gap-6">
+               {{ image }}
+            </div>
+
+         </div>
+{#         <div class="wrapper w-1/2 relative">#}
+{#            {% for i in 0..10 %} {{ image }} {% endfor %}#}
+{#         </div>#}
+      </div>
+   </div>
+
+   <style>
+       .wrapper {
+           transform: translate3d(0,0,0);
+       }
+       #wrapper > div {
+           transform: translate3d(0,0,0);
+       }
+      #c1, #c2 {
+          animation: slideshowUp 15s linear infinite;
+      }
+
+      @keyframes slideshowUp {
+          100% {
+              transform: translateY(-100%);
+          }
+      }
+      @keyframes slideshowDown {
+          100% {
+              transform: translateY(100%);
+          }
+      }
+   </style>
+{% endblock %}

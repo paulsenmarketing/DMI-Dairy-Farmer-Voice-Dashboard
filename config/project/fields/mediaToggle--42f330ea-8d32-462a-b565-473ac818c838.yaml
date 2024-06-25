@@ -1,12 +1,12 @@
 columnSuffix: null
-handle: toggle
+handle: mediaToggle
 instructions: null
-name: 'Grid Toggle'
+name: 'Media Toggle'
 searchable: false
 settings:
   default: false
-  offLabel: 'Grid View'
-  onLabel: 'Carousel View'
+  offLabel: 'Use Image'
+  onLabel: 'Use Video'
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

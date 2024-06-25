@@ -57,7 +57,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Toggle
+            fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Grid Toggle
             handle: null
             includeInCards: false
             instructions: null

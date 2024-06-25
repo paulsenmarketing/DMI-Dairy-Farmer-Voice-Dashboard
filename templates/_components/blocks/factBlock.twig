@@ -1,0 +1,33 @@
+{% extends '_layouts/blockWrapper.twig' %}
+
+{% macro factCard(number, label, fact) %}
+   <div class="p-8 bg-surface-100 prose-sm text-center">
+      <h1 class="font-black">{{ number }}</h1>
+      <h3 class="font-bold">{{ label }}</h3>
+      <p>{{ fact }}</p>
+   </div>
+{% endmacro %}
+
+{% block blockWrapper %}
+   <div class="flex flex-col lg:flex-row items-center gap-16">
+      <div class="prose lg:w-1/2">
+         <h1>{{ block.title }}</h1>
+         {{ block.richText }}
+      </div>
+      <div class="lg:w-1/2 grid gap-6 rounded grid-cols-1 sm:grid-cols-2 sm:py-24">
+         {% set first = block.factFields[0] %}
+         {% set second = block.factFields[1] %}
+         {% set third = block.factFields[2] %}
+         {% set fourth = block.factFields[3] %}
+         <div class="flex flex-col gap-6 sm:-translate-y-16">
+            {{ _self.factCard(first.number, first.numberLabel, first.fact) }}
+            {{ _self.factCard(second.number, second.numberLabel, second.fact) }}
+         </div>
+         <div class="flex flex-col gap-6 sm:translate-y-16">
+            {{ _self.factCard(third.number, third.numberLabel, third.fact) }}
+            {{ _self.factCard(fourth.number, fourth.numberLabel, fourth.fact) }}
+         </div>
+         <div></div>
+      </div>
+   </div>
+{% endblock %}

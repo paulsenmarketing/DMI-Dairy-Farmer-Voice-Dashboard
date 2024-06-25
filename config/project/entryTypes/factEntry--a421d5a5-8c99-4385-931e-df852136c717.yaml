@@ -1,6 +1,6 @@
 color: cyan
 fieldLayouts:
-  1e8f2ade-e236-48ce-bd37-f7ef7991daea:
+  e01774c9-8fbe-42de-bb4c-4543e2818a94:
     tabs:
       -
         elementCondition: null
@@ -16,7 +16,7 @@ fieldLayouts:
             includeInCards: false
             inputType: null
             instructions: null
-            label: null
+            label: __blank__
             max: null
             min: null
             name: null
@@ -30,49 +30,64 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4f40088d-354e-479c-990e-6dc3bac5a08f
+            uid: 58ad7a12-ec53-4190-93c5-8259f059b5e7
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
-            handle: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: number
             includeInCards: false
             instructions: null
-            label: null
+            label: Number
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: db600871-dd94-4e03-85a1-f782736b1c10
+            uid: 08c8222b-9ba0-4706-b0ca-30fadb46c7d7
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
-            handle: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: numberLabel
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Enter the label for the number field. E.g. miles, inches, hours, etc.'
+            label: 'Number Label'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0087aa95-b890-4686-817b-0608e2d63033
+            uid: d45e80d6-0107-4452-b4d8-5b4aefaa15c4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: fact
+            includeInCards: false
+            instructions: null
+            label: Fact
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29eb4adb-3241-4b43-b63f-058e06f08996
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5e0621e9-4206-4402-b073-a42f9f70a8e5
+        uid: 528facc8-fb3c-4463-b115-03cdc2ce441d
         userCondition: null
-handle: cardEntry
-hasTitleField: true
-icon: address-card
-name: 'Card Entry'
-showSlugField: false
-showStatusField: false
+handle: factEntry
+hasTitleField: false
+icon: head-side-brain
+name: 'Fact Entry'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: ''

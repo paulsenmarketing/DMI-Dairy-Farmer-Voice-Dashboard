@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: imageCardFields
+instructions: null
+name: 'Image Card Fields'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 22cc7cba-13f3-4e15-8405-44388d7a9d16 # Image Card Entry
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
