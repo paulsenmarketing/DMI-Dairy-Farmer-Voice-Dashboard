@@ -4,7 +4,7 @@
   "require": {
     "craftcms/aws-s3": "2.2.1",
     "craftcms/ckeditor": "4.1.0",
-    "craftcms/cms": "5.2.1",
+    "craftcms/cms": "5.2.3",
     "nystudio107/craft-imageoptimize": "^5.0",
     "nystudio107/craft-seomatic": "5.0.4",
     "nystudio107/craft-vite": "5.0.0",
