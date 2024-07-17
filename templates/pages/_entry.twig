@@ -7,7 +7,6 @@
 
    {% for block in blocks %}
       {% set camel = block.type.handle %}
-      {# using 'with' eagerly loads the data, I guess? #}
       {% include("_components/blocks/#{camel}.twig") with {'block': block} only %}
    {% endfor %}
 
