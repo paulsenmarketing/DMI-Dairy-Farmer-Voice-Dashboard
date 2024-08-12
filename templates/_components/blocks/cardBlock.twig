@@ -16,24 +16,39 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
    {% elseif block.toggle is not empty %}
          <div x-data="{
           init() {
-              new window.Splide(this.$refs.splide, {
-                  perPage: 3,
-                  arrows:true,
-                  gap: 16,
-                  interval: 4000
-              }).mount()
+               new window.Swiper(this.$refs.swiper, {
+                  autoplay: {
+                     delay: 3000
+                  },
+                  direction: 'horizontal',
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                 loop: true,
+                 pagination: {
+                   el: '.swiper-pagination'
+                 },
+                 navigation: {
+                   nextEl: '.swiper-button-next',
+                   prevEl: '.swiper-button-prev'
+                 },
+                 scrollbar: {
+                   el: '.swiper-scrollbar'
+                 }
+               })
             }
-         }">
-            <section x-ref="splide" class="splide px-20">
-               <div class="splide__track">
-                  <ul class="splide__list">
-                     {% for card in block.cardFields %}
-                        <li class="splide__slide flex flex-col items-center justify-center pb-8">
-                           {{ Card.default(card) }}
-                        </li>
-                     {% endfor %}
-                  </ul>
+         }" class="w-full h-full">
+            <section x-ref="swiper" class="swiper w-full h-full px-20">
+               <div class="swiper-wrapper">
+                  {% for card in block.cardFields %}
+                     <div class="swiper-slide flex flex-col items-center justify-center pb-8">
+                        {{ Card.default(card) }}
+                     </div>
+                  {% endfor %}
                </div>
+               {#<div class="swiper-pagination"></div>#}
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-scrollbar"></div>
             </section>
          </div>
    {% endif %}

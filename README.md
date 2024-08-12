@@ -1,7 +1,5 @@
 # CRAFT 5 BOILERPLATE
 
-Isaac's attempt a Craft 5 development boilerplate.
-
 This template relies on...
 
 ### Alpinejs | JavaScript framework
@@ -12,8 +10,8 @@ Docs: https://tailwindcss.com/docs/
 Docs: https://daisyui.com/components/
 ### Lucide | Icon library
 Docs: https://lucide.dev/guide/packages/lucide
-### Splide | Carousel library
-Docs: https://splidejs.com/guides/getting-started/
+### Swiper | Carousel library
+Docs: https://swiperjs.com/get-starte
 
 Note that there are additional modifications. To get a full overview of the project dependencies, please the following configuration files:
 
