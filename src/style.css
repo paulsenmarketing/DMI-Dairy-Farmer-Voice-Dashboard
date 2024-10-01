@@ -1,3 +1,22 @@
+/* fontawesome ------------------------------------------------------------ */
+
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+/* moved font import into the fonts section, the following is the remainder of solid.css from the lib */
+:root, :host {
+    --fa-style-family-classic: 'Font Awesome 6 Free';
+    --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free'; }
+
+.fas,
+.fa-solid {
+    font-weight: 900; }
+
+/* tailwind --------------------------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts ------------------------------------------------------------------ */
 
 @tailwind base;
 @tailwind components;
@@ -6,16 +25,46 @@
 @layer base {
     @font-face {
         font-family: 'Roboto';
-        src: local('Roboto-Regular'), url('dist/assets/fonts/Roboto-Regular.ttf') format('truetype');
+        src: local('Roboto-Regular'), url('dist/fonts/Roboto-Regular.ttf') format('truetype');
         font-style: normal;
         font-weight: 400;
         font-display: swap;
     }
     @font-face {
         font-family: 'Noto Serif';
-        src: local('NotoSerif-Regular'), url('dist/assets/fonts/NotoSerif-Regular.ttf') format('truetype');
+        src: local('NotoSerif-Regular'), url('dist/fonts/NotoSerif-Regular.ttf') format('truetype');
         font-style: normal;
         font-weight: 400;
         font-display: swap;
     }
+}
+
+/* utility ------------------------------------------------------------------ */
+
+@layer components {
+    .expand {
+        @apply w-full h-full;
+    }
+    .flex-center {
+        @apply flex items-center justify-center;
+    }
+    .center {
+        @apply items-center justify-center;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+
+/* swiper ------------------------------------------------------------------- */
+
+/* remove default arrows in swiperjs */
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: "" !important;
 }

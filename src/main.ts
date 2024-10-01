@@ -1,3 +1,4 @@
+import 'vite/modulepreload-polyfill';
 import './style.css'
 
 // Splidejs init --------------------------------------------
@@ -17,6 +18,17 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 // @ts-ignore
 window.Swiper = Swiper;
+
+// TailwindCSS Intersection Init
+// Docs: https://github.com/heidkaemper/tailwindcss-intersect
+import { Observer } from 'tailwindcss-intersect';
+Observer.start();
+
+// Vanilla Tilt Init
+// Docs: https://github.com/micku7zu/vanilla-tilt.js
+import VanillaTilt from "vanilla-tilt";
+// @ts-ignore
+window.tilt = VanillaTilt;
 
 // Lucide init ----------------------------------------------
 // Docs: https://lucide.dev/guide/packages/lucide
@@ -55,13 +67,21 @@ createIcons({
 })
 
 // Alpinejs init ---------------------------------------------
+// I'm just going to install ALL of the Alpine plugins by default
 // Docs: https://alpinejs.dev/start-here
 import Alpine from 'alpinejs'
+import anchor from '@alpinejs/anchor'
 import collapse from '@alpinejs/collapse'
 import focus from '@alpinejs/focus'
+import intersect from '@alpinejs/intersect'
+import mask from '@alpinejs/mask'
+import persist from '@alpinejs/persist'
+// @ts-ignore
+import sort from '@alpinejs/sort'
+// @ts-ignore
+import resize from '@alpinejs/resize'
 
-Alpine.plugin(focus)
-Alpine.plugin(collapse)
+Alpine.plugin([collapse, focus, resize, anchor, intersect, mask, persist, sort])
 // @ts-ignore
 window.Alpine = Alpine
 Alpine.start()

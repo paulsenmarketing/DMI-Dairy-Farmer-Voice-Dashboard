@@ -2,10 +2,10 @@
 import { defineConfig } from 'vite';
 import legacy from '@vitejs/plugin-legacy';
 import ViteRestart from "vite-plugin-restart";
+import viteCompression from 'vite-plugin-compression';
 
 import * as path from 'path';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-
 
 export default defineConfig(({command}) => ({
     base: command === 'serve' ? '' : '/dist/',
@@ -18,6 +18,7 @@ export default defineConfig(({command}) => ({
                 app: './src/main.ts',
             },
         },
+        minify: 'terser'
     },
     server: {
         port: 8080,
@@ -27,12 +28,11 @@ export default defineConfig(({command}) => ({
         strictPort: true,
     },
     plugins: [
-        legacy({
-            targets: ['defaults', 'not IE 11']
-        }),
+        legacy(),
         ViteRestart({
             restart: [
                 './templates/**/*',
+                './src/**/*',
             ],
         }),
         nodeResolve({
@@ -40,10 +40,12 @@ export default defineConfig(({command}) => ({
                 path.resolve('./node_modules'),
             ],
         }),
+        viteCompression()
     ],
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),
-        }
+        },
+        preserveSymlinks: true,
     }
 }));

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: ['./templates/**/*.twig', './src/**/*.css'],
   theme: {
     "borderRadius": {
@@ -45,15 +46,21 @@ export default {
           900: "#181D20",
           950: "#0B0D0E"
         },
+        // another example of more brand-specific color scheme
+        // "brandLightGreen": "#93B44D",
+        // "brandDarkGreen": "#033211",
+        // "brandOrange": "#FC6B30",
+        // "brandBlue": "#C4E9FB",
+        // "brandTan": "#FFF3E3",
+        // "brandLightBrown": "#D3B986",
+        // "brandDarkBrown": "#6C4A27",
       }
     },
   },
   plugins: [
     require("@tailwindcss/typography"),
-    require('daisyui'),
+    require('tailwindcss-animated'),
+    require('tailwindcss-intersect'),
+    require('@tailwindcss/forms')
   ],
-  daisyui: {
-    // the themes array is empty, we don't want to have to let Daisy influence colors at all (we just want the style cheats for things like breadcrumbs.twig)
-    themes: [],
-  },
 }

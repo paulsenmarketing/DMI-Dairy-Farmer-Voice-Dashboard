@@ -1,4 +1,4 @@
-dateModified: 1723475431
+dateModified: 1727812291
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -78,6 +78,10 @@ meta:
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
     fee1d400-8cc0-4a1d-a4ab-abea20b457de: 'Alert Type' # Alert Type
 plugins:
+  anchors:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   aws-s3:
     edition: standard
     enabled: true
@@ -86,7 +90,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 3SZULPNM6DS8GOPYZDGWVK60
-    schemaVersion: 5.6.0
+    schemaVersion: 5.8.0
   ckeditor:
     edition: standard
     enabled: true
