@@ -6,12 +6,10 @@ This template relies on...
 Docs: https://alpinejs.dev/start-here
 ### Tailwind CSS | CSS framework
 Docs: https://tailwindcss.com/docs/
-### DaisyUI | Headless component library (depends on Tailwind)
-Docs: https://daisyui.com/components/
 ### Lucide | Icon library
 Docs: https://lucide.dev/guide/packages/lucide
 ### Swiper | Carousel library
-Docs: https://swiperjs.com/get-starte
+Docs: https://swiperjs.com/get-started
 
 Note that there are additional modifications. To get a full overview of the project dependencies, please the following configuration files:
 

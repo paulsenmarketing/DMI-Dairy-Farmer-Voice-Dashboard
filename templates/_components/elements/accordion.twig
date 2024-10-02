@@ -36,32 +36,3 @@
    </div>
 
 {% endmacro %}
-
-{% macro daisy(nodes) %}
-   {% if nodes is null %}
-      {{ dump('WARNING: No data was passed to the Accordion element! Placeholder data will be used.') }}
-      {% set nodes = [
-         { text: 'Placeholder Title 1', richText: 'Placeholder content for the first item. This is some example text for the accordion item.' },
-         { text: 'Placeholder Title 2', richText: 'Placeholder content for the second item. This is some more example text for the accordion item.' },
-         { text: 'Placeholder Title 3', richText: 'Placeholder content for the third item. This is yet another example text for the accordion item.' }
-      ] %}
-   {% endif %}
-
-   <div class="join join-vertical w-full">
-      {# generate a random number and letter sequence to make sure that looped accordions don't conflict #}
-      {% set identifierNum = random(0,99999) %}
-      {% set identifierLetter = random('ABCDEFGHIJKLMNOP') %}
-      {% for node in nodes %}
-         <div class="collapse collapse-arrow join-item border border-surface-300">
-            <input type="radio" name="my-accordion-{{ identifierNum }}{{ identifierLetter }}" checked="checked" />
-            <div class="collapse-title text-xl font-medium">
-               {{ node.title }}
-            </div>
-            <div class="collapse-content">
-               {{ node.richText }}
-            </div>
-         </div>
-      {% endfor %}
-   </div>
-
-{% endmacro %}

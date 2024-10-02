@@ -21,12 +21,6 @@
    </div>
 {% endmacro %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus adipisci aliquam consequatur deleniti dolore doloremque eaque earum eveniet inventore iste, iusto magnam maxime minus nesciunt odit, officia pariatur quasi quia repellat reprehenderit repudiandae voluptatibus!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at commodi consequuntur cum cupiditate dolorem itaque nam nostrum odit, omnis possimus quia rem repellat sit soluta sunt veniam! Dicta eligendi impedit numquam. Itaque neque nobis quos tempora vero! Amet cum enim, mollitia nesciunt omnis sapiente.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio ex magni, mollitia rem veritatis. Commodi consequuntur deleniti deserunt impedit itaque neque nostrum praesentium similique!
-
 {% macro imageVertical(data) %}
    {% import '_components/elements/button.twig' as Button %}
    {% if data is null %}
@@ -40,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio 
    {% endif %}
    <div class="h-full w-full overflow-hidden border border-surface-200/60 bg-surface-50 text-neutral-700 rounded shadow-sm hover:shadow-md max-w-sm hover:scale-[1.01] transition-transform flex flex-col justify-between">
       <div>
-         <img class="flex w-full aspect-square object-cover object-center" src="{{ data.image|first.url }}"  alt=""/>
+         <img class="flex w-full aspect-square object-cover object-center" src="{{ data.image }}"  alt=""/>
 
          <div class="prose-sm md:prose p-7">
             <h2>{{ data.title }}</h2>
@@ -52,12 +46,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio 
       </span>
    </div>
 {% endmacro %}
-
-
-
-
-
-
 
 {% macro imageHorizontal(data) %}
    {% import '_components/elements/button.twig' as Button %}
