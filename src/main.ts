@@ -1,3 +1,5 @@
+console.log('VITE_NODE_CONFIG_DIR:', import.meta.env.VITE_NODE_CONFIG_DIR);
+
 import 'vite/modulepreload-polyfill';
 import './style.css'
 

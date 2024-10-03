@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: alignmentLR
+handle: textAlignmentLR
 instructions: null
-name: 'Alignment (Left, Right)'
+name: 'Text Alignment (Left, Right)'
 searchable: false
 settings:
   options:

@@ -1,6 +1,7 @@
-color: amber
+altTranslationKeyFormat: null
+altTranslationMethod: none
 fieldLayouts:
-  bb9b8d13-66fd-4c0a-a16d-6e8196fdb8d5:
+  eba5df30-d0c8-4de3-9673-93d0d4692df7:
     tabs:
       -
         elementCondition: null
@@ -10,7 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-02T18:43:05+00:00'
+            dateAdded: '2024-10-02T18:29:26+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -30,53 +31,47 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: cbf69eb1-59dd-4d11-a733-a873a17c414e
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 5bbad53c-ea18-49c7-8f91-8cf38279d321
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-02T18:43:05+00:00'
+            attribute: alt
+            class: null
+            cols: null
+            dateAdded: '2024-10-02T18:31:03+00:00'
+            disabled: false
             elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
-            handle: null
+            id: null
             includeInCards: false
             instructions: null
             label: null
+            name: null
+            orientation: null
+            placeholder: null
             providesThumbs: false
+            readonly: false
+            requirable: true
             required: false
+            rows: null
             tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a4afd092-7534-4676-88f9-85d9c247b62f
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-10-02T18:43:05+00:00'
-            elementCondition: null
-            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c4de3e96-b4da-46db-82a9-5ca6b5139151
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: bd0707d6-571a-42ed-a10f-69f2fd736714
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 2ca01790-b3a0-4ca4-8891-7bd35a67358d
+        uid: dd236bd0-c1f5-45a6-b690-0048c6c835d2
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-10-02T18:43:05+00:00'
+            dateAdded: '2024-10-02T18:31:03+00:00'
             elementCondition: null
-            fieldUid: b0894349-cbe1-4e8e-bd56-0e0740480ead # Fancy Image Array 1
+            fieldUid: f2aadb83-4021-4911-8584-7b580cf51162 # Original Image Transform
             handle: null
             includeInCards: false
             instructions: null
@@ -85,20 +80,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 18ec8cd3-61f3-4503-ae29-2022619dcf04
+            uid: 8ab3b082-a25b-4e76-9856-190a1759355a
             userCondition: null
             warning: null
             width: 100
-        name: 'Image Carousel 1'
-        uid: 620a899e-b538-4bc9-8ab2-1330821b1ce9
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
           -
-            dateAdded: '2024-10-02T18:43:05+00:00'
+            dateAdded: '2024-10-02T18:31:03+00:00'
             elementCondition: null
-            fieldUid: 4e063b31-51d1-48bf-b2e6-b84cff84b74c # Fancy Image Array 2
+            fieldUid: d1abb0bf-e20e-47c3-8755-0560f17a2276 # Widescreen Image Transform
             handle: null
             includeInCards: false
             instructions: null
@@ -107,21 +96,35 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ad9901ce-89ae-49ad-a47a-df06cf4c4251
+            uid: 12ea91e7-118e-444f-b009-8863faa88cbb
             userCondition: null
             warning: null
             width: 100
-        name: 'Image Carousel 2'
-        uid: e392aa42-3be0-43f8-a505-d77c632f3535
+          -
+            dateAdded: '2024-10-02T18:31:03+00:00'
+            elementCondition: null
+            fieldUid: b300516a-a7e5-40e6-b9ec-4c3ea6f7d331 # Square Image Transform
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64561c41-d9aa-4a52-85ba-26240b6b83e4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Transforms
+        uid: 17009961-c326-494f-b79b-73f74f11fbdb
         userCondition: null
-handle: fancyCarouselBlock
-hasTitleField: true
-icon: wand-magic-sparkles
-name: 'Fancy Carousel Block'
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: ''
+fs: images
+handle: images
+name: Images
+sortOrder: 3
+subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: images
+transformSubpath: ''

@@ -8,6 +8,9 @@ Docs: https://alpinejs.dev/start-here
 Docs: https://tailwindcss.com/docs/
 ### Lucide | Icon library
 Docs: https://lucide.dev/guide/packages/lucide
+### FontAwesome | Icon library
+Fontawesome is built in to Craft as the default icon set, so it's natural to include it alongside Lucide (which is better for generic UI)\
+Docs: https://docs.fontawesome.com/web
 ### Swiper | Carousel library
 Docs: https://swiperjs.com/get-started
 
