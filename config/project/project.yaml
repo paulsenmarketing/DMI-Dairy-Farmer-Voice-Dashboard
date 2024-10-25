@@ -1,4 +1,4 @@
-dateModified: 1727987502
+dateModified: 1729863563
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -108,7 +108,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 3SZULPNM6DS8GOPYZDGWVK60
-    schemaVersion: 5.8.0
+    schemaVersion: 5.9.0
   ckeditor:
     edition: standard
     enabled: true
