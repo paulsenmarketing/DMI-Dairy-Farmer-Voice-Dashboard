@@ -1,4 +1,5 @@
 {% import '_components/elements/button.twig' as Button %}
+{% import '_components/elements/_basic.twig' as Basic  %}
 
 <div class="w-full h-[75vh] bg-surface-800 flex justify-center items-center">
    <div class="w-full sm:w-4/5 h-full sm:h-4/5 relative overflow-visible">
@@ -8,7 +9,9 @@
          <p>{{ block.richText }}</p>
          {{ Button.filled(block.button[0])}}
       </div>
-      <div style="background-image: url({{ block.image|first.url }});" class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded">
+{#      if statemet for the image #}
+      <div class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded">
+         {{ Basic.ImageOriginal(block.singleImage.one()) }}
       </div>
    </div>
 </div>

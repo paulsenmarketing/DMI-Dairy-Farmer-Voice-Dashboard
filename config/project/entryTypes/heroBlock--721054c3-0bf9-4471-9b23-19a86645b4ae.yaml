@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-10-30T21:04:18+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:04:18+00:00'
             elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
@@ -50,6 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:04:18+00:00'
             elementCondition: null
             fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
             handle: null
@@ -65,8 +68,9 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:11:24+00:00'
             elementCondition: null
-            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9
+            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
             handle: null
             includeInCards: false
             instructions: null
@@ -75,7 +79,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d1126c5a-1878-4d28-813a-f0cf930bba12
+            uid: 551b72f4-7924-4da1-95a4-38e123a0c935
             userCondition: null
             warning: null
             width: 100
