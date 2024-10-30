@@ -1,4 +1,4 @@
-dateModified: 1730298337
+dateModified: 1729863563
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -29,49 +29,69 @@ meta:
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
-    2d01597d-ad3e-4f0f-a29a-f1a91b1ff671: Images # Images
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
+    4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
     6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
+    6f45cb17-943a-49cb-8476-fcc0b59a7747: 'Contact Form' # Contact Form
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
+    8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
     22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
     43e1e321-b408-4cb8-b7f4-c26babd2b9b5: 'Url Field' # Url Field
+    65b22a67-97ad-481e-ab6d-d2fd2a2721f8: Padding # Padding
     68dd303d-90e5-40b0-bce7-c0069a17ad01: 'Rich Text (50 word limit)' # Rich Text (50 word limit)
     70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
+    75a04e68-45ae-4f9f-8a38-7cc3eb5ec402: New # New
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
+    94c492e6-2585-46cd-b5f7-277f35023321: 'Single Image' # Single Image
     182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
-    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
+    749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
+    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Text Alignment (Left, Right)' # Text Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
     934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button
+    5510aacf-c9c9-4654-83e8-f88a1ee226cb: Images # Images
+    54940bf8-8a70-4f58-bb12-7742cdb3beaa: lg # lg
     721054c3-0bf9-4471-9b23-19a86645b4ae: 'Hero Block' # Hero Block
+    0976295b-959e-48f5-9ceb-73d054333989: sm # sm
     2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: 'Alignment (Left, Middle, Right)' # Alignment (Left, Middle, Right)
     3080309c-cc07-4af0-aef6-94a96f235885: 'Media Block' # Media Block
+    70200005-251c-49f6-8925-fc4d00d7c8c2: z-index # z-index
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
+    a6eaf89c-965b-42ff-ba4f-99667f42a0b0: Color # Color
+    a95cfa5d-8fcc-4798-99be-4347db515555: xl # xl
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
     ad916db7-1501-45f0-88fe-2966c21fe1aa: 'Section Header' # Section Header
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
     b02140d6-3b36-49ff-84fa-a24d268fdc67: 'Image Card Block' # Image Card Block
     b0894349-cbe1-4e8e-bd56-0e0740480ead: 'Fancy Image Array 1' # Fancy Image Array 1
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
-    bda7110e-ca4e-4a55-9e01-220b877882e9: Image # Image
+    b300516a-a7e5-40e6-b9ec-4c3ea6f7d331: 'Square Image Transform' # Square Image Transform
+    b2611308-ab3e-47ec-baf2-e7b34a1d1981: Saturation # Saturation
+    be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
+    ca87968d-6314-43fe-ac02-19e6b907e322: 2xl # 2xl
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
     cfcffb85-6685-433b-b38c-b9a01894b854: Text # Text
-    d894a0ee-7120-47c1-983b-df9c4510e5a6: 'Image Array' # Image Array
-    d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Entry' # Alert Entry
+    d1abb0bf-e20e-47c3-8755-0560f17a2276: 'Widescreen Image Transform' # Widescreen Image Transform
+    d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
+    d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
+    daf2ea65-4217-414e-9178-085c55ca32d3: md # md
+    de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
+    ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
+    f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
     fee1d400-8cc0-4a1d-a4ab-abea20b457de: 'Alert Type' # Alert Type
@@ -88,7 +108,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: 3SZULPNM6DS8GOPYZDGWVK60
-    schemaVersion: 5.0.0.4
+    schemaVersion: 5.9.0
   ckeditor:
     edition: standard
     enabled: true
@@ -107,6 +127,54 @@ plugins:
     enabled: true
     licenseKey: 4ZS6Y5J6LZRCBDIW5N01WDE7
     schemaVersion: 1.0.0
+    settings:
+      allowUpScaledImageVariants: false
+      assetVolumeSubFolders: true
+      autoSharpenScaledImages: true
+      capSilhouetteSvgSize: true
+      createColorPalette: true
+      createPlaceholderSilhouettes: false
+      imageTransformTypeSettings:
+        __assoc__:
+          -
+            - nystudio107\imageoptimizeimgix\imagetransforms\ImgixImageTransform
+            -
+              __assoc__:
+                -
+                  - domain
+                  - ''
+                -
+                  - apiKey
+                  - ''
+                -
+                  - securityToken
+                  - ''
+                -
+                  - unsharpMask
+                  - '20'
+          -
+            - nystudio107\imageoptimizesharp\imagetransforms\SharpImageTransform
+            -
+              __assoc__:
+                -
+                  - baseUrl
+                  - $AWS_LAMBDA_URL
+          -
+            - nystudio107\imageoptimizethumbor\imagetransforms\ThumborImageTransform
+            -
+              __assoc__:
+                -
+                  - baseUrl
+                  - ''
+                -
+                  - securityKey
+                  - ''
+                -
+                  - includeBucketPrefix
+                  - ''
+      lowerQualityRetinaImageVariants: true
+      sharpenScaledImagePercentage: 50
+      transformClass: nystudio107\imageoptimize\imagetransforms\CraftImageTransform
   navigation:
     edition: standard
     enabled: true
@@ -125,7 +193,7 @@ system:
   edition: solo
   live: true
   name: craft-five-bp
-  schemaVersion: 5.0.0.21
+  schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

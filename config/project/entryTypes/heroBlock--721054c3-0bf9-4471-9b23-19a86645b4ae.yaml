@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9 # Image
+            fieldUid: bda7110e-ca4e-4a55-9e01-220b877882e9
             handle: null
             includeInCards: false
             instructions: null

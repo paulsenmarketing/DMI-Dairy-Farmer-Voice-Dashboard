@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: fancyImageArray1
+handle: images
 instructions: null
-name: 'Fancy Image Array 1'
+name: Images
 searchable: false
 settings:
   allowSelfRelations: false
@@ -15,16 +15,16 @@ settings:
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
   maxRelations: null
-  minRelations: 6
+  minRelations: 1
   previewMode: full
   restrictFiles: true
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:5510aacf-c9c9-4654-83e8-f88a1ee226cb' # Images
   restrictedLocationSubpath: null
-  selectionLabel: 'Add an image'
+  selectionLabel: null
   showCardsInGrid: false
-  showSiteMenu: true
+  showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources: '*'
