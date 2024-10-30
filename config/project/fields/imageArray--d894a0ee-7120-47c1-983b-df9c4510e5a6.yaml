@@ -1,20 +1,20 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'This single image component is limited to one image.'
-name: 'Single Image'
+handle: imageArray
+instructions: null
+name: 'Image Array'
 searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
     - 482cb0dd-2361-49db-bb8c-232d0ee58caf # Image Entry
   includeTableView: false
-  maxEntries: 1
+  maxEntries: null
   minEntries: 1
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
-  viewMode: blocks
+  showCardsInGrid: true
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

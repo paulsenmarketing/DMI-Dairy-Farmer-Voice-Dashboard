@@ -4,33 +4,17 @@ instructions: null
 name: 'Fancy Image Array 2'
 searchable: false
 settings:
-  allowSelfRelations: false
-  allowSubfolders: false
-  allowUploads: true
-  allowedKinds:
-    - image
-    - transparent
-  branchLimit: null
-  defaultUploadLocationSource: 'volume:5510aacf-c9c9-4654-83e8-f88a1ee226cb' # Images
-  defaultUploadLocationSubpath: null
-  maintainHierarchy: false
-  maxRelations: null
-  minRelations: 6
-  previewMode: full
-  restrictFiles: true
-  restrictLocation: false
-  restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: 'volume:5510aacf-c9c9-4654-83e8-f88a1ee226cb' # Images
-  restrictedLocationSubpath: null
-  selectionLabel: 'Add an image'
+  createButtonLabel: null
+  entryTypes:
+    - 482cb0dd-2361-49db-bb8c-232d0ee58caf # Image Entry
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
   showCardsInGrid: false
-  showSiteMenu: true
-  showUnpermittedFiles: false
-  showUnpermittedVolumes: false
-  sources: '*'
-  targetSiteId: null
-  validateRelatedElements: false
-  viewMode: list
+  viewMode: cards
 translationKeyFormat: null
-translationMethod: none
-type: craft\fields\Assets
+translationMethod: site
+type: craft\fields\Matrix
