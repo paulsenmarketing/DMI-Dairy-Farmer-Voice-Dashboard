@@ -12,25 +12,21 @@ settings:
       -
         - images
         - '*'
-  ignoreFilesOfType:
-    - image/svg
-    - image/gif
-    - application/pdf
   variants:
     -
       __assoc__:
         -
           - width
-          - '640'
+          - '1200'
         -
           - useAspectRatio
           - ''
         -
           - aspectRatioX
-          - '4'
+          - '16'
         -
           - aspectRatioY
-          - '3'
+          - '9'
         -
           - retinaSizes
           -
@@ -40,7 +36,31 @@ settings:
           - '82'
         -
           - format
+          - jpg
+    -
+      __assoc__:
+        -
+          - width
+          - '992'
+        -
+          - useAspectRatio
           - ''
+        -
+          - aspectRatioX
+          - '16'
+        -
+          - aspectRatioY
+          - '9'
+        -
+          - retinaSizes
+          -
+            - '1'
+        -
+          - quality
+          - '82'
+        -
+          - format
+          - jpg
     -
       __assoc__:
         -
@@ -61,82 +81,34 @@ settings:
             - '1'
         -
           - quality
-          - '82'
+          - '60'
         -
           - format
-          - ''
+          - jpg
     -
       __assoc__:
         -
           - width
-          - '1024'
+          - '576'
         -
           - useAspectRatio
-          - '1'
+          - ''
         -
           - aspectRatioX
-          - '16'
+          - '4'
         -
           - aspectRatioY
-          - '9'
+          - '3'
         -
           - retinaSizes
           -
             - '1'
         -
           - quality
-          - '82'
+          - '60'
         -
           - format
-          - ''
-    -
-      __assoc__:
-        -
-          - width
-          - '1280'
-        -
-          - useAspectRatio
-          - ''
-        -
-          - aspectRatioX
-          - '16'
-        -
-          - aspectRatioY
-          - '9'
-        -
-          - retinaSizes
-          -
-            - '1'
-        -
-          - quality
-          - '82'
-        -
-          - format
-          - ''
-    -
-      __assoc__:
-        -
-          - width
-          - '1536'
-        -
-          - useAspectRatio
-          - ''
-        -
-          - aspectRatioX
-          - '16'
-        -
-          - aspectRatioY
-          - '9'
-        -
-          - retinaSizes
-          -
-            - '1'
-        -
-          - quality
-          - '82'
-        -
-          - format
-          - ''
+          - jpg
 translationKeyFormat: null
 translationMethod: none
 type: nystudio107\imageoptimize\fields\OptimizedImages

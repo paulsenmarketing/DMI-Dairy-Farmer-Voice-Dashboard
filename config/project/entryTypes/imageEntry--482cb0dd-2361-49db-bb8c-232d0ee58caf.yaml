@@ -61,6 +61,22 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:24:16+00:00'
+            elementCondition: null
+            fieldUid: 887390ca-8489-475a-9886-66512edb064d # Image Aspect Ratio
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31316369-6d26-4abc-8cfd-b95c67c60644
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-10-03T19:59:45+00:00'
             elementCondition: null
             fieldUid: 749f7160-6822-4173-a24f-05da77c1e381 # Image Fit

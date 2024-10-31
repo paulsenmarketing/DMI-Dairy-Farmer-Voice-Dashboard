@@ -1,6 +1,6 @@
-color: yellow
+color: teal
 fieldLayouts:
-  33ebdfdb-0053-4c6a-ac90-a5eed9abec64:
+  8ad825f2-8209-4f78-91c7-1a5933253c5f:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-30T21:04:18+00:00'
+            dateAdded: '2024-10-30T19:13:19+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 7c3ffcbf-9406-49c9-9069-46589de78626
+            uid: 3443b21e-6f8e-4533-ade1-acb783a10900
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-30T21:04:18+00:00'
+            dateAdded: '2024-10-30T19:22:48+00:00'
             elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
+            fieldUid: 6b516ae6-9087-4a38-b07a-5ab673960f51 # Spacing
             handle: null
             includeInCards: false
             instructions: null
@@ -47,14 +47,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2be076f4-0ddd-449e-9cdc-edbaf71e90c9
+            uid: 404779ba-f459-4270-890a-23c4631bea2d
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-30T21:04:18+00:00'
+            dateAdded: '2024-10-30T19:22:48+00:00'
             elementCondition: null
-            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
+            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Background Color
             handle: null
             includeInCards: false
             instructions: null
@@ -63,14 +63,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e873590e-7cd2-4d5a-b5d9-e1bbbebf1d7f
+            uid: 949304ef-4dcf-431d-ac86-6c329b89b9ed
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-30T21:11:24+00:00'
+            dateAdded: '2024-10-30T19:22:48+00:00'
             elementCondition: null
-            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
+            fieldUid: 3a006abe-2582-4ef2-8d3b-719b24835644 # Anchor Tag
             handle: null
             includeInCards: false
             instructions: null
@@ -79,17 +79,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 551b72f4-7924-4da1-95a4-38e123a0c935
+            uid: ac737e93-df33-4bc8-b15c-c8b9ccb6dbd8
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 952e4074-c63e-43c2-b298-cf10dd829e26
+        uid: 1ae48045-b0d0-40dc-926b-64dd4493c12c
         userCondition: null
-handle: heroBlock
-hasTitleField: true
-icon: mask
-name: 'Hero Block'
+handle: spacer
+hasTitleField: false
+icon: shuttle-space
+name: Spacer
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

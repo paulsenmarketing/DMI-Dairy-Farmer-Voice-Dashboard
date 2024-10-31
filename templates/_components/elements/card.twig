@@ -23,6 +23,8 @@
 
 {% macro imageVertical(data) %}
    {% import '_components/elements/button.twig' as Button %}
+   {% import '_components/elements/_basic.twig' as Basic  %}
+
    {% if data is null %}
       {{ dump('No data was passed to the Image Card element! Placeholder data will be used.') }}
       {% set data = {
@@ -34,7 +36,9 @@
    {% endif %}
    <div class="h-full w-full overflow-hidden border border-surface-200/60 bg-surface-50 text-neutral-700 rounded shadow-sm hover:shadow-md max-w-sm hover:scale-[1.01] transition-transform flex flex-col justify-between">
       <div>
-         <img class="flex w-full aspect-square object-cover object-center" src="{{ data.image }}"  alt=""/>
+         <div class="flex w-full aspect-square object-cover object-center">
+            {{ Basic.ImageOriginal(data.singleImage.one()) }}
+         </div>
 
          <div class="prose-sm md:prose p-7">
             <h2>{{ data.title }}</h2>
