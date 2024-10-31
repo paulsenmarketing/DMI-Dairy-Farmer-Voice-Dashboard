@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-10-30T21:21:26+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:21:26+00:00'
             elementCondition: null
             fieldUid: 6ec7e276-7e29-49f7-8f38-66c54284cb8e # Image Card Fields
             handle: null
@@ -56,6 +58,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-10-30T21:21:26+00:00'
             elementCondition: null
             fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Grid Toggle
             handle: null
@@ -71,6 +74,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-30T21:21:26+00:00'
             elementCondition: null
             fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
             handle: null

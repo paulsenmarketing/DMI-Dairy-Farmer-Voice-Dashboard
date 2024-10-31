@@ -4,11 +4,11 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
 #}
 
 {% import '_components/elements/card.twig' as Card %}
-{% extends '_layouts/blockWrapper.twig' %}
+{#{% extends '_layouts/blockWrapper.twig' %}#}
 
 {% block blockWrapper %}
    {% if block.toggle is empty %}
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="block-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
          {% for card in block.imageCardFields %}
             {{ Card.imageVertical(card) }}
          {% endfor %}
@@ -38,7 +38,7 @@ the block has two possible layouts (grid and carousel), and will dynamically dis
           }
 
       }" class="w-full h-full">
-         <section x-ref="swiper" class="swiper px-20 w-full h-full">
+         <section x-ref="swiper" class="swiper px-20 w-full h-full block-container">
             <div class="swiper-wrapper">
                {% for card in block.imageCardFields %}
                   <div class="swiper-slide flex flex-col items-center justify-center pb-8">
