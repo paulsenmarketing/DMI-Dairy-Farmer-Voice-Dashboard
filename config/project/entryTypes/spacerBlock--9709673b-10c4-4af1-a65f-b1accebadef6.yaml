@@ -86,7 +86,7 @@ fieldLayouts:
         name: Content
         uid: 1ae48045-b0d0-40dc-926b-64dd4493c12c
         userCondition: null
-handle: spacer
+handle: spacerBlock
 hasTitleField: false
 icon: shuttle-space
 name: Spacer
