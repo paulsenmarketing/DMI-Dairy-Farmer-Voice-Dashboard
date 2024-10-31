@@ -1,4 +1,4 @@
-dateModified: 1730389496
+dateModified: 1730400289
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -61,6 +61,7 @@ meta:
     182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
+    742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
     809b7984-2725-4016-bd55-1e7e668cb7aa: 'Text Alignment (Left, Right)' # Text Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
@@ -100,6 +101,7 @@ meta:
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
+    e79ce700-64d0-424a-b855-8a542dad2c40: Images # Images
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform
