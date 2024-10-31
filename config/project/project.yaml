@@ -1,4 +1,4 @@
-dateModified: 1729863563
+dateModified: 1730325132
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -63,6 +63,7 @@ meta:
     5510aacf-c9c9-4654-83e8-f88a1ee226cb: Images # Images
     54940bf8-8a70-4f58-bb12-7742cdb3beaa: lg # lg
     721054c3-0bf9-4471-9b23-19a86645b4ae: 'Hero Block' # Hero Block
+    887390ca-8489-475a-9886-66512edb064d: 'Image Aspect Ratio' # Image Aspect Ratio
     0976295b-959e-48f5-9ceb-73d054333989: sm # sm
     2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: 'Alignment (Left, Middle, Right)' # Alignment (Left, Middle, Right)
     3080309c-cc07-4af0-aef6-94a96f235885: 'Media Block' # Media Block
@@ -128,7 +129,7 @@ plugins:
     licenseKey: 4ZS6Y5J6LZRCBDIW5N01WDE7
     schemaVersion: 1.0.0
     settings:
-      allowUpScaledImageVariants: false
+      allowUpScaledImageVariants: true
       assetVolumeSubFolders: true
       autoSharpenScaledImages: true
       capSilhouetteSvgSize: true
@@ -158,7 +159,7 @@ plugins:
               __assoc__:
                 -
                   - baseUrl
-                  - $AWS_LAMBDA_URL
+                  - ''
           -
             - nystudio107\imageoptimizethumbor\imagetransforms\ThumborImageTransform
             -

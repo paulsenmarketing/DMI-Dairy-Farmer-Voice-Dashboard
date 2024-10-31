@@ -96,7 +96,7 @@ settings:
           - '1280'
         -
           - useAspectRatio
-          - '1'
+          - ''
         -
           - aspectRatioX
           - '16'
@@ -120,7 +120,7 @@ settings:
           - '1536'
         -
           - useAspectRatio
-          - '1'
+          - ''
         -
           - aspectRatioX
           - '16'

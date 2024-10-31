@@ -7,6 +7,11 @@ settings:
   displayDominantColorPalette: true
   displayLazyLoadPlaceholderImages: true
   displayOptimizedImageVariants: true
+  fieldVolumeSettings:
+    __assoc__:
+      -
+        - images
+        - '*'
   ignoreFilesOfType:
     - image/svg
     - image/gif
