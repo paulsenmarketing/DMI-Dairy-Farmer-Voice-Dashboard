@@ -1,4 +1,4 @@
-dateModified: 1730323407
+dateModified: 1730389496
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -30,12 +30,14 @@ meta:
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
+    3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
     6b516ae6-9087-4a38-b07a-5ab673960f51: Spacing # Spacing
     6e5733fa-9c11-421c-a7db-5a61c51e12d2: sm # sm
+    6e40709b-930b-437b-989e-1f072d239a51: Quote # Quote
     6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
     6f45cb17-943a-49cb-8476-fcc0b59a7747: 'Contact Form' # Contact Form
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
@@ -50,6 +52,7 @@ meta:
     65b22a67-97ad-481e-ab6d-d2fd2a2721f8: Padding # Padding
     68dd303d-90e5-40b0-bce7-c0069a17ad01: 'Rich Text (50 word limit)' # Rich Text (50 word limit)
     70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
+    74e5a566-f44f-4607-8989-63304848426f: 'Testimonial Matrix' # Testimonial Matrix
     75a04e68-45ae-4f9f-8a38-7cc3eb5ec402: New # New
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle

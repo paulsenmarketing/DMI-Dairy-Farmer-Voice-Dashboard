@@ -19,6 +19,7 @@ settings:
     - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi Image Block
     - 934f8a14-7f2b-4c5b-bb32-112150bd0f8b # Image Gallery Block
     - 835b9ebf-3326-478b-a1a3-0db340ababe7 # Fancy Carousel Block
+    - 3ee58561-cac5-42c7-947f-c2073e03f045 # Testimonial Slider
     - 9709673b-10c4-4af1-a65f-b1accebadef6 # Spacer
   includeTableView: false
   maxEntries: null
