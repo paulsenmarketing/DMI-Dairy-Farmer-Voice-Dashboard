@@ -8,6 +8,7 @@ settings:
   entryTypes:
     - cb84b102-9d2a-44d7-9dd4-ff477f0d8e56 # Accordion Block
     - d956e446-2ce5-4a03-b31f-178d38c4e3e8 # Alert Block
+    - a3b70076-a07c-4e65-87eb-c5052465d0d8 # Blog Preview
     - c02a173a-659a-474f-a8d0-d1cf4b6d7fb5 # Card Block
     - 721054c3-0bf9-4471-9b23-19a86645b4ae # Hero Block
     - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block

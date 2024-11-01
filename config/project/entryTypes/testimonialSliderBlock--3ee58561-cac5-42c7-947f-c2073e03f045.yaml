@@ -54,7 +54,7 @@ fieldLayouts:
         name: Content
         uid: 6876c5e7-b764-4caa-9cb9-5ba17770821f
         userCondition: null
-handle: testimonialSlider
+handle: testimonialSliderBlock
 hasTitleField: false
 icon: person-sledding
 name: 'Testimonial Slider'

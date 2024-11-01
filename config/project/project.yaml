@@ -1,4 +1,4 @@
-dateModified: 1730409835
+dateModified: 1730472475
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -80,6 +80,7 @@ meta:
     9709673b-10c4-4af1-a65f-b1accebadef6: Spacer # Spacer
     70200005-251c-49f6-8925-fc4d00d7c8c2: z-index # z-index
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
+    a3b70076-a07c-4e65-87eb-c5052465d0d8: 'Blog Preview' # Blog Preview
     a6eaf89c-965b-42ff-ba4f-99667f42a0b0: Color # Color
     a95cfa5d-8fcc-4798-99be-4347db515555: xl # xl
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
@@ -102,6 +103,7 @@ meta:
     d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
+    dc5d1753-a61d-4d77-a754-a714afe343b3: 'Blog Preview' # Blog Preview
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
     e79ce700-64d0-424a-b855-8a542dad2c40: Images # Images
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default

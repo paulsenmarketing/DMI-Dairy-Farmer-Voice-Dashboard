@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 5c8911be-cceb-470a-8a6e-0c9ead9c2142 # Standard Page
+  - dc5d1753-a61d-4d77-a754-a714afe343b3 # Blog Preview
 handle: blogPosts
 maxAuthors: 1
 name: 'Blog Posts'
