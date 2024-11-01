@@ -21,9 +21,9 @@
             {% if node.hasDescendants() %}
                {{ macros.navNodes(node) }}
             {% else %}
-               <button href="{{ node.url }}" class="px-4 py-2 text-surface-800 hover:text-surface-900 hover:bg-surface-300 hover:shadow-inner transition-colors duration-200" >
+               <a href="/{{ node.url }}" class="px-4 py-2 text-surface-800 hover:text-surface-900 hover:bg-surface-300 hover:shadow-inner transition-colors duration-200" >
                   {{ node.title }}
-               </button>
+               </a>
             {% endif %}
          {% endfor %}
       </div>
@@ -65,13 +65,13 @@
         x-data="{open: false}"
         x-on:mouseleave="open = false">
 
-         <button href="{{ node.url }}"
+         <a href="/{{ node.url }}"
                  x-on:mouseenter="open = true"
                  :class="open ? 'bg-surface-300 text-surface-900 shadow-inner' : ''"
                  class="relative px-4 py-2 flex text-surface-800 transition-colors duration-200">
 
             {{ node.title }} <span :class="open ? 'rotate-90 origin-center' : ''" class="pl-1 transition-transform"><i data-lucide="chevron-right"></i></span>
-         </button>
+         </a>
 
          <ul
             x-show="open"
@@ -93,7 +93,7 @@
             {{ macros.subNavNodes(subnode) }}
          {% endfor %}
       {% else %}
-         <li class="text-primary-800 hover:text-primary-600 hover:bg-surface-100"><a href="{{ node.url }}">{{ node.title }}</a></li>
+         <li class="text-primary-800 hover:text-primary-600 hover:bg-surface-100"><a href="/{{ node.url }}">{{ node.title }}</a></li>
       {% endif %}
 {% endmacro %}
 
@@ -102,7 +102,7 @@
    {% import _self as macros %}
    {% for subnode in node %}
       {% if node.hasDescendants() %}
-            <button>Subnodes:</button>
+            <a>Subnodes:</a>
             {{ macros.mobileNavNodes(subnode) }}
 
       {% else %}

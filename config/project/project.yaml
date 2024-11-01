@@ -1,4 +1,4 @@
-dateModified: 1730389496
+dateModified: 1730409835
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -46,6 +46,7 @@ meta:
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
     22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
+    34c2d3a9-93f5-4d47-9ca6-152a36cfcd2f: Blog # Blog
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
     43e1e321-b408-4cb8-b7f4-c26babd2b9b5: 'Url Field' # Url Field
@@ -61,6 +62,7 @@ meta:
     182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: craft-five-bp # craft-five-bp
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
+    742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
     809b7984-2725-4016-bd55-1e7e668cb7aa: 'Text Alignment (Left, Right)' # Text Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
@@ -86,6 +88,7 @@ meta:
     b02140d6-3b36-49ff-84fa-a24d268fdc67: 'Image Card Block' # Image Card Block
     b0894349-cbe1-4e8e-bd56-0e0740480ead: 'Fancy Image Array 1' # Fancy Image Array 1
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
+    b889fd48-564d-4cbb-b469-fc6ca4288561: 'Blog Posts' # Blog Posts
     b300516a-a7e5-40e6-b9ec-4c3ea6f7d331: 'Square Image Transform' # Square Image Transform
     b2611308-ab3e-47ec-baf2-e7b34a1d1981: Saturation # Saturation
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
@@ -100,6 +103,7 @@ meta:
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
+    e79ce700-64d0-424a-b855-8a542dad2c40: Images # Images
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform

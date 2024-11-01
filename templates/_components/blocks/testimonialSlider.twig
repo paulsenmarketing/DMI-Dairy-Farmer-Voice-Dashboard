@@ -16,14 +16,14 @@
         }, 0);
     ">
 
-    <div class="w-full container max-sm:px-8 test-bullets swiper-container">
+    <div class="w-full container max-sm:px-8 test-bullets swiper-container relative">
         {# slide control arrows #}
-        <button class="max-lg:hidden absolute rotate-180 group left-3 2xl:left-12 z-50 mt-[10%]" @click="swiper.slidePrev()">
+        <button class="max-lg:hidden absolute rotate-180 group left-3 2xl:left-12 z-50 top-1/2 transform -translate-y-1/2" @click="swiper.slidePrev()">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-20 aspect-square stroke-black" viewBox="0 0 24 24" stroke-linecap="square">
                 <path class="fill-none" d="m12 16 4-4-4-4"></path>
             </svg>
         </button>
-        <button class="max-lg:hidden absolute group right-3 2xl:right-12 z-50 mt-[10%]" @click="swiper.slideNext()">
+        <button class="max-lg:hidden absolute group right-3 2xl:right-12 z-50 top-1/2 transform -translate-y-1/2" @click="swiper.slideNext()">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-20 aspect-square stroke-black" viewBox="0 0 24 24" stroke-linecap="square">
                 <path class="fill-none" d="m12 16 4-4-4-4"></path>
             </svg>
