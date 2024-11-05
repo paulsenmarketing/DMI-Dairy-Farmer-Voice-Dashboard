@@ -73,22 +73,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            dateAdded: '2024-11-05T16:43:08+00:00'
-            elementCondition: null
-            fieldUid: c049360f-73ed-4cf3-9f63-34b9533c1a83 # Navbar Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 73f8c840-3959-4619-8c2a-186dbdafb410
-            userCondition: null
-            warning: null
-            width: 100
         name: SEO
         uid: 8501a5a5-f0c3-4c92-8b99-c0886b202a08
         userCondition: null
