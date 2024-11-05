@@ -1,4 +1,4 @@
-dateModified: 1730472475
+dateModified: 1730824988
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -56,6 +56,7 @@ meta:
     74e5a566-f44f-4607-8989-63304848426f: 'Testimonial Matrix' # Testimonial Matrix
     75a04e68-45ae-4f9f-8a38-7cc3eb5ec402: New # New
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
+    81e966b9-1ec1-49ba-a12f-d566a491d98f: 'SEO Fields' # SEO Fields
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
     94c492e6-2585-46cd-b5f7-277f35023321: 'Single Image' # Single Image
@@ -95,6 +96,7 @@ meta:
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
+    c049360f-73ed-4cf3-9f63-34b9533c1a83: 'Navbar Image' # Navbar Image
     c4675426-8603-42ce-a45a-e8d3719afcb4: 2xl # 2xl
     ca87968d-6314-43fe-ac02-19e6b907e322: 2xl # 2xl
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block

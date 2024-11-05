@@ -67,22 +67,33 @@
 {# Desktop Main Links #}
 {% macro navNodes(node) %}
     {% import _self as macros %}
-    <div class="group" x-data="{open: false}" x-on:mouseleave="open = false">
-        <a href="{{ node.url }}" x-on:mouseenter="open = true" :class="open ? 'bg-surface-300 text-black shadow-inner' : ''" class="px-6 py-4 flex text-black transition-colors duration-200 w-max">
-
-            {{ node.title }} {% if node.hasDescendants() %} <span :class="open ? 'rotate-90 origin-center' : ''" class="pl-1 transition-transform"><i data-lucide="chevron-right" class="stroke-black"></i></span> {% endif %}
+    <div class="group" x-data="{ open: false }" x-on:mouseleave="open = false">
+        <a href="{{ node.url }}"
+           x-on:mouseenter="open = true"
+           :class="open ? 'bg-surface-300 text-black shadow-inner' : ''"
+           class="px-6 py-4 flex text-black transition-colors duration-200 w-max">
+            {{ node.title }}
+            {% if node.hasDescendants() %}
+                <span :class="open ? 'rotate-90 origin-center' : ''" class="pl-1 transition-transform">
+                    <i data-lucide="chevron-right" class="stroke-black"></i>
+                </span>
+            {% endif %}
         </a>
         {% if node.hasDescendants() %}
-            <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 transform scale-95" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-95" @mouseenter="open = true"
+            <div x-show="open"
+                 x-transition:enter="transition ease-out duration-200"
+                 x-transition:enter-start="opacity-0 transform scale-95"
+                 x-transition:enter-end="opacity-100 transform scale-100"
+                 x-transition:leave="transition ease-in duration-150"
+                 x-transition:leave-start="opacity-100 transform scale-100"
+                 x-transition:leave-end="opacity-0 transform scale-95"
+                 @mouseenter="open = true"
                  class="absolute left-0 right-0 mt-0 bg-gray-200 shadow-lg">
                 <div class="block-container p-6">
                     <div class="flex justify-between">
                         {% for subnode in node.children() %}
                             {{ macros.megaMenuColumn(subnode) }}
                         {% endfor %}
-                        <div>
-                            <img src="https://druindemo.s3.amazonaws.com/istockphoto-1147544807-612x612.jpg" alt="img" class="max-w-[300px] max-h-[400px] h-full">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -93,13 +104,19 @@
 {% macro megaMenuColumn(node) %}
     <div>
         <h3 class="text-lg font-semibold mb-3">
-            <a href="{{ node.url }}" class="text-black hover:text-gray-700">{{ node.title }}</a>
+            <a href="{{ node.url }}"
+               class="text-black hover:text-gray-700">
+                {{ node.title }}
+            </a>
         </h3>
         {% if node.hasDescendants() %}
             <ul class="space-y-2">
                 {% for subnode in node.children() %}
                     <li class="py-2">
-                        <a href="{{ subnode.url }}" class="text-gray-600 hover:text-black">{{ subnode.title }}</a>
+                        <a href="{{ subnode.url }}"
+                           class="text-gray-600 hover:text-black">
+                            {{ subnode.title }}
+                        </a>
                     </li>
                 {% endfor %}
             </ul>
