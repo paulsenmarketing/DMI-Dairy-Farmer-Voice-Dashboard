@@ -25,10 +25,10 @@
       %}
    {% endif %}
 
-   <button type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 text-sm text-primary-700 hover:text-primary-800 font-medium tracking-wide transition-colors duration-200 bg-surface-50 border-2 rounded border-surface-900 hover:bg-surface-900">
+   <a type="button" href="{{ data.buttonLink }}" class="inline-flex items-center justify-center px-4 py-2 my-4 text-sm text-black tracking-wide transition-colors duration-200 border-[2px] rounded-full border-black group hover:bg-black hover:text-white">
       <span>{{ data.buttonText }}</span>
-      <i class="stroke-white hover:stroke-red-500 ml-2" data-lucide="arrow-right"></i>
-   </button>
+      <i class="stroke-black group-hover:stroke-white ml-2" data-lucide="arrow-right"></i>
+   </a>
 
 {% endmacro %}
 
