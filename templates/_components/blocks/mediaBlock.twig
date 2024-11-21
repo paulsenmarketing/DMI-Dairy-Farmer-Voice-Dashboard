@@ -1,21 +1,20 @@
 {% extends '_layouts/blockWrapper.twig' %}
-
 {% import '_components/elements/_basic.twig' as Basic  %}
 
 {% set textAlignment = {
-   'left': 'md:flex-row',
-   'right': 'md:flex-row-reverse'
+   'left': 'order-first',
+   'right': 'order-last'
 } %}
 
 {% block blockWrapper %}
 {% if block.singleImage %}
-   <div class="flex flex-col {{ textAlignment[block.textAlignmentLR.value] }} w-full gap-12">
-      <div class="w-full md:w-1/2 my-auto prose">
+   <div class="grid grid-cols-1 md:grid-cols-2 w-full md:gap-12 my-4">
+      <div class="w-full prose flex flex-col justify-center py-8 {{ textAlignment[block.textAlignmentLR.value] }}">
          {{ Basic.Title(block.title) }}
          {{ Basic.Subtitle(block.subtitle) }}
          {{ Basic.RichText(block.richText) }}
       </div>
-      <div class="w-full md:w-1/2 h-[600px] overflow-clip rounded-md object-center">
+      <div class="min-w-full md:min-w-[calc(50%-24px)] h-[600px] overflow-clip rounded-md object-center">
          {# handle an image or a video - if neighter are uploaded we're going to render a normal text block #}
          {% if not block.mediaToggle %}
                {{ Basic.ImageOriginal(block.singleImage|first) }}
@@ -27,7 +26,7 @@
       </div>
    </div>
 {% else %}
-   {# if there isn't an image or video, we fall back to a dimple text block #}
+   {# if there isn't an image or video, we fall back to a simple text block #}
    {{ include('_components/blocks/richTextBlock.twig') }}
 {% endif %}
 {% endblock %}

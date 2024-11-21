@@ -42,7 +42,7 @@
 
 @layer components {
     .block-container {
-        @apply container mx-auto px-8 sm:px-0;
+        @apply container mx-auto;
     }
     .expand {
         @apply w-full h-full;
