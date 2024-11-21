@@ -54,28 +54,6 @@ fieldLayouts:
         name: Content
         uid: 50537173-cab9-4c25-bd90-194e5ee9d24a
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2024-11-04T21:51:38+00:00'
-            elementCondition: null
-            fieldUid: 81e966b9-1ec1-49ba-a12f-d566a491d98f # SEO Fields
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 348bdb5e-b579-4a46-9bec-ee5d62ed2236
-            userCondition: null
-            warning: null
-            width: 100
-        name: SEO
-        uid: 8501a5a5-f0c3-4c92-8b99-c0886b202a08
-        userCondition: null
 handle: standardPage
 hasTitleField: true
 icon: file
