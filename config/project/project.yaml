@@ -1,9 +1,28 @@
-dateModified: 1732226056
+dateModified: 1732288077
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  embeds:
+    hasUrls: true
+    name: Embeds
+    settings:
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: $S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $S3_KEY_ID
+      makeUploadsPublic: true
+      region: $S3_REGION
+      secret: $S3_SECRET
+      storageClass: ''
+      subfolder: ''
+    type: craft\awss3\Fs
+    url: $S3_ASSET_DOMIAN
   images:
     hasUrls: true
     name: Images
@@ -30,6 +49,7 @@ meta:
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
+    3e9b0822-f59b-476d-8610-ab0441086c64: Video # Video
     3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
@@ -112,6 +132,7 @@ meta:
     f37cefb7-0c36-4816-a8d5-8867fce5aa85: 'Original Image Transform' # Original Image Transform
     f59f7298-ab15-4754-85da-be8444a1f7cc: lg # lg
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
+    fa0a59fb-e21a-41cb-a502-55d8a46dda8d: 'Asset Embeds' # Asset Embeds
     fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06: 'Background Color' # Background Color
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
     fee1d400-8cc0-4a1d-a4ab-abea20b457de: 'Alert Type' # Alert Type

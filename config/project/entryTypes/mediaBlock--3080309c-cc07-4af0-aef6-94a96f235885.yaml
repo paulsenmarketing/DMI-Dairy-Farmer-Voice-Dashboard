@@ -25,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -158,6 +158,22 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 51fa6051-482e-4ec2-b107-a66056b09c75
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-22T14:52:39+00:00'
+            elementCondition: null
+            fieldUid: 3e9b0822-f59b-476d-8610-ab0441086c64 # Video
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dacc2a96-e440-497b-8444-819757764d0f
             userCondition: null
             warning: null
             width: 100

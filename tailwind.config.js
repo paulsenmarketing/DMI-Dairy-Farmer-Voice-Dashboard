@@ -20,7 +20,9 @@ export default {
       "colors": {
         // custom color pallet generated here: https://www.tints.dev/brand/4DD3FF
         // add as many named colors as you feel you need
+        "text": '#181D20',
         "primary": {
+          default: "#70DBFF",
           50: "#F0FBFF",
           100: "#DBF6FF",
           200: "#B8EDFF",
@@ -34,6 +36,7 @@ export default {
           950: "#001B24"
         },
         "surface": {
+          default: "#5D6F79",
           50: "#F1F3F4",
           100: "#E5E9EB",
           200: "#C8D0D5",
