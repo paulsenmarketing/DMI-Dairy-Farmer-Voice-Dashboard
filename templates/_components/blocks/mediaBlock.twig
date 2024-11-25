@@ -1,6 +1,6 @@
 {% extends '_layouts/blockWrapper.twig' %}
 {% import '_components/elements/_basic.twig' as Basic  %}
-{% set video = block.video.eagerly().one() ?? '' %}
+{% set video = block.singleVideo.eagerly().one() ?? '' %}
 
 {% set textAlignment = {
    'left': 'order-first',
@@ -9,7 +9,7 @@
 
 {% block blockWrapper %}
 {% if block.singleImage %}
-   <div class="grid grid-cols-1 md:grid-cols-2 w-full gap-4 md:gap-12 my-4">
+   <div class="grid grid-cols-1 md:grid-cols-2 w-full gap-4 md:gap-12 my-block">
       <div class="w-full prose flex flex-col justify-center py-8 {{ textAlignment[block.textAlignmentLR.value] }}">
          {{ Basic.Title(block.title) }}
          {{ Basic.Subtitle(block.subtitle) }}
@@ -26,8 +26,6 @@
                   {{ Basic.Video(video) }}
                </div>
             </div>
-
-
          {% else %}
             {{ dump('error loading media') }}
          {% endif %}
@@ -36,6 +34,5 @@
 {% else %}
    {# if there isn't an image or video, we fall back to a simple text block #}
    {{ include('_components/blocks/richTextBlock.twig') }}
-
 {% endif %}
 {% endblock %}

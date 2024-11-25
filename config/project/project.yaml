@@ -1,4 +1,4 @@
-dateModified: 1732288077
+dateModified: 1732292169
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -49,7 +49,7 @@ meta:
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
-    3e9b0822-f59b-476d-8610-ab0441086c64: Video # Video
+    3e9b0822-f59b-476d-8610-ab0441086c64: 'Single Video' # Single Video
     3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
@@ -125,7 +125,6 @@ meta:
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
     dc5d1753-a61d-4d77-a754-a714afe343b3: 'Blog Preview' # Blog Preview
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
-    e79ce700-64d0-424a-b855-8a542dad2c40: Images # Images
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform

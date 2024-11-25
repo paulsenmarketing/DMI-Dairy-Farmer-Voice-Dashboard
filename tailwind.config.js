@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+import colors from "tailwindcss/colors";
+import plugin from "tailwindcss/plugin";
+
 export default {
   mode: 'jit',
   content: ['./templates/**/*.twig', './src/**/*.css'],
@@ -49,14 +53,10 @@ export default {
           900: "#181D20",
           950: "#0B0D0E"
         },
-        // another example of more brand-specific color scheme
-        // "brandLightGreen": "#93B44D",
-        // "brandDarkGreen": "#033211",
-        // "brandOrange": "#FC6B30",
-        // "brandBlue": "#C4E9FB",
-        // "brandTan": "#FFF3E3",
-        // "brandLightBrown": "#D3B986",
-        // "brandDarkBrown": "#6C4A27",
+        // !! NOTE !! _ per the plugin definition at the end of the file, this spacing extension is only applied to my-*
+        "spacing": {
+          "block": '8rem'
+        }
       }
     },
   },
@@ -64,6 +64,13 @@ export default {
     require("@tailwindcss/typography"),
     require('tailwindcss-animated'),
     require('tailwindcss-intersect'),
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    plugin(function({ addUtilities }) {
+      const testUtilities = {
+        '.my-block': { marginTop: '8rem', marginBottom: '8rem' },
+      };
+
+      addUtilities(testUtilities, ['responsive', 'hover']);
+    }),
   ],
 }

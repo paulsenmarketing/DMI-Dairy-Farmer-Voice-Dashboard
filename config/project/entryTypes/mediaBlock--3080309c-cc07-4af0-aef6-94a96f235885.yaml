@@ -102,28 +102,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-10-03T20:08:46+00:00'
-            elementCondition: null
-            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e6552a63-7a74-4e3b-b122-dab6f0e535e7
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-10-03T20:29:03+00:00'
-            elementCondition: null
-            type: craft\fieldlayoutelements\LineBreak
-            uid: 663deb45-418b-4834-8a31-7bd2a1c5a932
-            userCondition: null
-          -
             dateAdded: '2024-10-02T20:46:23+00:00'
             elementCondition: null
             fieldUid: 42f330ea-8d32-462a-b565-473ac818c838 # Media Toggle
@@ -140,35 +118,35 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-03T20:15:05+00:00'
+            dateAdded: '2024-11-22T16:02:05+00:00'
             elementCondition: null
-            type: craft\fieldlayoutelements\LineBreak
-            uid: 781aca9f-3b99-499e-ad9a-6d4f3d4ca157
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 57c4b3b8-ce5d-4724-926c-13f7b1aaa02e
             userCondition: null
           -
-            dateAdded: '2024-10-03T20:15:05+00:00'
+            dateAdded: '2024-10-03T20:08:46+00:00'
             elementCondition: null
-            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
-            handle: videoPlaceholder
+            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
+            handle: null
             includeInCards: false
             instructions: null
-            label: 'Video Placeholder'
+            label: Image
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 51fa6051-482e-4ec2-b107-a66056b09c75
+            uid: e6552a63-7a74-4e3b-b122-dab6f0e535e7
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
             dateAdded: '2024-11-22T14:52:39+00:00'
             elementCondition: null
-            fieldUid: 3e9b0822-f59b-476d-8610-ab0441086c64 # Video
+            fieldUid: 3e9b0822-f59b-476d-8610-ab0441086c64 # Single Video
             handle: null
             includeInCards: false
             instructions: null
-            label: null
+            label: Video
             providesThumbs: false
             required: false
             tip: null
@@ -176,7 +154,7 @@ fieldLayouts:
             uid: dacc2a96-e440-497b-8444-819757764d0f
             userCondition: null
             warning: null
-            width: 100
+            width: 50
         name: Media
         uid: 510d8497-0cf0-4e0f-8fc0-f114eb7bb514
         userCondition: null

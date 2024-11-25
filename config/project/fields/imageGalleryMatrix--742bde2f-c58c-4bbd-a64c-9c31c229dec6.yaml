@@ -6,7 +6,7 @@ searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
-    - e79ce700-64d0-424a-b855-8a542dad2c40 # Images
+    - e79ce700-64d0-424a-b855-8a542dad2c40
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: video
+handle: singleVideo
 instructions: null
-name: Video
+name: 'Single Video'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -12,8 +12,8 @@ settings:
   defaultUploadLocationSource: 'volume:fa0a59fb-e21a-41cb-a502-55d8a46dda8d' # Asset Embeds
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
-  maxRelations: null
-  minRelations: null
+  maxRelations: 1
+  minRelations: 1
   previewMode: full
   restrictFiles: false
   restrictLocation: false
