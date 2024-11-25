@@ -1,7 +1,7 @@
-{% import '_components/elements/alert.twig' as Alert %}
+{% import '_components/components/alert.twig' as Alert %}
 {% extends '_layouts/blockWrapper.twig' %}
 {% block blockWrapper %}
-      <div class="max-w-xl mx-auto my-20">
-            {{ Alert.pines(block) }}
+      <div class="max-w-screen-lg mx-auto my-20">
+            {{ Alert.Default(block) }}
       </div>
 {% endblock %}

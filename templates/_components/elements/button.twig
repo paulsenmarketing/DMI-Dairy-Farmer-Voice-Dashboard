@@ -1,22 +1,32 @@
-{% macro filled(data) %}
+{% macro Filled(data) %}
+
+   {% set buttonType = {
+      'default': 'bg-natural-900',
+      'info': 'bg-blue-500',
+      'warning': 'bg-red-500',
+      'question': 'bg-purple-500',
+      'caution': 'bg-yellow-600',
+      'ok': 'bg-green-500'
+   } %}
+
 
    {% if data is null %}
       {{ dump('No data was passed to the Button element! Placeholder data will be used.') }}
       {% set data = {
          buttonText: 'Click Me',
-         buttonLink: '/' }
+         buttonLink: '/',
+         }
       %}
-
    {% endif %}
 
-   <button type="button" href="{{ data.buttonLink }}" class="w-full flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide bg-surface-800 hover:bg-surface-900 text-primary-100 hover:text-primary-300 transition-colors duration-200 rounded focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none group">
+   <button type="button" href="{{ data.buttonLink }}" class="w-full flex items-center justify-center px-4 py-2 text-sm font-medium tracking-wide {{ buttonType[data.type ?? 'default'] }} hover:bg-surface-900 text-primary-100 hover:text-primary-300 transition-colors duration-200 rounded focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none group">
       <span>{{ data.buttonText }}</span>
       <i class="stroke-primary-100 group-hover:stroke-primary-300 ml-2" data-lucide="arrow-right"></i>
    </button>
 
 {% endmacro %}
 
-{% macro outline(data) %}
+{% macro Outline(data) %}
 
    {% if data is null %}
       {{ dump('No data was passed to the Button element! Placeholder data will be used.') }}
@@ -33,7 +43,7 @@
 
 {% endmacro %}
 
-{% macro social(site, url) %}
+{% macro Social(site, url) %}
    {# as Lucide social SVGs are being depreciated, we're using social media links from https://simpleicons.org/ as per Ludide's reccomendation #}
    {% if site == 'linkedin' %}
       <button type="button" href="{{ url }}" class="aspect-square bg-surface-700 hover:bg-surface-800 group transition-colors duration-200 flex justify-center items-center w-12 p-2 rounded">

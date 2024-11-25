@@ -13,6 +13,7 @@
     "spicyweb/craft-embedded-assets": "5.4.0",
     "topshelfcraft/wordsmith": "^3.0",
     "verbb/formie": "3.0.12",
+    "verbb/icon-picker": "3.0.2",
     "verbb/navigation": "3.0.5",
     "vlucas/phpdotenv": "^5.4.0"
   },

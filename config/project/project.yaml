@@ -1,4 +1,4 @@
-dateModified: 1732292169
+dateModified: 1732575378
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -84,7 +84,7 @@ meta:
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
     742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
-    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Text Alignment (Left, Right)' # Text Alignment (Left, Right)
+    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
     934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
     3331cea5-375b-4e4d-84cc-103b3e1e934c: xl # xl
@@ -110,6 +110,7 @@ meta:
     b0894349-cbe1-4e8e-bd56-0e0740480ead: 'Fancy Image Array 1' # Fancy Image Array 1
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
     b889fd48-564d-4cbb-b469-fc6ca4288561: 'Blog Posts' # Blog Posts
+    b74742a2-df70-4043-9314-918863bf2f19: 'Button Icon' # Button Icon
     b300516a-a7e5-40e6-b9ec-4c3ea6f7d331: 'Square Image Transform' # Square Image Transform
     b2611308-ab3e-47ec-baf2-e7b34a1d1981: Saturation # Saturation
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur

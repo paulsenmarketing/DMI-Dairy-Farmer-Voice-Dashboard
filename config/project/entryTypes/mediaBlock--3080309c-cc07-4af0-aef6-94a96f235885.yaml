@@ -52,12 +52,6 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            dateAdded: '2024-10-03T20:31:42+00:00'
-            elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: 859c23e2-172c-4870-828b-ec017e1038de
-            userCondition: null
-          -
             dateAdded: '2024-10-02T20:46:23+00:00'
             elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
@@ -72,7 +66,7 @@ fieldLayouts:
             uid: a7c52fc6-3831-417a-8a60-04d28d6f66d9
             userCondition: null
             warning: null
-            width: 75
+            width: 100
           -
             dateAdded: '2024-10-03T20:30:26+00:00'
             elementCondition: null
@@ -80,10 +74,64 @@ fieldLayouts:
             uid: b5e1fb68-13b4-41ab-a2ff-495f5b01a62c
             userCondition: null
           -
+            dateAdded: '2024-11-25T20:17:07+00:00'
+            elementCondition: null
+            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 928dd455-1a00-4fad-b775-9aac684b746e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-11-25T20:26:48+00:00'
+            elementCondition: null
+            fieldUid: b74742a2-df70-4043-9314-918863bf2f19 # Button Icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 887b05e6-4520-4240-bad4-cd96bd65c58a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-11-25T22:52:44+00:00'
+            elementCondition: null
+            fieldUid: 809b7984-2725-4016-bd55-1e7e668cb7aa # Alignment (Left, Right)
+            handle: iconAlignmentLR
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ae34992-70e9-4c84-9be8-873aa9d8afed
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-11-25T20:26:48+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 6e0f2000-785f-4eae-b5c9-939a2a398f42
+            userCondition: null
+          -
             dateAdded: '2024-10-02T20:46:23+00:00'
             elementCondition: null
-            fieldUid: 809b7984-2725-4016-bd55-1e7e668cb7aa # Text Alignment (Left, Right)
-            handle: null
+            fieldUid: 809b7984-2725-4016-bd55-1e7e668cb7aa # Alignment (Left, Right)
+            handle: textAlignmentLR
             includeInCards: false
             instructions: null
             label: null
