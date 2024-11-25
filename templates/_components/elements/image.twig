@@ -1,0 +1,80 @@
+{% macro Default(imageData) %}
+   {% set blurClasses = {
+      'none': '',
+      'small': 'blur-sm',
+      'medium': 'blur-lg',
+      'large': 'blur-2xl',
+   } %}
+
+   {% set brightnessClasses = {
+      '150': 'brightness-150',
+      '125': 'brightness-125',
+      '110': 'brightness-110',
+      '100': '',
+      '105': 'brightness-105',
+      '75': 'brightness-75',
+      '50': 'brightness-50',
+   } %}
+
+   {% set contrastClasses = {
+      '150': 'contrast-150',
+      '125': 'contrast-125',
+      '100': '',
+      '75': 'contrast-75',
+      '50': 'contrast-50',
+   } %}
+
+   {% set saturationClasses = {
+      '150': 'saturate-150',
+      '125': 'saturate-125',
+      '100': '',
+      '75': 'saturate-75',
+      '50': 'saturate-50',
+      '0': 'saturate-0',
+   } %}
+
+   {% set fitClasses = {
+      'cover': 'object-cover',
+      'contain': 'object-contain',
+      'fill': 'object-fill',
+      'scaleDown': 'object-scale-down',
+      'none': 'object-none',
+   } %}
+
+   {% set image = imageData.image.one() %}
+
+   {% set focalPointX = image.focalPoint.x * 100 ~ '%' | default("center") %}
+   {% set focalPointY = image.focalPoint.y * 100 ~ '%' | default("center") %}
+
+   {% set srcSet = null %}
+   {% set placeholder = null %}
+   {% set srcSetWebp = null %}
+   {% if imageData.aspectRatio.value is same as "original" %}
+      {% set srcSet = image.originalImageTransform.srcset() %}
+      {% set source = image.originalImageTransform.placeholderImage() %}
+      {% set srcSetWebp = image.originalImageTransform.srcsetWebP() %}
+   {% elseif imageData.aspectRatio.value is same as "landscape" %}
+      {% set srcSet = image.widescreenImageTransform.srcset() %}
+      {% set source = image.widescreenImageTransform.placeholderImage() %}
+      {% set srcSetWebp = image.widescreenImageTransform.srcsetWebP() %}
+   {% elseif imageData.aspectRatio.value is same as "square" %}
+      {% set srcSet = image.squareImageTransform.srcset() %}
+      {% set source = image.squareImageTransform.placeholderImage() %}
+      {% set srcSetWebp = image.squareImageTransform.srcsetWebP() %}
+   {% endif %}
+
+   <picture class="w-full h-full">
+      <source srcset="{{ srcSet }}"
+              sizes="100vw"
+              type="image/webp"/>
+      <img loading="lazy"
+           src="{{ placeholder }}"
+           srcset="{{ srcSetWebp }}"
+           sizes="100vw"
+           width="{{ image.width }}"
+           height="{{ image.height }}"
+           alt="{{ image.alt }}"
+           class="w-full h-full overflow-clip {{ fitClasses[imageData.imageFit.value] }} {{ blurClasses[imageData.blur.value] }} {{ brightnessClasses[imageData.brightness.value] }} {{ contrastClasses[imageData.contrast.value] }} {{ saturationClasses[imageData.saturation.value] }}"
+           style="{% if imageData.imageFit.value == 'cover' %}object-position:{{ focalPointX }} {{ focalPointY }};{% endif %}"/>
+   </picture>
+{% endmacro %}

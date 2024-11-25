@@ -1,4 +1,11 @@
-{% macro default() %}
+{% macro Default(asset) %}
+   {% set embeddedAsset = craft.embeddedAssets.get(asset) %}
+   <div class="w-full aspect-video flex justify-center items-center embedded-asset">
+      {{ embeddedAsset ? embeddedAsset.html }}
+   </div>
+{% endmacro %}
+
+{% macro Pines() %}
    <div x-data="{
         sources: {
             mp4: 'https://cdn.devdojo.com/pines/videos/coast.mp4',
@@ -288,5 +295,4 @@
          </div>
       </div>
    </div>
-
 {% endmacro %}
