@@ -1,5 +1,5 @@
 {% macro Default(data) %}
-      {% import '_components/elements/button.twig' as Button %}
+      {% import '_templates/elements/button.twig' as Button %}
 
       {% set alertVariant = {
          'info': 'bg-blue-500/25 border-2 border-blue-500 text-blue-500',
@@ -44,7 +44,7 @@
          </div>
 
 
-            <div>{{ Button.Filled(data.button[0], ) }}</div>
+            <div>{{ Button.default(data.button[0], ) }}</div>
 
       </div>
 

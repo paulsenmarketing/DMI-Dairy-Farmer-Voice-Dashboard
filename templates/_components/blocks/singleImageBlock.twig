@@ -1,8 +1,0 @@
-{% extends '_layouts/blockWrapper.twig' %}
-
-{% block blockWrapper %}
-   <div class="w-full ">
-      {% set image = block.image.one() %}
-      <img class="w-full max-h-[400px] md:max-h-[800px] object-contain" src="{{ image.url }}" alt="{{ image.filename }}">
-   </div>
-{% endblock %}

@@ -11,13 +11,13 @@
          </em></p>
    </div>
 
-   {% import '_components/elements/_basic.twig' as Basic  %}
+   {% import '_templates/elements/image.twig' as Image  %}
 
    <footer class="mt-6">
       <div class="flex items-center">
          <div class="flex-shrink-0">
             <div class="w-20 h-20 image-round">
-               {{ Basic.ImageOriginal(data.singleImage.one()) }}
+               {{ Image.default(data.singleImage.one()) }}
             </div>
          </div>
          <div class="ml-4">
@@ -38,4 +38,3 @@
       }
    </style>
 {% endmacro %}
-

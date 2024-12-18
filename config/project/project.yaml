@@ -1,4 +1,4 @@
-dateModified: 1732575378
+dateModified: 1734475041
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -47,10 +47,11 @@ meta:
     1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
-    2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
+    2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi-Image Block' # Multi-Image Block
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
     3e9b0822-f59b-476d-8610-ab0441086c64: 'Single Video' # Single Video
     3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
+    4df2c060-563c-4f39-a89d-acc35c522841: 'Short Text (20 word limit)' # Short Text (20 word limit)
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
@@ -61,6 +62,7 @@ meta:
     6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
     6f45cb17-943a-49cb-8476-fcc0b59a7747: 'Contact Form' # Contact Form
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
+    7cbd6694-a78c-4e20-8e1f-ac1873f67859: Number # Number
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
@@ -124,7 +126,6 @@ meta:
     d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
-    dc5d1753-a61d-4d77-a754-a714afe343b3: 'Blog Preview' # Blog Preview
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
@@ -162,7 +163,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
-    schemaVersion: 3.4.6
+    schemaVersion: 3.4.7
   image-optimize:
     edition: standard
     enabled: true

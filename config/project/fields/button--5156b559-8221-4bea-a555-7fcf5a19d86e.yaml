@@ -13,10 +13,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Button Text'
+              - Text
             -
               - handle
-              - buttonText
+              - text
             -
               - width
               - ''
@@ -29,10 +29,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Button LInk'
+              - LInk
             -
               - handle
-              - buttonLink
+              - link
             -
               - width
               - ''

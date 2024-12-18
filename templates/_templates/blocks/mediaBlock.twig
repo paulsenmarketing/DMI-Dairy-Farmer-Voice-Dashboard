@@ -1,8 +1,8 @@
 {# The block wrapper makes it easy to set block-level attributes like max-width, padding, etc. for all standard blocks. If a block needs to break these rules, you can either make a new kind of wrapper, or forego using the wrapper at all.  #}
 {% extends '_layouts/blockWrapper.twig' %}
-{% import '_components/elements/image.twig' as Image %}
-{% import '_components/elements/video.twig' as Video %}
-{% import '_components/elements/text.twig' as Text %}
+{% import '_templates/elements/image.twig' as Image %}
+{% import '_templates/elements/video.twig' as Video %}
+{% import '_templates/elements/text.twig' as Text %}
 
 {% set image = block.singleImage.eagerly().one() %}
 {% set video = block.singleVideo.eagerly().one() %}

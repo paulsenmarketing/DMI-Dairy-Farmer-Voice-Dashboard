@@ -5,6 +5,7 @@ name: 'Card Fields'
 searchable: false
 settings:
   createButtonLabel: null
+  defaultIndexViewMode: cards
   entryTypes:
     - 9cda611f-c16d-47dc-ae75-72c3bf2bfa50 # Card Entry
   includeTableView: false

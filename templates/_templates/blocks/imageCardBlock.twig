@@ -3,8 +3,8 @@ a block of one or more basic card components.
 the block has two possible layouts (grid and carousel), and will dynamically display a default card or an image card based on the presence of an image in the data.
 #}
 
-{% import '_components/elements/card.twig' as Card %}
-{#{% extends '_layouts/blockWrapper.twig' %}#}
+{% import '_templates/components/card.twig' as Card %}
+{% extends '_layouts/blockWrapper.twig' %}
 
 {% block blockWrapper %}
    {% if block.toggle is empty %}

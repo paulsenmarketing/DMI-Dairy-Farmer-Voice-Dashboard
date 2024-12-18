@@ -1,5 +1,5 @@
-{% import '_components/elements/button.twig' as Button %}
-{% import '_components/elements/_basic.twig' as Basic  %}
+{% import '_templates/elements/button.twig' as Button %}
+{% import '_templates/elements/image.twig' as Basic  %}
 
 <div class="w-full h-[75vh] bg-surface-800 flex justify-center items-center">
    <div class="w-full sm:w-4/5 h-full sm:h-4/5 relative overflow-visible">
@@ -7,11 +7,14 @@
          <h1>{{ block.title }}</h1>
          {# TODO: limit the characters on this rich text - and on all component, for that matter #}
          <p>{{ block.richText }}</p>
-         {{ Button.filled(block.button[0])}}
+         <div class="flex justify-end">
+
+         {{ Button.default(block.button[0])}}
+         </div>
       </div>
 {#      if statemet for the image #}
-      <div class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded">
-         {{ Basic.ImageOriginal(block.singleImage.one()) }}
+      <div class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded-md overflow-clip">
+         {{ Basic.default(block.singleImage.one()) }}
       </div>
    </div>
 </div>

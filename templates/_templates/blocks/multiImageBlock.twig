@@ -1,0 +1,12 @@
+
+{% import '_templates/elements/image.twig' as Image  %}
+
+
+<div class="w-full grid grid-cols-2 gap-0">
+   {% for image in block.images %}
+      <div class="max-h-[400px] w-full">
+         {{ Image.Default(image) }}
+      </div>
+
+   {% endfor %}
+</div>
