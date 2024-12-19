@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e206a2bb08668f35b7d16260492d7c94",
+    "content-hash": "f580388083f6c327f2bdaf2ba2ac298a",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1436,11 +1436,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.5.6.1",
+            "version": "5.5.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/a8bf00237ada556acd2b2245639d1cf54c903a02",
-                "reference": "a8bf00237ada556acd2b2245639d1cf54c903a02",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/85c87d01d9163e937debe1bf74ac53b1540802e5",
+                "reference": "85c87d01d9163e937debe1bf74ac53b1540802e5",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-12-11T14:14:05+00:00"
+            "time": "2024-12-17T18:09:56+00:00"
         },
         {
             "name": "craftcms/flysystem",
@@ -4168,11 +4168,11 @@
         },
         {
             "name": "mollie/mollie-api-php",
-            "version": "v2.75.0",
+            "version": "v2.76.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mollie/mollie-api-php/zipball/ac2052855c631b90092768cf6657f6d5b2f5dd9f",
-                "reference": "ac2052855c631b90092768cf6657f6d5b2f5dd9f",
+                "url": "https://api.github.com/repos/mollie/mollie-api-php/zipball/b6e9848e4893d1d306fba54da3ac6f4a31a40368",
+                "reference": "b6e9848e4893d1d306fba54da3ac6f4a31a40368",
                 "shasum": ""
             },
             "require": {
@@ -4239,7 +4239,7 @@
                 "sofortbanking",
                 "subscriptions"
             ],
-            "time": "2024-11-21T10:33:16+00:00"
+            "time": "2024-12-18T12:26:03+00:00"
         },
         {
             "name": "moneyphp/money",
@@ -8497,11 +8497,11 @@
         },
         {
             "name": "verbb/formie",
-            "version": "3.0.14",
+            "version": "3.0.15",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/formie/zipball/1056fc8825276a8498190925be793add625a040f",
-                "reference": "1056fc8825276a8498190925be793add625a040f",
+                "url": "https://api.github.com/repos/verbb/formie/zipball/007afadc166ae36f0454b8d15eceba6e34d57475",
+                "reference": "007afadc166ae36f0454b8d15eceba6e34d57475",
                 "shasum": ""
             },
             "require": {
@@ -8558,7 +8558,7 @@
                 "docs": "https://github.com/verbb/formie",
                 "rss": "https://github.com/verbb/formie/commits/v2.atom"
             },
-            "time": "2024-12-02T23:47:48+00:00"
+            "time": "2024-12-16T21:28:51+00:00"
         },
         {
             "name": "verbb/icon-picker",

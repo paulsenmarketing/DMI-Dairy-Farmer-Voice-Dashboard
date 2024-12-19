@@ -14,7 +14,7 @@
       </div>
 {#      if statemet for the image #}
       <div class="bg-surface-50 h-full w-full lg:w-4/5 bg-cover bg-center rounded-md overflow-clip">
-         {{ Basic.default(block.singleImage.one()) }}
+         {{ Basic.default(block.singleImage.eagerly().one()) }}
       </div>
    </div>
 </div>

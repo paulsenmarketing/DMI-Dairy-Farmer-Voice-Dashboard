@@ -1,7 +1,7 @@
 {% import '_templates/elements/image.twig' as Image %}
 
 {% set galleryImages = [] %}
-{% for data in block.imageGalleryMatrix %}
+{% for data in block.imageGalleryMatrix.eagerly() %}
    {% set galleryImages = galleryImages|merge([data]) %}
 {% endfor %}
 

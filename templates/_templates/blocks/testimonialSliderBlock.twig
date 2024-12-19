@@ -33,7 +33,7 @@
 
         {# slides #}
         <div class="w-full swiper-wrapper relative intersect:animate-fade-down">
-            {% for quote in block.testimonialMatrix %}
+            {% for quote in block.testimonialMatrix.eagerly() %}
                 <div class="swiper-slide relative flex flex-col-reverse h-full border-2 border-black p-12">
                     {{ Quote.default(quote) }}
                 </div>

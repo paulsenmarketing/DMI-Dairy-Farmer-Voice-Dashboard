@@ -62,19 +62,24 @@
       {% set source = image.squareImageTransform.placeholderImage() %}
       {% set srcSetWebp = image.squareImageTransform.srcsetWebP() %}
    {% endif %}
-
-   <picture class="w-full h-full">
-      <source srcset="{{ srcSet }}"
+   <div class="w-full h-full overflow-hidden">
+      <picture>
+         <source srcset="{{ srcSet }}"
+                 sizes="100vw"
+                 type="image/webp"/>
+         <img loading="lazy"
+              src="{{ placeholder }}"
+              srcset="{{ srcSetWebp }}"
               sizes="100vw"
-              type="image/webp"/>
-      <img loading="lazy"
-           src="{{ placeholder }}"
-           srcset="{{ srcSetWebp }}"
-           sizes="100vw"
-           width="{{ image.width }}"
-           height="{{ image.height }}"
-           alt="{{ image.alt }}"
-           class="w-full h-full overflow-clip max-h-[calc(100vh-80px)] {{ fitClasses[imageData.imageFit.value] }} {{ blurClasses[imageData.blur.value] }} {{ brightnessClasses[imageData.brightness.value] }} {{ contrastClasses[imageData.contrast.value] }} {{ saturationClasses[imageData.saturation.value] }}"
-           style="{% if imageData.imageFit.value == 'cover' %}object-position:{{ focalPointX }} {{ focalPointY }};{% endif %}"/>
-   </picture>
+              width="{{ image.width }}"
+              height="{{ image.height }}"
+              alt="{{ image.alt }}"
+              class="w-full h-full overflow-hidden max-h-[calc(100vh-80px)] {{ fitClasses[imageData.imageFit.value] }} {{ blurClasses[imageData.blur.value] }} {{ brightnessClasses[imageData.brightness.value] }} {{ contrastClasses[imageData.contrast.value] }} {{ saturationClasses[imageData.saturation.value] }}"
+              style="{% if imageData.imageFit.value == 'cover' %}object-position:{{ focalPointX }} {{ focalPointY }};{% endif %} background-color: {{ image.originalImageTransform.colorPalette[1] }};"/>
+      </picture>
+
+   </div>
+   {% for color in image.originalImageTransform.colorPalette %}
+      <p>{{ color }}</p>
+   {% endfor %}
 {% endmacro %}
