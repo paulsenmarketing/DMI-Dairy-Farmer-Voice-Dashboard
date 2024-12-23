@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - dc5d1753-a61d-4d77-a754-a714afe343b3 # Blog Preview
+  - dc5d1753-a61d-4d77-a754-a714afe343b3
 handle: blogPosts
 maxAuthors: 1
 name: 'Blog Posts'

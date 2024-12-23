@@ -6,46 +6,18 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            disabled: false
+            dateAdded: '2024-12-17T22:33:47+00:00'
             elementCondition: null
-            id: null
-            includeInCards: false
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: e791c63c-1cff-45e0-a66d-8fe610a45381
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: d894a0ee-7120-47c1-983b-df9c4510e5a6
-            handle: null
+            fieldUid: 742bde2f-c58c-4bbd-a64c-9c31c229dec6 # Image Gallery Matrix
+            handle: images
             includeInCards: false
             instructions: null
-            label: null
+            label: Images
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 77b5d4d2-e5b1-48fc-af55-98d47198b5cf
+            uid: d91fad58-e36d-4052-9e55-45809b3fa360
             userCondition: null
             warning: null
             width: 100
@@ -55,11 +27,11 @@ fieldLayouts:
 handle: multiImageBlock
 hasTitleField: false
 icon: aperture
-name: 'Multi Image Block'
+name: 'Multi-Image Block'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

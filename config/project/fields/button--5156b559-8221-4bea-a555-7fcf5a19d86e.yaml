@@ -13,10 +13,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Button Text'
+              - Text
             -
               - handle
-              - buttonText
+              - text
             -
               - width
               - ''
@@ -29,10 +29,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Button LInk'
+              - LInk
             -
               - handle
-              - buttonLink
+              - link
             -
               - width
               - ''
@@ -45,10 +45,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Text Color'
+              - Type
             -
               - handle
-              - textColor
+              - type
             -
               - width
               - ''
@@ -62,32 +62,10 @@ settings:
                   __assoc__:
                     -
                       - label
-                      - 'Brand Blue'
+                      - Default
                     -
                       - value
-                      - brandBlue
-                    -
                       - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - 'Brand Grey'
-                    -
-                      - value
-                      - brandGrey
-                    -
-                      - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - White
-                    -
-                      - value
-                      - white
                     -
                       - default
                       - true
@@ -95,23 +73,67 @@ settings:
                   __assoc__:
                     -
                       - label
-                      - Black
+                      - 'Info (blue)'
                     -
                       - value
-                      - black
+                      - info
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Warning (red)'
+                    -
+                      - value
+                      - warning
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Question (purple)'
+                    -
+                      - value
+                      - question
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Caution (yellow)'
+                    -
+                      - value
+                      - caution
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'OK (green)'
+                    -
+                      - value
+                      - ok
                     -
                       - default
                       - false
       -
-        - col5
+        - col6
         -
           __assoc__:
             -
               - heading
-              - 'Background Color'
+              - Style
             -
               - handle
-              - backgroundColor
+              - style
             -
               - width
               - ''
@@ -125,10 +147,21 @@ settings:
                   __assoc__:
                     -
                       - label
-                      - 'Brand Blue'
+                      - Filled
                     -
                       - value
-                      - brandBlue
+                      - filled
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Outline
+                    -
+                      - value
+                      - outline
                     -
                       - default
                       - false
@@ -136,32 +169,10 @@ settings:
                   __assoc__:
                     -
                       - label
-                      - 'Brand Grey'
+                      - Ghost
                     -
                       - value
-                      - brandGrey
-                    -
-                      - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - White
-                    -
-                      - value
-                      - white
-                    -
-                      - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - Black
-                    -
-                      - value
-                      - black
+                      - ghost
                     -
                       - default
                       - false
@@ -176,10 +187,10 @@ settings:
           - /
         -
           - col4
-          - white
+          - default
         -
-          - col5
-          - brandGrey
+          - col6
+          - filled
   maxRows: null
   minRows: null
   staticRows: true

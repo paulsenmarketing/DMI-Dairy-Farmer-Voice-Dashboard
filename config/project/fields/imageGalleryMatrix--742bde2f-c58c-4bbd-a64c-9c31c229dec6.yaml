@@ -5,15 +5,16 @@ name: 'Image Gallery Matrix'
 searchable: false
 settings:
   createButtonLabel: null
+  defaultIndexViewMode: cards
   entryTypes:
-    - e79ce700-64d0-424a-b855-8a542dad2c40
+    - 482cb0dd-2361-49db-bb8c-232d0ee58caf # Image Entry
   includeTableView: false
   maxEntries: null
-  minEntries: null
+  minEntries: 1
   pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
+  showCardsInGrid: true
   viewMode: cards
 translationKeyFormat: null
 translationMethod: site

@@ -1,0 +1,6 @@
+{% import '_templates/elements/image.twig' as Image  %}
+
+   <div class="w-full h-[800px]">
+      {% set image = block.singleImage.eagerly().one() %}
+      {{ Image.Default(image) }}
+   </div>

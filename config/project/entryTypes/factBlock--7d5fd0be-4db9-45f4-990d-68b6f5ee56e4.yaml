@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-12-17T21:42:02+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -24,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -33,8 +34,9 @@ fieldLayouts:
             uid: 9165af9f-cf09-44c0-b725-57303632b9b9
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
+            dateAdded: '2024-12-17T21:42:02+00:00'
             elementCondition: null
             fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
@@ -48,8 +50,9 @@ fieldLayouts:
             uid: 512d492b-eb65-4088-a868-5a8d128a9736
             userCondition: null
             warning: null
-            width: 100
+            width: 50
           -
+            dateAdded: '2024-12-17T21:42:02+00:00'
             elementCondition: null
             fieldUid: 70b3a49b-74b2-4178-b789-79e06e724ffc # Fact Fields
             handle: null
@@ -75,6 +78,6 @@ showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
