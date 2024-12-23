@@ -1,6 +1,6 @@
-color: amber
+color: cyan
 fieldLayouts:
-  8ead07c4-4d68-4d40-a411-b790fc7bb984:
+  028a1fb5-561e-4210-b296-feb0fd44ca72:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-11-01T13:30:48+00:00'
+            dateAdded: '2024-12-23T16:34:09+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,17 +31,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 25b4d74a-e3e9-4c9f-8465-817c0cdf818a
+            uid: c879ba69-d0b7-4191-b3ea-463325628f50
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 477297db-eba7-4589-b196-ce866f63891c
+        uid: d06d8050-db1a-4c04-b915-0424c61c07f4
         userCondition: null
-handle: blogPreviewBlock
+handle: blogEntry
 hasTitleField: true
-icon: dinosaur
-name: 'Blog Preview Block'
+icon: pencil-mechanical
+name: 'Blog Entry'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
