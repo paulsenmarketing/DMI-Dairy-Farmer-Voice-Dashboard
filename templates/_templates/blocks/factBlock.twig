@@ -1,0 +1,27 @@
+{% extends '_layouts/blockWrapper.twig' %}
+{% import '_templates/components/card.twig' as Card %}
+
+{% block blockWrapper %}
+   <div class="flex flex-col lg:flex-row items-center gap-16 block-container">
+      <div class="prose lg:w-1/2">
+         <h1>{{ block.title }}</h1>
+         {{ block.richText }}
+      </div>
+      <div class="lg:w-1/2 grid gap-6 rounded grid-cols-1 sm:grid-cols-2 sm:py-24">
+         {% set facts = block.factFields.eagerly() %}
+         {% set first = facts[0] %}
+         {% set second = facts[1] %}
+         {% set third = facts[2] %}
+         {% set fourth = facts[3] %}
+         <div class="flex flex-col gap-6 sm:-translate-y-16">
+            {{ Card.fact(first.number, first.numberLabel, first.fact) }}
+            {{ Card.fact(second.number, second.numberLabel, second.fact) }}
+         </div>
+         <div class="flex flex-col gap-6 sm:translate-y-16">
+            {{ Card.fact(third.number, third.numberLabel, third.fact) }}
+            {{ Card.fact(fourth.number, fourth.numberLabel, fourth.fact) }}
+         </div>
+         <div></div>
+      </div>
+   </div>
+{% endblock %}

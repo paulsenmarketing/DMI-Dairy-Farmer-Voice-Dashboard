@@ -6,36 +6,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2024-10-31T18:42:26+00:00'
-            disabled: false
-            elementCondition: null
-            id: null
-            includeInCards: false
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: fe6ca27d-5aee-478e-bfd7-c56be724ebe1
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2024-10-31T18:44:49+00:00'
             elementCondition: null
             fieldUid: 742bde2f-c58c-4bbd-a64c-9c31c229dec6 # Image Gallery Matrix
@@ -62,6 +32,6 @@ showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

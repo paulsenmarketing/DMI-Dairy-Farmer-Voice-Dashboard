@@ -1,9 +1,28 @@
-dateModified: 1730826316
+dateModified: 1734475041
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  embeds:
+    hasUrls: true
+    name: Embeds
+    settings:
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: $S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $S3_KEY_ID
+      makeUploadsPublic: true
+      region: $S3_REGION
+      secret: $S3_SECRET
+      storageClass: ''
+      subfolder: ''
+    type: craft\awss3\Fs
+    url: $S3_ASSET_DOMIAN
   images:
     hasUrls: true
     name: Images
@@ -28,9 +47,11 @@ meta:
     1bd0ae92-b346-4698-9e2f-0cc84b1eeaac: 'Accordion Entry' # Accordion Entry
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
-    2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi Image Block' # Multi Image Block
+    2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi-Image Block' # Multi-Image Block
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
+    3e9b0822-f59b-476d-8610-ab0441086c64: 'Single Video' # Single Video
     3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
+    4df2c060-563c-4f39-a89d-acc35c522841: 'Short Text (20 word limit)' # Short Text (20 word limit)
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
@@ -41,6 +62,7 @@ meta:
     6ec7e276-7e29-49f7-8f38-66c54284cb8e: 'Image Card Fields' # Image Card Fields
     6f45cb17-943a-49cb-8476-fcc0b59a7747: 'Contact Form' # Contact Form
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
+    7cbd6694-a78c-4e20-8e1f-ac1873f67859: Number # Number
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
@@ -56,7 +78,6 @@ meta:
     74e5a566-f44f-4607-8989-63304848426f: 'Testimonial Matrix' # Testimonial Matrix
     75a04e68-45ae-4f9f-8a38-7cc3eb5ec402: New # New
     75c96990-6333-4b29-8fca-f303a1c6d73a: 'Contact Form' # Contact Form
-    81e966b9-1ec1-49ba-a12f-d566a491d98f: 'SEO Fields' # SEO Fields
     83d66a47-2c77-4863-bdb6-889f45538deb: 'Grid Toggle' # Grid Toggle
     090ed5cb-45e7-4ccb-bdad-3c90def43aa4: 'Site Logo' # Site Logo
     94c492e6-2585-46cd-b5f7-277f35023321: 'Single Image' # Single Image
@@ -65,7 +86,7 @@ meta:
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
     742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
-    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Text Alignment (Left, Right)' # Text Alignment (Left, Right)
+    809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
     934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
     3331cea5-375b-4e4d-84cc-103b3e1e934c: xl # xl
@@ -91,12 +112,12 @@ meta:
     b0894349-cbe1-4e8e-bd56-0e0740480ead: 'Fancy Image Array 1' # Fancy Image Array 1
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
     b889fd48-564d-4cbb-b469-fc6ca4288561: 'Blog Posts' # Blog Posts
+    b74742a2-df70-4043-9314-918863bf2f19: 'Button Icon' # Button Icon
     b300516a-a7e5-40e6-b9ec-4c3ea6f7d331: 'Square Image Transform' # Square Image Transform
     b2611308-ab3e-47ec-baf2-e7b34a1d1981: Saturation # Saturation
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
-    c049360f-73ed-4cf3-9f63-34b9533c1a83: 'Navbar Image' # Navbar Image
     c4675426-8603-42ce-a45a-e8d3719afcb4: 2xl # 2xl
     ca87968d-6314-43fe-ac02-19e6b907e322: 2xl # 2xl
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
@@ -105,15 +126,14 @@ meta:
     d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
-    dc5d1753-a61d-4d77-a754-a714afe343b3: 'Blog Preview' # Blog Preview
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
-    e79ce700-64d0-424a-b855-8a542dad2c40: Images # Images
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform
     f37cefb7-0c36-4816-a8d5-8867fce5aa85: 'Original Image Transform' # Original Image Transform
     f59f7298-ab15-4754-85da-be8444a1f7cc: lg # lg
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
+    fa0a59fb-e21a-41cb-a502-55d8a46dda8d: 'Asset Embeds' # Asset Embeds
     fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06: 'Background Color' # Background Color
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
     fee1d400-8cc0-4a1d-a4ab-abea20b457de: 'Alert Type' # Alert Type
@@ -143,7 +163,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
-    schemaVersion: 3.4.6
+    schemaVersion: 3.4.7
   image-optimize:
     edition: standard
     enabled: true

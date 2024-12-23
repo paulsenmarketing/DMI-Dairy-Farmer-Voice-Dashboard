@@ -6,35 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            disabled: false
-            elementCondition: null
-            id: null
-            includeInCards: false
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 90db9d1d-79c6-433c-b041-96021126a3f6
-            userCondition: null
-            warning: null
-            width: 100
-          -
+            dateAdded: '2024-12-17T21:53:29+00:00'
             elementCondition: null
             fieldUid: 41b72d76-53a5-4ce0-a968-96e72740dc36 # Card Fields
             handle: null
@@ -56,6 +28,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-12-17T21:53:29+00:00'
             elementCondition: null
             fieldUid: 83d66a47-2c77-4863-bdb6-889f45538deb # Grid Toggle
             handle: null
@@ -71,6 +44,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-12-17T21:53:29+00:00'
             elementCondition: null
             fieldUid: 8d1d81f4-7854-47a3-ac54-9469e6834614 # Cards Per Row
             handle: null
@@ -96,6 +70,6 @@ showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

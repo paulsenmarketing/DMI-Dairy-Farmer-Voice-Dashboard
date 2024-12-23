@@ -17,10 +17,6 @@
 
 /* fonts ------------------------------------------------------------------ */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
     @font-face {
         font-family: 'Roboto';
@@ -42,7 +38,7 @@
 
 @layer components {
     .block-container {
-        @apply container mx-auto px-8 sm:px-0;
+        @apply container mx-auto;
     }
     .expand {
         @apply w-full h-full;
@@ -69,4 +65,10 @@
 
 .swiper-button-next::after, .swiper-button-prev::after {
     content: "" !important;
+}
+
+/* embedded assets */
+
+.embedded-asset > iframe {
+    @apply w-full h-full;
 }

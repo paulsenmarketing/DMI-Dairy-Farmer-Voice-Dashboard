@@ -5,6 +5,7 @@ name: 'Fact Fields'
 searchable: false
 settings:
   createButtonLabel: null
+  defaultIndexViewMode: cards
   entryTypes:
     - a421d5a5-8c99-4385-931e-df852136c717 # Fact Entry
   includeTableView: false
