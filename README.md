@@ -74,7 +74,7 @@ Tailwind | CSS framework | [Docs](https://tailwindcss.com/docs/)
 
 Lucide | Icons | [Docs](https://lucide.dev/guide/packages/lucide)
 
-FontAwesome | Icons | [Docs](https://docs.fontawesome.com/web)
+FontAwesome | Icons | [Docs](https://docs.fontawesome.com/web)  
 Fontawesome is built in to Craft as the default icon set, so it's natural to include it alongside Lucide (which is better for generic UI)
 
 Swiper | Carousel | [Docs](https://swiperjs.com/get-started)
