@@ -20,7 +20,7 @@ gh repo create paulsenmarketing/<new project name> --template paulsenmarketing/c
 cd <new project name>
 cp .env.example .env
 ```
-### 4. Local development:
+### 4. **Local development**
 - install Composer dependencies
 - generate a new app ID
 - generate a new security key
@@ -35,7 +35,7 @@ php craft install
 nvm use
 npm install
 ```
-### 5. Fortrabbit
+### 5. **Fortrabbit**
 - set up fortrabbit project
 - copy .env variables and database to Fortrabbit
 - add the project as a remote
@@ -44,40 +44,30 @@ npm install
 git remote add origin <fortrabbit repo url>
 git push fortrabbit master
 ```
-
----
+### 6. **Next Steps**
+- Add env variables for plugins, S3 bucket storage, etc.
 
 ## **Craft Plugins**
-Blitz | Page caching | [Docs](https://putyourlightson.com/plugins/blitz): 
 
-CKEditor | Rich text | [Docs](https://github.com/craftcms/ckeditor)
-
-Embedded Assets | [Docs](https://github.com/spicywebau/craft-embedded-assets)
-
-Formie | User forms | [Docs ](https://verbb.io/craft-plugins/formie/docs/get-started/installation-setup)
-
-ImageOptimize | Image optimization | [Docs](https://nystudio107.com/docs/image-optimize/)
-
-Navigation | Navigation | [Docs](https://verbb.io/craft-plugins/navigation/docs/get-started/installation-setup)
-
-SEOmatic | SEO | [Docs](https://nystudio107.com/docs/seomatic/)
-
----
+| Plugin          | Use Case | Documentation Link |
+|-----------------| ------- | ------- | 
+| Blitz           | Page caching | [Docs](https://putyourlightson.com/plugins/blitz) |
+| CKEditor        | Rich text | [Docs](https://github.com/craftcms/ckeditor) |
+| Embedded Assets | Embedding Videos | [Docs](https://github.com/spicywebau/craft-embedded-assets) |
+| Formie          | User forms | [Docs ](https://verbb.io/craft-plugins/formie/docs/get-started/installation-setup) |
+| ImageOptimize   | Image optimization | [Docs](https://nystudio107.com/docs/image-optimize/) |
+| Navigation      | Navigation | [Docs](https://verbb.io/craft-plugins/navigation/docs/get-started/installation-setup) |
+| SEOmatic        | SEO | [Docs](https://nystudio107.com/docs/seomatic/) |
 
 ## **NPM Libraries**
-Alpine | JavaScript framework | [Docs](https://alpinejs.dev/start-here)  
-Alpinejs is used to add functionality
 
-Tailwind | CSS framework | [Docs](https://tailwindcss.com/docs/)
-
-Lucide | Icons | [Docs](https://lucide.dev/guide/packages/lucide)
-
-FontAwesome | Icons | [Docs](https://docs.fontawesome.com/web)  
-Fontawesome is built in to Craft as the default icon set, so it's natural to include it alongside Lucide (which is better for generic UI)
-
-Swiper | Carousel | [Docs](https://swiperjs.com/get-started)
-
----
+| Plugin      | Use Case | Documentation Link |
+|-------------| ------- | ------- | 
+| Alpine      | JavaScript framework | [Docs](https://alpinejs.dev/start-here) |
+| Tailwind    | CSS framework | [Docs](https://tailwindcss.com/docs/) |
+| Lucide      | Icons | [Docs](https://lucide.dev/guide/packages/lucide) |
+| FontAwesome | Icons | [Docs](https://docs.fontawesome.com/web) |
+| Swiper      | Carousel | [Docs](https://swiperjs.com/get-started) |
 
 Note that there are additional modifications. To get a full overview of the project dependencies, please the following configuration files:
 
