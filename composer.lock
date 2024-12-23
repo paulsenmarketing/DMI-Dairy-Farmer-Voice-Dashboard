@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f580388083f6c327f2bdaf2ba2ac298a",
+    "content-hash": "9362a3ea3bc87ad1725d1b6728ecd5a6",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1439,8 +1439,8 @@
             "version": "5.5.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/85c87d01d9163e937debe1bf74ac53b1540802e5",
-                "reference": "85c87d01d9163e937debe1bf74ac53b1540802e5",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/b1e323bd8935be2cdbe64e880859a484fbfe216a",
+                "reference": "b1e323bd8935be2cdbe64e880859a484fbfe216a",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-12-17T18:09:56+00:00"
+            "time": "2024-12-19T17:38:43+00:00"
         },
         {
             "name": "craftcms/flysystem",
@@ -4726,11 +4726,11 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "5.1.7",
+            "version": "5.1.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/cddd2a50c715c04c8d2a1ea76d059bf67130ac05",
-                "reference": "cddd2a50c715c04c8d2a1ea76d059bf67130ac05",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/faead4dd1b5656975253c42eaf3cd3e09ac664aa",
+                "reference": "faead4dd1b5656975253c42eaf3cd3e09ac664aa",
                 "shasum": ""
             },
             "require": {
@@ -4782,7 +4782,7 @@
                 "issues": "https://nystudio107.com/plugins/seomatic/support",
                 "source": "https://github.com/nystudio107/craft-seomatic"
             },
-            "time": "2024-11-20T18:33:28+00:00"
+            "time": "2024-12-21T23:33:37+00:00"
         },
         {
             "name": "nystudio107/craft-vite",

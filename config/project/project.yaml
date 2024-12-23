@@ -1,4 +1,4 @@
-dateModified: 1734475041
+dateModified: 1734981772
 email:
   fromEmail: isaac.druin@paulsen.agency
   fromName: craft-five-bp
@@ -48,12 +48,15 @@ meta:
     1bf4ff66-ff1c-41ae-a029-697a1c6d8b8d: 'Accordion Fields' # Accordion Fields
     1bf42d60-5878-4e12-a991-921c36209957: Simple # Simple
     2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d: 'Multi-Image Block' # Multi-Image Block
+    2e67e011-de0d-4211-947c-b38000dbbe04: 'Site Settings' # Site Settings
     3a006abe-2582-4ef2-8d3b-719b24835644: 'Anchor Tag' # Anchor Tag
+    3b85870f-0a03-45bb-ba0a-6a86c2eacd5d: 'Blog Entry' # Blog Entry
     3e9b0822-f59b-476d-8610-ab0441086c64: 'Single Video' # Single Video
     3ee58561-cac5-42c7-947f-c2073e03f045: 'Testimonial Slider' # Testimonial Slider
     4df2c060-563c-4f39-a89d-acc35c522841: 'Short Text (20 word limit)' # Short Text (20 word limit)
     4e063b31-51d1-48bf-b2e6-b84cff84b74c: 'Fancy Image Array 2' # Fancy Image Array 2
     4e7d732a-b78a-4cc6-a6ad-287966e4addd: Brightness # Brightness
+    4f4578d4-b6f9-48f4-8f4a-11159a0c1d71: Colors # Colors
     5c8911be-cceb-470a-8a6e-0c9ead9c2142: 'Standard Page' # Standard Page
     5ffdcb28-ff82-4961-94fd-2bf885d21e11: 'Alert Fields' # Alert Fields
     6b516ae6-9087-4a38-b07a-5ab673960f51: Spacing # Spacing
@@ -86,6 +89,7 @@ meta:
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
     742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
+    757d9c50-bfe4-428a-868c-fe52209cea11: 'Phone Number' # Phone Number
     809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
     934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
@@ -100,9 +104,10 @@ meta:
     2295650a-2ec5-4efe-a6ef-5f4d6f0853d7: 'Alignment (Left, Middle, Right)' # Alignment (Left, Middle, Right)
     3080309c-cc07-4af0-aef6-94a96f235885: 'Media Block' # Media Block
     9709673b-10c4-4af1-a65f-b1accebadef6: Spacer # Spacer
+    28928894-6de4-49d8-aeee-e17415cc03f8: Address # Address
     70200005-251c-49f6-8925-fc4d00d7c8c2: z-index # z-index
     a07d6a8f-4ad5-4228-8afb-9c0418e8f207: New # New
-    a3b70076-a07c-4e65-87eb-c5052465d0d8: 'Blog Preview' # Blog Preview
+    a3b70076-a07c-4e65-87eb-c5052465d0d8: 'Blog Preview Block' # Blog Preview Block
     a6eaf89c-965b-42ff-ba4f-99667f42a0b0: Color # Color
     a95cfa5d-8fcc-4798-99be-4347db515555: xl # xl
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
@@ -127,6 +132,7 @@ meta:
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
+    e13810b4-ac5b-4ba5-9edd-7a1c5b61486b: 'Social Media Links' # Social Media Links
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform
