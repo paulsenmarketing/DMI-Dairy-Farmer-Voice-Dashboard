@@ -1,9 +1,7 @@
 # **CRAFT 5 BOILERPLATE**
 
-Greetings, user.
-
-## Prerequisites
-- Github CLI installed and configured
+Greetings, user.  
+This is an overview of the setup process. More detailed instruction for each step can be found in the [wiki](https://github.com/paulsenmarketing/craft-five-boilerplate/wiki).
 
 ## FIRST TIME SETUP GUIDE
 ### 1. **Clone template** 
@@ -13,9 +11,9 @@ Greetings, user.
 gh repo create paulsenmarketing/<new project name> --template paulsenmarketing/craft-five-boilerplate --private --clone
 ```
 ### 2. **Local database**
-- create a new database using Sequel Ace.
+- create a new database using Sequel Ace
 ### 3. Local env
-- CD into the project
+- CD into `<new project name>`
 - create a local env from an example
 - refer to .env comments for filling in environment variables
 ```
