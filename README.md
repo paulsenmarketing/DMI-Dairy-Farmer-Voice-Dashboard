@@ -2,35 +2,49 @@
 
 Greetings, user.
 
+## Prerequisites
+- Github CLI installed and configured
+
 ## FIRST TIME SETUP GUIDE
-1. clone this repo
-2. remove git boilerplate association:
+### 1. **Clone template** 
+- (run this from your /Sites folder!)
+- (make sure to replace `<new project name>` with the new repository's name!)
 ```
-# run from project's the root directory!
-rm -rf .git
+gh repo create paulsenmarketing/<new project name> --template paulsenmarketing/craft-five-boilerplate --private --clone
 ```
-3. setup database
+### 2. **Local database**
+- create a new database using Sequel Ace.
+### 3. Local env
+- CD into the project
+- create a local env from an example
+- refer to .env comments for filling in environment variables
 ```
-
-```
-4. install dependencies
-```
-# install composer dependancies for Craft CMS
-composer install
-
-# copy .env.example and update environment variables
+cd <new project name>
 cp .env.example .env
-
-# generate new app id & security key
+```
+### 4. Local development:
+- install Composer dependencies
+- generate a new app ID
+- generate a new security key
+- install craft (follow the prompts!)
+- switch to correct Node version
+- install Node dependencies
+```
+composer install
 php craft setup/app-id
-php craft setup/security-key
-
-# install dependancies
+php craft setup/security key
+php craft install
 nvm use
 npm install
-
-# copy .env.example
-cp .env.example .env
+```
+### 5. Fortrabbit
+- set up fortrabbit project
+- copy .env variables and database to Fortrabbit
+- add the project as a remote
+- push to fortrabbit
+```
+git remote add origin <fortrabbit repo url>
+git push fortrabbit master
 ```
 
 ---
