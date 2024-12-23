@@ -9,7 +9,7 @@ Greetings, user.
 # run from project's the root directory!
 rm -rf .git
 ```
-3. setup database (adding these steps soon tm)
+3. setup database
 ```
 
 ```
@@ -33,39 +33,43 @@ npm install
 cp .env.example .env
 ```
 
-This boilerplate relies on...
+---
 
 ## **Craft Plugins**
-### Blitz
+Blitz | Page caching | [Docs](https://putyourlightson.com/plugins/blitz): 
 
-### CKEditor
+CKEditor | Rich text | [Docs](https://github.com/craftcms/ckeditor)
 
-### Embedded Assets
+Embedded Assets | [Docs](https://github.com/spicywebau/craft-embedded-assets)
 
-### Formie
+Formie | User forms | [Docs ](https://verbb.io/craft-plugins/formie/docs/get-started/installation-setup)
 
-### ImageOptimize
+ImageOptimize | Image optimization | [Docs](https://nystudio107.com/docs/image-optimize/)
 
-### Navigation
+Navigation | Navigation | [Docs](https://verbb.io/craft-plugins/navigation/docs/get-started/installation-setup)
 
-### SEOmatic
+SEOmatic | SEO | [Docs](https://nystudio107.com/docs/seomatic/)
+
+---
 
 ## **NPM Libraries**
-### Alpinejs | JavaScript framework
-Docs: https://alpinejs.dev/start-here
-### Tailwind CSS | CSS framework
-Docs: https://tailwindcss.com/docs/
-### Lucide | Icon library
-Docs: https://lucide.dev/guide/packages/lucide
-### FontAwesome | Icon library
+Alpine | JavaScript framework | [Docs](https://alpinejs.dev/start-here)  
+Alpinejs is used to add functionality
+
+Tailwind | CSS framework | [Docs](https://tailwindcss.com/docs/)
+
+Lucide | Icons | [Docs](https://lucide.dev/guide/packages/lucide)
+
+FontAwesome | Icons | [Docs](https://docs.fontawesome.com/web)
 Fontawesome is built in to Craft as the default icon set, so it's natural to include it alongside Lucide (which is better for generic UI)
-Docs: https://docs.fontawesome.com/web
-### Swiperjs | Carousel library
-Docs: https://swiperjs.com/get-started
+
+Swiper | Carousel | [Docs](https://swiperjs.com/get-started)
+
+---
 
 Note that there are additional modifications. To get a full overview of the project dependencies, please the following configuration files:
 
 - ./package.json
 - ./composer.json
 
-For an overview on CSS in this project, please review the notes and comments in ./tailwind.config.js
+For an overview on CSS in this project, please review the notes and comments in ./tailwind.config.js as well as ./src/style.css. 
