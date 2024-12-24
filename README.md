@@ -25,17 +25,23 @@ cp .env.example .env
 - generate a new app ID
 - generate a new security key
 - install craft (follow the prompts!)
-- switch to correct Node version
-- install Node dependencies
 ```
 composer install
 php craft setup/app-id
 php craft setup/security key
 php craft install
+
+```
+### 5. **NPM**
+- switch to project Node version
+- install NPM packages
+- build project
+```
 nvm use
 npm install
+npm run build
 ```
-### 5. **Fortrabbit**
+### 6. **Fortrabbit**
 - set up fortrabbit project
 - copy .env variables and database to Fortrabbit
 - add the project as a remote
