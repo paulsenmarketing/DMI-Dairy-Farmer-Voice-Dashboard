@@ -25,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -54,6 +54,28 @@ fieldLayouts:
         name: Content
         uid: 50537173-cab9-4c25-bd90-194e5ee9d24a
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-03T21:14:43+00:00'
+            elementCondition: null
+            fieldUid: fa10def5-d1fb-4dc1-8756-b7fa578e626e # Seo Settings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a109a2da-1eb4-4081-b90d-7d6be4727ab9
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 521b039f-edf8-4f8e-98fe-a7e005542fdd
+        userCondition: null
 handle: standardPage
 hasTitleField: true
 icon: file
@@ -62,6 +84,6 @@ showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
