@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 import legacy from '@vitejs/plugin-legacy';
 import ViteRestart from "vite-plugin-restart";
-import viteCompression from 'vite-plugin-compression';
+import { compression } from 'vite-plugin-compression2'
 
 import * as path from 'path';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
@@ -40,7 +40,7 @@ export default defineConfig(({command}) => ({
                 path.resolve('./node_modules'),
             ],
         }),
-        viteCompression()
+        compression()
     ],
     resolve: {
         alias: {
