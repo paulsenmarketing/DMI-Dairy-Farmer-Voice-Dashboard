@@ -1,4 +1,4 @@
-dateModified: 1741037474
+dateModified: 1741107627
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -174,7 +174,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: HJKB68DS4G1FSE1F7Z0MN025
-    schemaVersion: 3.4.7
+    schemaVersion: 3.4.8
   image-optimize:
     edition: standard
     enabled: true
@@ -246,7 +246,7 @@ system:
   edition: solo
   live: true
   name: craft-five-bp
-  schemaVersion: 5.5.0.0
+  schemaVersion: 5.6.0.2
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
