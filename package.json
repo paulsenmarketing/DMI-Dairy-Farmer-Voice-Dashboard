@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@tailwindcss/typography": "^0.5.15",
     "@types/alpinejs": "^3.13.10",
     "@types/alpinejs__anchor": "^3.13.1",
@@ -49,8 +49,8 @@
     "alpinejs": "^3.13.8",
     "config": "^3.3.12",
     "dotenv": "^16.4.5",
-    "lucide": "^0.394.0",
-    "swiper": "^11.1.9",
+    "lucide": "^0.477.0",
+    "swiper": "^11.2.5",
     "vanilla-tilt": "^1.8.1"
   }
 }

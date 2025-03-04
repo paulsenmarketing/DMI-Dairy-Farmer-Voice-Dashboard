@@ -1,21 +1,21 @@
 {
   "src/main-legacy.ts": {
-    "file": "assets/app-legacy-CCRvVSC6.js",
+    "file": "assets/app-legacy-BaU1Vgsf.js",
     "name": "app",
     "src": "src/main-legacy.ts",
     "isEntry": true
   },
   "src/main.ts": {
-    "file": "assets/app-Cvoz2nG4.js",
+    "file": "assets/app-U2uux0Rh.js",
     "name": "app",
     "src": "src/main.ts",
     "isEntry": true,
     "css": [
-      "assets/app-Bnsuzjfa.css"
+      "assets/app-BiGrDh53.css"
     ]
   },
   "vite/legacy-polyfills-legacy": {
-    "file": "assets/polyfills-legacy-DAsxePGd.js",
+    "file": "assets/polyfills-legacy-DG-SGdA0.js",
     "name": "polyfills",
     "src": "vite/legacy-polyfills-legacy",
     "isEntry": true
