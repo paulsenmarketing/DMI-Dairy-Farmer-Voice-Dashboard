@@ -1,5 +1,5 @@
-/* fontawesome ------------------------------------------------------------ */
-
+/* fonts/fontawesome ------------------------------------------------------------ */
+@import url(https://fonts.bunny.net/css?family=noto-serif:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
 @import "@fortawesome/fontawesome-free/css/fontawesome.css";
 /* moved font import into the fonts section, the following is the remainder of solid.css from the lib */
 :root, :host {
@@ -17,17 +17,21 @@
 
 /* fonts ------------------------------------------------------------------ */
 
+
+
 @layer base {
+
     @font-face {
         font-family: 'Roboto';
-        src: local('Roboto-Regular'), url('dist/fonts/Roboto-Regular.ttf') format('truetype');
+        /* an example of loading local fonts */
+        /* src: local('Roboto-Regular'), url('dist/fonts/Roboto-Regular.ttf') format('truetype'); */
         font-style: normal;
         font-weight: 400;
         font-display: swap;
     }
     @font-face {
         font-family: 'Noto Serif';
-        src: local('NotoSerif-Regular'), url('dist/fonts/NotoSerif-Regular.ttf') format('truetype');
+        /* src: local('NotoSerif-Regular'), url('dist/fonts/NotoSerif-Regular.ttf') format('truetype'); */
         font-style: normal;
         font-weight: 400;
         font-display: swap;

@@ -19,7 +19,9 @@ export default {
     extend: {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
-        'noto': ['Noto Serif', 'serif']
+        'noto': ['Noto Serif', 'serif'],
+        'text': ['Halant', 'serif'],
+        'title': ['Abril Fatface', 'serif'],
       },
       "colors": {
         // custom color pallet generated here: https://www.tints.dev/brand/4DD3FF
