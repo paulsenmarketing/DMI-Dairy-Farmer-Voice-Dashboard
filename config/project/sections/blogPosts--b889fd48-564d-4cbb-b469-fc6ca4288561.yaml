@@ -19,7 +19,7 @@ previewTargets:
         - '1'
 propagationMethod: all
 siteSettings:
-  465e8e05-dfe1-48d5-b118-10cbe924facb: # craft-five-bp
+  465e8e05-dfe1-48d5-b118-10cbe924facb: # dmi-dairy-farmer-voice-dashboard
     enabledByDefault: true
     hasUrls: true
     template: blog/_entry.twig
