@@ -6,7 +6,6 @@
 
    {% for block in blocks %}
       {% set camel = block.type.handle %}
-      <p>{{ camel }}:</p>
       {% include("_templates/blocks/#{camel}.twig") with {'block': block} only %}
    {% endfor %}
 

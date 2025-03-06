@@ -76,3 +76,41 @@
 .embedded-asset > iframe {
     @apply w-full h-full;
 }
+
+
+/* CSS ------------------------------------------------------------------- */
+
+h1 {
+    font-size: 50px;
+    line-height: 35px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+}
+p, span, li, a {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    p, span, li, a {
+        font-size: 14px;
+    }
+}

@@ -7,22 +7,46 @@ settings:
   createButtonLabel: null
   defaultIndexViewMode: cards
   entryTypes:
-    - cb84b102-9d2a-44d7-9dd4-ff477f0d8e56 # Accordion Block
-    - d956e446-2ce5-4a03-b31f-178d38c4e3e8 # Alert Block
-    - a3b70076-a07c-4e65-87eb-c5052465d0d8 # Blog Preview Block
-    - c02a173a-659a-474f-a8d0-d1cf4b6d7fb5 # Card Block
-    - 721054c3-0bf9-4471-9b23-19a86645b4ae # Hero Block
-    - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block
-    - b1cff360-784e-4a8e-bf27-2683495ff975 # Rich Text Block
-    - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
-    - 7d5fd0be-4db9-45f4-990d-68b6f5ee56e4 # Fact Block
-    - b02140d6-3b36-49ff-84fa-a24d268fdc67 # Image Card Block
-    - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
-    - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi-Image Block
-    - 934f8a14-7f2b-4c5b-bb32-112150bd0f8b # Image Gallery Block
-    - 835b9ebf-3326-478b-a1a3-0db340ababe7 # Fancy Carousel Block
-    - 3ee58561-cac5-42c7-947f-c2073e03f045 # Testimonial Slider
-    - 9709673b-10c4-4af1-a65f-b1accebadef6 # Spacer
+    -
+      __assoc__:
+        -
+          - uid
+          - 721054c3-0bf9-4471-9b23-19a86645b4ae # Hero Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block
+    -
+      __assoc__:
+        -
+          - uid
+          - b1cff360-784e-4a8e-bf27-2683495ff975 # Rich Text Block
+    -
+      __assoc__:
+        -
+          - uid
+          - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
+    -
+      __assoc__:
+        -
+          - uid
+          - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi-Image Block
+    -
+      __assoc__:
+        -
+          - uid
+          - db39feb2-35f0-4720-a96f-690134319792 # Tabbed Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 9709673b-10c4-4af1-a65f-b1accebadef6 # Spacer
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -1,4 +1,4 @@
-dateModified: 1741288532
+dateModified: 1741300576
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -71,6 +71,7 @@ meta:
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
     7cbd6694-a78c-4e20-8e1f-ac1873f67859: Number # Number
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
+    8c15c2fb-e48e-4c43-bd5e-abebc1c5809b: 'Tab Content' # Tab Content
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
@@ -122,6 +123,7 @@ meta:
     b1cff360-784e-4a8e-bf27-2683495ff975: 'Rich Text Block' # Rich Text Block
     b889fd48-564d-4cbb-b469-fc6ca4288561: 'Blog Posts' # Blog Posts
     b74742a2-df70-4043-9314-918863bf2f19: 'Button Icon' # Button Icon
+    b85698b5-b939-46e2-8781-40f80c88a024: Tabs # Tabs
     b300516a-a7e5-40e6-b9ec-4c3ea6f7d331: 'Square Image Transform' # Square Image Transform
     b2611308-ab3e-47ec-baf2-e7b34a1d1981: Saturation # Saturation
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
@@ -135,6 +137,7 @@ meta:
     d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
     d956e446-2ce5-4a03-b31f-178d38c4e3e8: 'Alert Block' # Alert Block
     daf2ea65-4217-414e-9178-085c55ca32d3: md # md
+    db39feb2-35f0-4720-a96f-690134319792: 'Tabbed Block' # Tabbed Block
     de86b9f0-bfb1-4249-8189-805912c70c62: Image # Image
     e13810b4-ac5b-4ba5-9edd-7a1c5b61486b: 'Social Media Links' # Social Media Links
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
