@@ -1,4 +1,4 @@
-dateModified: 1741276365
+dateModified: 1741288532
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -245,7 +245,8 @@ plugins:
 system:
   edition: solo
   live: true
-  name: craft-five-bp
+  name: 'DMI Farmers Voice Dashboard'
+  retryDuration: null
   schemaVersion: 5.6.0.2
   timeZone: America/Los_Angeles
 users:

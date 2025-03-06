@@ -26,6 +26,13 @@ export default {
       "colors": {
         // custom color pallet generated here: https://www.tints.dev/brand/4DD3FF
         // add as many named colors as you feel you need
+
+        "brandBlue": "#374C6A",
+        "brandLightBlue": "#82C7F5",
+        "brandWhiteBlue": "#EDF5F8",
+        "brandGreen": "#475846",
+        "brandLightGreen": "#5C725A",
+
         "primary": {
           default: "#70DBFF",
           50: "#F0FBFF",
