@@ -1,0 +1,33 @@
+columnSuffix: null
+handle: contentBackgroundColor
+instructions: null
+name: 'Content Background Color'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Blue'
+        -
+          - value
+          - brandWhiteBlue
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Green'
+        -
+          - value
+          - brandLightGreen
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

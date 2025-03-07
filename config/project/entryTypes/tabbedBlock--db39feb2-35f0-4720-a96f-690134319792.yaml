@@ -51,6 +51,38 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-03-07T17:26:42+00:00'
+            elementCondition: null
+            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Section Background Color
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5aaf129c-80c3-465d-9e45-5975316b92ce
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-07T17:26:42+00:00'
+            elementCondition: null
+            fieldUid: 8be379de-2386-49c6-be07-24db1825503f # Content Background Color
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1992723a-74d8-4ef4-87e9-679402abee1d
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 77909cda-d9a4-459d-837e-e00f0b22041e
         userCondition: null

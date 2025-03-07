@@ -1,18 +1,18 @@
 {% import _self as macros %}
 {% import '_templates/elements/logo.twig' as Logo %}
-
+{% set image = siteSettings.siteLogo.one() %}
 {% set navNodes = craft.navigation.nodes().handle('default').level(1).all() %}
 
 <nav class="w-full flex justify-center bg-brandWhiteBlue relative z-[999] px-8">
     <div class="w-full block-container flex items-center justify-between relative py-12">
         {# LOGO #}
         <a href="/">
-            {{ Logo.Default(75) }}
+            <img class="h-24" src="{{ image.url }}">
         </a>
 
 
         {# DESKTOP NAV #}
-        <div class="hidden xl:flex gap-4">
+        <div class="hidden lg:flex gap-4">
             {% for node in navNodes %}
                 {% if node.hasDescendants() %}
                     {{ macros.navNodes(node) }}
@@ -27,7 +27,7 @@
 
         {# MOBILE NAV #}
         <div x-data="{open: false}"
-             class="flex xl:hidden h-12 items-center justify-center aspect-square">
+             class="flex lg:hidden h-12 items-center justify-center aspect-square">
 
             {# menu burger button #}
             <svg x-on:click="open = !open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="cursor-pointer stroke-black z-[9999] w-10 h-10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -49,7 +49,7 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div class="max-w-96 block xl:hidden mt-auto pb-6">
+                <div class="max-w-96 block lg:hidden mt-auto pb-6">
                     <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                 </div>
             </div>
@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="hidden xl:block">
+        <div class="hidden lg:block">
             <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         </div>
     </div>

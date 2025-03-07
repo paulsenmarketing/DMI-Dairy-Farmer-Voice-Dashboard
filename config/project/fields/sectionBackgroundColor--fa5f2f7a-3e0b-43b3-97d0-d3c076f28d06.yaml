@@ -1,9 +1,10 @@
 columnSuffix: null
-handle: backgroundColor
+handle: sectionBackgroundColor
 instructions: null
-name: 'Background Color'
+name: 'Section Background Color'
 searchable: false
 settings:
+  customOptions: false
   options:
     -
       __assoc__:
@@ -15,15 +16,15 @@ settings:
           - white
         -
           - default
-          - ''
+          - '1'
     -
       __assoc__:
         -
           - label
-          - Black
+          - 'Green '
         -
           - value
-          - black
+          - brandGreen
         -
           - default
           - ''

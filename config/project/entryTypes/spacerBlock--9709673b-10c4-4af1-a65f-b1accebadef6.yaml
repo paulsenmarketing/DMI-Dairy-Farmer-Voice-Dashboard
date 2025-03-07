@@ -54,7 +54,7 @@ fieldLayouts:
           -
             dateAdded: '2024-10-30T19:22:48+00:00'
             elementCondition: null
-            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Background Color
+            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Section Background Color
             handle: null
             includeInCards: false
             instructions: null

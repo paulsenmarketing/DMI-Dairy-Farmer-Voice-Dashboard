@@ -1,4 +1,4 @@
-dateModified: 1741300576
+dateModified: 1741368886
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -71,6 +71,7 @@ meta:
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
     7cbd6694-a78c-4e20-8e1f-ac1873f67859: Number # Number
     7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
+    8be379de-2386-49c6-be07-24db1825503f: 'Content Background Color' # Content Background Color
     8c15c2fb-e48e-4c43-bd5e-abebc1c5809b: 'Tab Content' # Tab Content
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
@@ -147,7 +148,7 @@ meta:
     f59f7298-ab15-4754-85da-be8444a1f7cc: lg # lg
     f1830310-353b-4af7-a4e3-48dd1df6b8b3: 'Content Blocks' # Content Blocks
     fa0a59fb-e21a-41cb-a502-55d8a46dda8d: 'Asset Embeds' # Asset Embeds
-    fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06: 'Background Color' # Background Color
+    fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06: 'Section Background Color' # Section Background Color
     fa10def5-d1fb-4dc1-8756-b7fa578e626e: 'Seo Settings' # Seo Settings
     fd66754a-765a-488d-b730-a66067c0921b: 'Rich Text' # Rich Text
     fee1d400-8cc0-4a1d-a4ab-abea20b457de: 'Alert Type' # Alert Type
