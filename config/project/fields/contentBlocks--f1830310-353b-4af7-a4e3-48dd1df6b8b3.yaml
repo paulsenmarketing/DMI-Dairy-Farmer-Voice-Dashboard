@@ -16,7 +16,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 3080309c-cc07-4af0-aef6-94a96f235885 # Media Block
+          - 9fc539a6-3f44-4ab9-8065-1dfd72a83f75 # CTA Block
     -
       __assoc__:
         -
@@ -26,17 +26,7 @@ settings:
       __assoc__:
         -
           - uid
-          - ad916db7-1501-45f0-88fe-2966c21fe1aa # Section Header
-    -
-      __assoc__:
-        -
-          - uid
           - 182cab13-62e2-4514-a1d4-87095afb5f85 # Single Image Block
-    -
-      __assoc__:
-        -
-          - uid
-          - 2ab67bc1-7dfc-4ea8-ba19-4399a0501f7d # Multi-Image Block
     -
       __assoc__:
         -

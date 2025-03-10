@@ -1,6 +1,11 @@
 {% import '_templates/elements/image.twig' as Image  %}
 
-   <div class="w-full h-[800px]">
-      {% set image = block.singleImage.eagerly().one() %}
-      {{ Image.Default(image) }}
+<div class="w-full px-8 bg-{{ block.sectionBackgroundColor }} py-12 lg:py-20">
+   <div class="block-container">
+      <h2 class="text-center mb-10 font-bold {{ block.sectionBackgroundColor == 'brandGreen' ? 'text-white' : '' }}">{{ block.title }}</h2>
+      <div class="w-full h-auto max-w-3xl mx-auto">
+         {% set image = block.singleImage.eagerly().one() %}
+         {{ Image.Default(image) }}
+      </div>
    </div>
+</div>

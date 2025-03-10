@@ -1,6 +1,6 @@
-color: amber
+color: yellow
 fieldLayouts:
-  def6b37f-a349-48ea-8eab-8f3d5ea694e7:
+  670fd04d-2790-4ab9-9c52-6ef91e37dbdf:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-03-10T14:42:13+00:00'
+            dateAdded: '2025-03-10T14:48:48+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c046bde9-902f-4ad0-abcb-ba1f89c6987d
+            uid: 559ee797-83bf-4d48-bda6-1ecbfecc700a
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-17T22:26:50+00:00'
+            dateAdded: '2025-03-10T14:50:36+00:00'
             elementCondition: null
-            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
+            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
             handle: null
             includeInCards: false
             instructions: null
@@ -47,14 +47,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a59bd447-327d-42a6-844d-d32963918ff3
+            uid: 8789fb4d-329f-408b-9ee3-29a01c2843a3
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-10T14:42:13+00:00'
+            dateAdded: '2025-03-10T14:50:36+00:00'
             elementCondition: null
-            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Section Background Color
+            fieldUid: 5156b559-8221-4bea-a555-7fcf5a19d86e # Button
             handle: null
             includeInCards: false
             instructions: null
@@ -63,17 +63,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d9394bb2-e850-41eb-b6b8-4daf1be0bab7
+            uid: 40cde564-8fe3-4922-8da7-2358dd00d29d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: bed3869b-9d07-4b52-8153-ca5e5baaef40
+        uid: af980371-49ed-4acc-8b60-7143d94122d6
         userCondition: null
-handle: singleImageBlock
+handle: ctaBlock
 hasTitleField: true
-icon: camera
-name: 'Single Image Block'
+icon: headset
+name: 'CTA Block'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

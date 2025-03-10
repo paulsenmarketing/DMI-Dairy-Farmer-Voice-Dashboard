@@ -1,4 +1,4 @@
-dateModified: 1741368886
+dateModified: 1741618284
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -76,6 +76,7 @@ meta:
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
+    9fc539a6-3f44-4ab9-8065-1dfd72a83f75: 'CTA Block' # CTA Block
     22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
     34c2d3a9-93f5-4d47-9ca6-152a36cfcd2f: Blog # Blog
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
