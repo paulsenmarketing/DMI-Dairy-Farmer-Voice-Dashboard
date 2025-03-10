@@ -1,6 +1,6 @@
 {% macro default(data) %}
    {% set buttonType = {
-      'default': 'bg-surface-800 hover:bg-surface-900 outline-surface-800 text-surface-800 stroke-surface-800',
+      'default': 'bg-brandLightBlue hover:bg-contrast-150 outline-surface-800 text-black',
       'info': 'bg-blue-500 hover:bg-blue-600 outline-blue-500 text-blue-500 stroke-blue-500',
       'warning': 'bg-red-500 hover:bg-red-600 outline-red-500 text-red-500 stroke-red-500',
       'question': 'bg-purple-500 hover:bg-purple-600 outline-purple-500 text-purple-500 stroke-purple-500',
@@ -10,7 +10,7 @@
 
    {% set buttonStyle = {
       'outline': 'bg-transparent outline hover:bg-opacity-20',
-      'filled': 'bg-opacity-100 *:!text-white *:!stroke-white ',
+      'filled': 'bg-opacity-100 ',
       'ghost': 'bg-opacity-20 *:hover:!text-white *:hover:!stroke-white hover:!bg-opacity-20'
    } %}
 
@@ -33,10 +33,9 @@
       %}
    {% endif %}
 
-   <button type="button" href="{{ data.link }}" class="{{ buttonType[data.type ?? 'default'] }} {{ buttonStyle[data.style ?? 'filled'] }} flex items-center justify-center px-4 py-2 mt-4 w-fit text-sm font-medium tracking-wide    transition-colors duration-200 rounded focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none group">
+   <a type="button" href="{{ data.link }}" class="{{ buttonType[data.type ?? 'default'] }} {{ buttonStyle[data.style ?? 'filled'] }} text-black flex items-center justify-center px-6 py-3 w-fit text-sm font-medium tracking-wide transition-colors duration-200 rounded-full group">
       <span>{{ data.text }}</span>
-      <i class="ml-2 {{ strokeStyle[data.type ?? 'default'] }}" data-lucide="arrow-right"></i>
-   </button>
+   </a>
 {% endmacro %}
 
 {% macro Social(site, url) %}
