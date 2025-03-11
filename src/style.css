@@ -82,7 +82,7 @@
 
 h1 {
     font-size: 50px;
-    line-height: 35px;
+    line-height: 45px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
@@ -92,6 +92,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 35px;
 }
 h3 {
     font-size: 24px;
