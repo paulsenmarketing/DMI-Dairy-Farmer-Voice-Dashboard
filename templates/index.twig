@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-US" data-theme="light">
 <head>
@@ -17,13 +15,11 @@
     {% set expiry = now|date_modify('+30 minutes') %}
     {% header "Cache-Control: max-age=" ~ (expiry.timestamp - now.timestamp) %}
     {{ craft.vite.script("./src/main.ts", false) }}
-
-
 </head>
 
 <body
-   x-data="{ loading: true }"
-   x-init="
+        x-data="{ loading: true }"
+        x-init="
      window.addEventListener('load', () => {
        const content = document.querySelector('#content');
        content.style.overflow = 'auto';
@@ -32,21 +28,19 @@
 
        const lazyDom = document.querySelectorAll('.lazyload');
        lazyDom.forEach(el => {
-         // If the el is already loaded (when load event may have already fired)
          if (el.complete || el.naturalWidth > 0) {
            el.style.backgroundColor = 'transparent';
            el.style.backgroundImage = 'none';
            el.classList.remove('blur-md')
          } else {
-               // Otherwise, add an event listener for when the el loads
-               el.addEventListener('load', function() {
-                 el.style.backgroundColor = 'transparent';
-                 el.style.backgroundImage = 'none';
-                 el.classList.remove('blur-md')
-               });
-            }
-          });
-        });
+           el.addEventListener('load', function() {
+             el.style.backgroundColor = 'transparent';
+             el.style.backgroundImage = 'none';
+             el.classList.remove('blur-md')
+           });
+         }
+       });
+     });
    ">
 <div x-show="loading" class="loading-screen"
      x-transition:leave="transition-opacity ease-out duration-700"
@@ -59,12 +53,7 @@
 </div>
 
 <div id="content">
-    {% include '_templates/blocks/_navigation.twig' %}
-    {#{% include '_templates/blocks/_megaNavigation.twig' %}#}
-{#{% include '_templates/blocks/_breadcrumbs.twig' %}#}
-    {% block body %}
-    {% endblock body %}
-    {% include '_templates/blocks/_footer.twig' %}
+    {% block content %}{% endblock %}
 </div>
 
 <script>0</script>

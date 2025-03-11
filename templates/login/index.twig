@@ -1,0 +1,70 @@
+{% extends '_layouts/logged-out.twig' %}
+
+{% block body %}
+    <div class="min-h-[76vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8 bg-brandWhiteBlue px-8 py-16">
+            <div>
+                <h1 class="text-center text-3xl font-semibold mb-4">
+                    DMI Dashboard
+                </h1>
+                <p class="text-center text-2xl">
+                    Sign in to get started
+                </p>
+            </div>
+            <form class="mt-8 space-y-6" method="post" accept-charset="UTF-8">
+                {{ csrfInput() }}
+                {{ actionInput('users/login') }}
+                <div class="rounded-md shadow-sm -space-y-px">
+                    <div>
+                        <label for="loginName" class="sr-only">Username or email</label>
+                        <input id="loginName" name="loginName" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-brandBlue focus:border-brandBlue focus:z-10 sm:text-sm" placeholder="Username or email" value="{{ craft.app.user.rememberedUsername }}">
+                    </div>
+                    <div>
+                        <label for="password" class="sr-only">Password</label>
+                        <input id="password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-brandBlue focus:border-brandBlue focus:z-10 sm:text-sm" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <input id="rememberMe" name="rememberMe" type="checkbox" class="h-4 w-4 text-brandBlue focus:ring-brandBlue border-gray-300 rounded">
+                        <label for="rememberMe" class="ml-2 block text-sm">
+                            Remember me
+                        </label>
+                    </div>
+
+                    <div class="text-sm">
+                        <a href="{{ url('password-reset') }}" class="text-brandBlue hover:text-brandLightBlue underline font-bold">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-brandBlue hover:bg-brandLightBlue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brandLightBlue">
+                        Sign in
+                    </button>
+                </div>
+
+                {% if errorMessage is defined %}
+                    <div class="rounded-md bg-brandLightBlue p-4 mt-4">
+                        <div class="flex">
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium">
+                                    Error
+                                </h3>
+                                <div class="mt-2 text-sm">
+                                    <p>
+                                        {{ errorMessage }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

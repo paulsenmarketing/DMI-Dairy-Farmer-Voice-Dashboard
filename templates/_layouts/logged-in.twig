@@ -1,0 +1,11 @@
+{% requireLogin %}
+
+{% extends "index.twig" %}
+
+{% block content %}
+    {% include '_templates/blocks/_navigation.twig' %}
+    {% block body %}
+        {# Your logged-in specific content here #}
+    {% endblock body %}
+    {% include '_templates/blocks/_footer.twig' %}
+{% endblock %}

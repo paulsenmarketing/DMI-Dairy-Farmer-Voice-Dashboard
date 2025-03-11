@@ -10,7 +10,6 @@
             <img class="h-24" src="{{ image.url }}">
         </a>
 
-
         {# DESKTOP NAV #}
         <div class="hidden lg:flex gap-4">
             {% for node in navNodes %}
@@ -23,7 +22,6 @@
                 {% endif %}
             {% endfor %}
         </div>
-
 
         {# MOBILE NAV #}
         <div x-data="{open: false}"
@@ -49,9 +47,6 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div class="max-w-96 block lg:hidden mt-auto pb-6">
-                    <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                </div>
             </div>
 
             <div x-on:click="open = !open" :class="open ? 'opacity-50 delay-200 duration-300' : 'opacity-0'" class="left-0 top-0 fixed h-full w-[11%] bg-black z-40">
@@ -59,9 +54,26 @@
 
         </div>
 
-        <div class="hidden lg:block">
-            <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        {# DESKTOP USER ICON #}
+        <div class="relative hidden lg:block z-20" id="desktopUserIcon">
+            <div class="cursor-pointer">
+                <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg hidden" id="desktopUserMenu">
+                <a href="{{ logoutUrl }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sign Out</a>
+            </div>
         </div>
+
+        {# MOBILE USER ICON #}
+        <div class="fixed bottom-4 right-4 z-[9999] lg:hidden" id="mobileUserIcon">
+            <div class="cursor-pointer bg-white rounded-full p-2 shadow-lg">
+                <svg class="feather feather-user" fill="none" height="40px" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <div class="absolute right-0 bottom-full mb-2 w-48 bg-white rounded-md shadow-lg hidden" id="mobileUserMenu">
+                <a href="{{ logoutUrl }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sign Out</a>
+            </div>
+        </div>
+
     </div>
 </nav>
 
@@ -153,3 +165,31 @@
         z-index: 98;
     }
 </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        function setupUserMenu(iconId, menuId) {
+            const userIcon = document.getElementById(iconId);
+            const userMenu = document.getElementById(menuId);
+
+            if (userIcon && userMenu) {
+                userIcon.addEventListener('click', function(event) {
+                    event.stopPropagation();
+                    userMenu.classList.toggle('hidden');
+                    console.log(iconId + ' clicked, menu visibility:', !userMenu.classList.contains('hidden'));
+                });
+            }
+        }
+
+        setupUserMenu('mobileUserIcon', 'mobileUserMenu');
+        setupUserMenu('desktopUserIcon', 'desktopUserMenu');
+
+        // Close the menus when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('#mobileUserIcon') && !event.target.closest('#desktopUserIcon')) {
+                document.getElementById('mobileUserMenu').classList.add('hidden');
+                document.getElementById('desktopUserMenu').classList.add('hidden');
+            }
+        });
+    });
+</script>
