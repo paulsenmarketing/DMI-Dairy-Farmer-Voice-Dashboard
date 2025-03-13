@@ -1,44 +1,62 @@
-color: amber
+color: red
 fieldLayouts:
-  def6b37f-a349-48ea-8eab-8f3d5ea694e7:
+  497bff93-b4a6-419f-b722-cba646c8107c:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2025-03-10T14:42:13+00:00'
-            disabled: false
+            dateAdded: '2025-03-12T15:15:47+00:00'
             elementCondition: null
-            id: null
+            fieldUid: de86b9f0-bfb1-4249-8189-805912c70c62 # Image
+            handle: image2
             includeInCards: false
-            inputType: null
             instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
+            label: Icon
             providesThumbs: false
-            readonly: false
-            required: true
-            size: null
-            step: null
+            required: false
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c046bde9-902f-4ad0-abcb-ba1f89c6987d
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8afff3f1-2771-4355-88ad-7d7639790b5b
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-12T16:47:40+00:00'
+            dateAdded: '2025-03-12T15:15:47+00:00'
             elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Stat
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37f9cc03-202a-4cc0-8b8c-22562aaf2508
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-12T15:12:13+00:00'
+            elementCondition: null
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Body Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b6d60ba-b571-48ac-89e4-fe23a8255099
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-12T15:12:13+00:00'
+            elementCondition: null
+            fieldUid: de86b9f0-bfb1-4249-8189-805912c70c62 # Image
             handle: null
             includeInCards: false
             instructions: null
@@ -47,49 +65,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4180505d-1ada-40cf-a0a4-e3ca3f27aa9a
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-12-17T22:26:50+00:00'
-            elementCondition: null
-            fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a59bd447-327d-42a6-844d-d32963918ff3
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-03-10T14:42:13+00:00'
-            elementCondition: null
-            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Section Background Color
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d9394bb2-e850-41eb-b6b8-4daf1be0bab7
+            uid: 2a270e1a-d291-4833-8eea-2146b6dc3dff
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: bed3869b-9d07-4b52-8153-ca5e5baaef40
+        uid: 91a7ea9f-8b2d-4daf-b81e-beb2f838d33d
         userCondition: null
-handle: singleImageBlock
-hasTitleField: true
-icon: camera
-name: 'Single Image Block'
+handle: statCard
+hasTitleField: false
+icon: null
+name: 'Stat Card'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

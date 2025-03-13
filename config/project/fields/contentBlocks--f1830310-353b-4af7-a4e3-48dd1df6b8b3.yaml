@@ -16,6 +16,21 @@ settings:
       __assoc__:
         -
           - uid
+          - 9d7a98c3-a3d8-438f-b7b4-e672bb888a3e # Homepage
+    -
+      __assoc__:
+        -
+          - uid
+          - 517cfe88-f797-427a-8b8f-18100a7e54d2 # Key Influential Farmers
+    -
+      __assoc__:
+        -
+          - uid
+          - c4fcabfa-31ea-42e7-9ea4-ad6010b73459 # Annual Meeting
+    -
+      __assoc__:
+        -
+          - uid
           - 9fc539a6-3f44-4ab9-8065-1dfd72a83f75 # CTA Block
     -
       __assoc__:

@@ -1,6 +1,6 @@
-color: amber
+color: red
 fieldLayouts:
-  def6b37f-a349-48ea-8eab-8f3d5ea694e7:
+  107b1a6a-49e2-4b18-a8b1-ea2e3ed9b732:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-03-10T14:42:13+00:00'
+            dateAdded: '2025-03-12T18:25:48+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c046bde9-902f-4ad0-abcb-ba1f89c6987d
+            uid: a8a0bd85-75f5-4b4c-b78f-2d2c194ee3ac
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-12T16:47:40+00:00'
+            dateAdded: '2025-03-12T18:27:20+00:00'
             elementCondition: null
-            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
             handle: null
             includeInCards: false
             instructions: null
@@ -47,12 +47,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4180505d-1ada-40cf-a0a4-e3ca3f27aa9a
+            uid: 64cdfd8b-c108-4c9d-a22c-b1c527c493de
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-17T22:26:50+00:00'
+            dateAdded: '2025-03-12T20:14:30+00:00'
             elementCondition: null
             fieldUid: 94c492e6-2585-46cd-b5f7-277f35023321 # Single Image
             handle: null
@@ -63,33 +63,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a59bd447-327d-42a6-844d-d32963918ff3
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-03-10T14:42:13+00:00'
-            elementCondition: null
-            fieldUid: fa5f2f7a-3e0b-43b3-97d0-d3c076f28d06 # Section Background Color
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d9394bb2-e850-41eb-b6b8-4daf1be0bab7
+            uid: 3b874394-1f1b-40f2-a340-745a93a98fd5
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: bed3869b-9d07-4b52-8153-ca5e5baaef40
+        uid: 989a07bf-8659-4c40-a9e2-ba825bd88d5e
         userCondition: null
-handle: singleImageBlock
+handle: gridSection
 hasTitleField: true
-icon: camera
-name: 'Single Image Block'
+icon: null
+name: 'Grid Section'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

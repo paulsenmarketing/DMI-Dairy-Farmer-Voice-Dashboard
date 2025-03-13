@@ -1,0 +1,27 @@
+<div class="w-full px-8 bg-brandWhiteBlue py-12 lg:py-20">
+        <div class="block-container">
+                <h2 class="pb-4 font-bold text-center mb-8">{{ block.title }}</h2>
+                <div class="flex flex-wrap justify-center gap-6">
+                        {% for block in block.annualMeetingGrid.all() %}
+                                <div class="{% if loop.index > 3 %}col-span-full md:col-span-1{% endif %} shadow-xl {% if block.image.one() %} p-0 bg-transparent {% else %} p-8 bg-white {% endif %} w-full md:w-[50%] xl:w-[32%] flex flex-col items-center gap-2">
+                                        {% if block.image2.one() %}
+                                                <img src="{{ block.image2.one().url }}" alt="{{ block.image2.one().title }}" class="w-[100px] h-auto mb-4">
+                                        {% endif %}
+
+                                        {% if block.text %}
+                                                <h3 class="text-[50px] font-bold mb-4 text-center">{{ block.text }}</h3>
+                                        {% endif %}
+
+                                        {% if block.richText50 %}
+                                                <div class="text-center w-full">{{ block.richText50 }}</div>
+                                        {% endif %}
+
+                                        {% if block.image.one() and not block.image2.one() and not block.text and not block.richText50 %}
+                                                <img src="{{ block.image.one().url }}" alt="{{ block.image.one().title }}" class="w-full h-full">
+                                        {% endif %}
+                                </div>
+                        {% endfor %}
+                </div>
+        </div>
+</div>
+

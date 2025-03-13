@@ -1,4 +1,4 @@
-dateModified: 1741720059
+dateModified: 1741810470
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -76,6 +76,7 @@ meta:
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
     8fd121e1-71d9-4e05-b613-787c2ead3064: Contrast # Contrast
     9cda611f-c16d-47dc-ae75-72c3bf2bfa50: 'Card Entry' # Card Entry
+    9d7a98c3-a3d8-438f-b7b4-e672bb888a3e: Homepage # Homepage
     9fc539a6-3f44-4ab9-8065-1dfd72a83f75: 'CTA Block' # CTA Block
     22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
     34c2d3a9-93f5-4d47-9ca6-152a36cfcd2f: Blog # Blog
@@ -94,12 +95,14 @@ meta:
     182cab13-62e2-4514-a1d4-87095afb5f85: 'Single Image Block' # Single Image Block
     465e8e05-dfe1-48d5-b118-10cbe924facb: dmi-dairy-farmer-voice-dashboard # dmi-dairy-farmer-voice-dashboard
     482cb0dd-2361-49db-bb8c-232d0ee58caf: 'Image Entry' # Image Entry
+    517cfe88-f797-427a-8b8f-18100a7e54d2: 'Key Influential Farmers' # Key Influential Farmers
     742bde2f-c58c-4bbd-a64c-9c31c229dec6: 'Image Gallery Matrix' # Image Gallery Matrix
     749f7160-6822-4173-a24f-05da77c1e381: 'Image Fit' # Image Fit
     757d9c50-bfe4-428a-868c-fe52209cea11: 'Phone Number' # Phone Number
     809b7984-2725-4016-bd55-1e7e668cb7aa: 'Alignment (Left, Right)' # Alignment (Left, Right)
     835b9ebf-3326-478b-a1a3-0db340ababe7: 'Fancy Carousel Block' # Fancy Carousel Block
     934f8a14-7f2b-4c5b-bb32-112150bd0f8b: 'Image Gallery Block' # Image Gallery Block
+    2443cd61-2a9b-4eca-bf09-c026477c5b38: 'Annual Meeting Grid' # Annual Meeting Grid
     3331cea5-375b-4e4d-84cc-103b3e1e934c: xl # xl
     3562ead4-682f-4206-aa9f-bc4f70b0e9a7: 'Public Schema' # Public Schema
     5156b559-8221-4bea-a555-7fcf5a19d86e: Button # Button
@@ -118,6 +121,7 @@ meta:
     a6eaf89c-965b-42ff-ba4f-99667f42a0b0: Color # Color
     a95cfa5d-8fcc-4798-99be-4347db515555: xl # xl
     a421d5a5-8c99-4385-931e-df852136c717: 'Fact Entry' # Fact Entry
+    abb82a9c-55d8-4f65-af42-cb6ffddb17ed: 'Grid Section' # Grid Section
     ad916db7-1501-45f0-88fe-2966c21fe1aa: 'Section Header' # Section Header
     aeff5466-2f20-4b7d-8e4a-04dce57c9959: craft-five-bp # craft-five-bp
     b02140d6-3b36-49ff-84fa-a24d268fdc67: 'Image Card Block' # Image Card Block
@@ -131,9 +135,11 @@ meta:
     be2ee2ea-08b5-49a7-83bb-c0d31f85f128: Blur # Blur
     c0ecf01e-6e64-4464-af70-7236f1c1f0f7: Pages # Pages
     c02a173a-659a-474f-a8d0-d1cf4b6d7fb5: 'Card Block' # Card Block
+    c4fcabfa-31ea-42e7-9ea4-ad6010b73459: 'Annual Meeting' # Annual Meeting
     c4675426-8603-42ce-a45a-e8d3719afcb4: 2xl # 2xl
     ca87968d-6314-43fe-ac02-19e6b907e322: 2xl # 2xl
     cb84b102-9d2a-44d7-9dd4-ff477f0d8e56: 'Accordion Block' # Accordion Block
+    ce20d222-cf83-46d9-9708-dce4482028de: 'Homepage Grid' # Homepage Grid
     cfcffb85-6685-433b-b38c-b9a01894b854: Text # Text
     d1abb0bf-e20e-47c3-8755-0560f17a2276: 'Widescreen Image Transform' # Widescreen Image Transform
     d7bb7257-2dc7-489d-a850-041abc95b0f0: Margin # Margin
@@ -144,6 +150,7 @@ meta:
     e13810b4-ac5b-4ba5-9edd-7a1c5b61486b: 'Social Media Links' # Social Media Links
     ebe71c90-a7ee-49f4-8b74-c44b42e3aa1b: default # default
     ebead14d-c805-4cdc-a1fa-a9d1d39b1b4d: Images # Images
+    edf99feb-c4d6-4a54-9e07-40dc07267595: 'Stat Card' # Stat Card
     f2aadb83-4021-4911-8584-7b580cf51162: 'Original Image Transform' # Original Image Transform
     f37cefb7-0c36-4816-a8d5-8867fce5aa85: 'Original Image Transform' # Original Image Transform
     f59f7298-ab15-4754-85da-be8444a1f7cc: lg # lg

@@ -1,0 +1,85 @@
+color: rose
+fieldLayouts:
+  e156284f-272e-4445-a7d0-f5d5e148675c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-12T16:02:29+00:00'
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Fact 1 Title'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66ac51ea-2550-4c15-a552-2a722336bc28
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-03-12T16:02:29+00:00'
+            elementCondition: null
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Fact 1 Body Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df06a5f0-cf9e-48f9-a8f7-a51982491a23
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            dateAdded: '2025-03-12T16:02:29+00:00'
+            elementCondition: null
+            fieldUid: cfcffb85-6685-433b-b38c-b9a01894b854 # Text
+            handle: text2
+            includeInCards: false
+            instructions: null
+            label: 'Fact 2 Title'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59d36cab-d9af-4f0c-b848-2c8c94340c17
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-03-12T16:02:29+00:00'
+            elementCondition: null
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            handle: richText502
+            includeInCards: false
+            instructions: null
+            label: 'Fact 2 Body Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77f38501-d5dc-446b-a759-0cb091db975c
+            userCondition: null
+            warning: null
+            width: 75
+        name: Content
+        uid: 41bdf74f-ff81-4e91-af86-81c8b22033ed
+        userCondition: null
+handle: keyInfluentialFarmers
+hasTitleField: false
+icon: null
+name: 'Key Influential Farmers'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

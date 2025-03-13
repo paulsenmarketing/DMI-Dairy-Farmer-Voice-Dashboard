@@ -1,7 +1,8 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 5c8911be-cceb-470a-8a6e-0c9ead9c2142 # Standard Page
+  -
+    uid: 5c8911be-cceb-470a-8a6e-0c9ead9c2142 # Standard Page
 handle: pages
 maxAuthors: 1
 name: Pages

@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: annualMeetingGrid
+instructions: null
+name: 'Annual Meeting Grid'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - edf99feb-c4d6-4a54-9e07-40dc07267595 # Stat Card
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: homepageGrid
+instructions: null
+name: 'Homepage Grid'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - abb82a9c-55d8-4f65-af42-cb6ffddb17ed # Grid Section
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
