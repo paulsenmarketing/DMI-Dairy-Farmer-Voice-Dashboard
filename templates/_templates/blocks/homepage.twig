@@ -9,7 +9,7 @@
         <div class="space-y-6">
 
             {# Row 1 & Partial Row 2 #}
-            <div class="grid grid-cols-4 gap-8 auto-rows-[200px]">
+            <div class="grid grid-cols-4 gap-8 auto-rows-[175px]">
                 {% for block in graphBlocks[0:3] %}
                     <div class="col-span-1 row-span-2 flex flex-col">
                         <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
@@ -49,7 +49,7 @@
             </div>
 
             {# Row 3 & 4 #}
-            <div class="grid grid-cols-4 gap-8 auto-rows-[200px]">
+            <div class="grid grid-cols-4 gap-8 auto-rows-[175px]">
                 <div class="row-span-4 col-span-1 flex flex-col">
                     <h5 class="font-bold h-6 overflow-hidden">{{ graphBlocks[6].title }}</h5>
                     <div class="mb-2">{{ graphBlocks[6].richText50 }}</div>
@@ -103,8 +103,8 @@
             </div>
 
             {# Row 5 #}
-            <div class="grid grid-cols-3 gap-8 auto-rows-[200px]">
-                {% for block in graphBlocks[12:15] %}
+            <div class="grid grid-cols-4 gap-8 auto-rows-[200px]">
+                {% for block in graphBlocks[12:16] %}
                     <div class="col-span-1 row-span-2 flex flex-col">
                         <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
                         <div class="mb-2">{{ block.richText50 }}</div>
