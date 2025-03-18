@@ -17,7 +17,7 @@
             {% endfor %}
         </div>
         <div class="flex max-md:flex-wrap gap-8 pt-8">
-            {% for block in graphBlocks[12:14] %}
+            {% for block in graphBlocks[12:13] %}
                 <div class="max-w-[700px] mx-auto">
                     <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
                     <div class="mb-2">{{ block.richText50 }}</div>
@@ -27,6 +27,30 @@
                     </div>
                 </div>
             {% endfor %}
+            <div>
+                <h5 class="font-bold h-6 overflow-hidden">Composite Issues Risk Score</h5>
+                <div class="mb-2">{{ block.richText50 }}</div>
+                <div class="flex-grow overflow-hidden shadow-xl p-6 md:p-12 max-w-3xl">
+                    <div class="flex max-md:flex-wrap max-md:justify-center max-md:gap-4 justify-between text-center pb-10">
+                        <div class="w-48">
+                            <h4>Risk Score</h4>
+                            <h3 class="text-red-700">64.4/100</h3>
+                        </div>
+                        <div class="w-48">
+                            <h4 class="leading-5">Change from Prior Month</h4>
+                            <h3 class="text-yellow-600">↑ 0.7pt</h3>
+                        </div>
+                        <div class="w-48">
+                            <h4>Risk Level</h4>
+                            <h3 class="text-red-700">High</h3>
+                        </div>
+                    </div>
+                    <p>
+                        In addition to developments around H5N1, coverage/conversation on tariffs, layouts from regulatory bodies and immigration drove headlines for the category. Composite risk increased and the category remains the largest
+                        and highest risk overall, but we've not observed shifts in sentiment, or emergence of new unfavorable narratives.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
