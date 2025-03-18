@@ -1,5 +1,5 @@
 {# Assuming your CSV is stored as an asset #}
-{% set csvAsset = craft.assets.filename('DMI-Milk-Graph-historical-prices-03-17-2025.csv').one() %}
+{% set csvAsset = craft.assets.filename('DMI-AgEconomyBarometer-AgEconomyBarometer_SurveryHisto.csv').one() %}
 {% set csvContent = csvAsset.getContents() %}
 
 {# Parse CSV content #}
@@ -17,12 +17,12 @@
     {% endif %}
 {% endfor %}
 
-<div class="w-full px-5 bg-White py-12 lg:py-20">
+<div class="w-full px-5 bg-brandWhiteBlue py-12 lg:py-20">
     <div class="block-container">
         <div class="max-w-full mx-auto text-center">
             <h2 class="pb-6">{{ block.title }}</h2>
             <div class="pb-10">{{ block.richText }}</div>
-            <div id="milk-chart"></div>
+            <div id="barometer-chart"></div>
         </div>
     </div>
 </div>
@@ -82,23 +82,9 @@
                     format: 'yyyy-MM-dd'
                 }
             },
-            annotations: {
-                xaxis: [{
-                    x: new Date(currentYear, currentMonth, 1).getTime(),
-                    borderColor: '#FF4560',
-                    label: {
-                        borderColor: '#FF4560',
-                        style: {
-                            color: '#fff',
-                            background: '#FF4560'
-                        },
-                        text: 'Current Month'
-                    }
-                }]
-            },
         };
 
-        var chart = new ApexCharts(document.querySelector("#milk-chart"), options);
+        var chart = new ApexCharts(document.querySelector("#barometer-chart"), options);
         chart.render();
     });
 </script>

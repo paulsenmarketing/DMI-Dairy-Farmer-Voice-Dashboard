@@ -1,6 +1,6 @@
 {% import '_templates/elements/image.twig' as Image  %}
 
-<div class="w-full px-8 bg-brandWhiteBlue py-12 lg:py-20 hp">
+<div class="w-full px-8 bg-white py-12 lg:py-20 hp">
     <div class="block-container">
         {% set graphBlocks = block.homepageGrid.all() %}
 
@@ -11,19 +11,19 @@
                     <div class="mb-2">{{ block.richText50 }}</div>
                     <div class="flex-grow overflow-hidden shadow-xl">
                         {% set image = block.singleImage.eagerly().one() %}
-                        {{ Image.Default(image, {class: 'w-full h-full object-cover'}) }}
+                        {{ Image.Default(image) }}
                     </div>
                 </div>
             {% endfor %}
         </div>
         <div class="flex max-md:flex-wrap gap-8 pt-8">
             {% for block in graphBlocks[12:14] %}
-                <div>
+                <div class="max-w-[700px] mx-auto">
                     <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
                     <div class="mb-2">{{ block.richText50 }}</div>
                     <div class="flex-grow overflow-hidden shadow-xl">
                         {% set image = block.singleImage.eagerly().one() %}
-                        {{ Image.Default(image, {class: 'w-full h-full object-cover'}) }}
+                        {{ Image.Default(image) }}
                     </div>
                 </div>
             {% endfor %}

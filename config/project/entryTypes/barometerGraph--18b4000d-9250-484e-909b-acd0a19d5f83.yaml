@@ -1,0 +1,67 @@
+color: red
+fieldLayouts:
+  bff88ffe-efad-43de-a970-76f52c047b0c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-03-18T20:05:02+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d2cbe2ed-08f0-4517-bb2e-7bb9939d67c2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-18T20:06:41+00:00'
+            elementCondition: null
+            fieldUid: fd66754a-765a-488d-b730-a66067c0921b # Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a1654f7-508f-4b46-b153-a54b7831e19d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9d1c3814-13a1-48f7-a29b-5c82128d9ec5
+        userCondition: null
+handle: barometerGraph
+hasTitleField: true
+icon: horizontal-rule
+name: 'Barometer Graph'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
