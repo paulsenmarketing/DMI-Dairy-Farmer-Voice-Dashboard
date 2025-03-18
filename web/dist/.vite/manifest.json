@@ -1,17 +1,17 @@
 {
   "src/main-legacy.ts": {
-    "file": "assets/app-legacy-BTp6dVoX.js",
+    "file": "assets/app-legacy-DpKoFGdg.js",
     "name": "app",
     "src": "src/main-legacy.ts",
     "isEntry": true
   },
   "src/main.ts": {
-    "file": "assets/app-B0dVFMpS.js",
+    "file": "assets/app-SCPw6dHd.js",
     "name": "app",
     "src": "src/main.ts",
     "isEntry": true,
     "css": [
-      "assets/app-B0e3Yj6F.css"
+      "assets/app-3pBOzoIR.css"
     ]
   },
   "vite/legacy-polyfills-legacy": {
