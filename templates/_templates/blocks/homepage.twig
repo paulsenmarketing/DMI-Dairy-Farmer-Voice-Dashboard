@@ -5,8 +5,20 @@
         {% set graphBlocks = block.homepageGrid.all() %}
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {% for block in graphBlocks %}
+            {% for block in graphBlocks[0:12] %}
                 <div class="flex flex-col h-full">
+                    <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
+                    <div class="mb-2">{{ block.richText50 }}</div>
+                    <div class="flex-grow overflow-hidden shadow-xl">
+                        {% set image = block.singleImage.eagerly().one() %}
+                        {{ Image.Default(image, {class: 'w-full h-full object-cover'}) }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="flex max-md:flex-wrap gap-8 pt-8">
+            {% for block in graphBlocks[12:14] %}
+                <div>
                     <h5 class="font-bold h-6 overflow-hidden">{{ block.title }}</h5>
                     <div class="mb-2">{{ block.richText50 }}</div>
                     <div class="flex-grow overflow-hidden shadow-xl">
