@@ -47,6 +47,7 @@
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@tailwindcss/forms": "^0.5.9",
     "alpinejs": "^3.13.8",
+    "apexcharts": "^4.5.0",
     "config": "^3.3.12",
     "dotenv": "^16.4.5",
     "lucide": "^0.477.0",

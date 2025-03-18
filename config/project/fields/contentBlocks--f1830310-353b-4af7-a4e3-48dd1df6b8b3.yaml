@@ -31,6 +31,16 @@ settings:
       __assoc__:
         -
           - uid
+          - 7b7717f3-4618-41ef-8cfc-89ab8eeda216 # Milk Graph
+    -
+      __assoc__:
+        -
+          - uid
+          - 99551618-5ef9-4a9b-a720-775afacec12c # Butter Graph
+    -
+      __assoc__:
+        -
+          - uid
           - 9fc539a6-3f44-4ab9-8065-1dfd72a83f75 # CTA Block
     -
       __assoc__:
