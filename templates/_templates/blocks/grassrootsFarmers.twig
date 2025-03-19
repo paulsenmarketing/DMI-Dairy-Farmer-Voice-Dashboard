@@ -7,8 +7,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {% for block in graphBlocks[0:2] %}
                 <div class="flex flex-col h-full">
-                    <h3 class="font-bold overflow-hidden">{{ block.title }}</h3>
-                    <div class="mb-2">{{ block.richText50 }}</div>
+                    <h3 class="font-bold mb-3 overflow-hidden">{{ block.title }}</h3>
+                    <div class="mb-3">{{ block.richText50 }}</div>
                     <div class="flex-grow overflow-hidden shadow-xl">
                         {% set image = block.singleImage.eagerly().one() %}
                         {{ Image.Default(image) }}
@@ -19,8 +19,8 @@
         <div class="flex max-md:flex-wrap pt-8 md:pt-12">
             {% for block in graphBlocks[2:3] %}
                 <div class="max-w-[900px] mx-auto">
-                    <h3 class="font-bold overflow-hidden">{{ block.title }}</h3>
-                    <div class="mb-2">{{ block.richText50 }}</div>
+                    <h3 class="font-bold mb-3 overflow-hidden">{{ block.title }}</h3>
+                    <div class="mb-3">{{ block.richText50 }}</div>
                     <div class="flex-grow overflow-hidden shadow-xl">
                         {% set image = block.singleImage.eagerly().one() %}
                         {{ Image.Default(image) }}
@@ -36,5 +36,6 @@
     .hp img {
         object-fit: contain !important;
         background: white !important;
+        padding: 25px;
     }
 </style>

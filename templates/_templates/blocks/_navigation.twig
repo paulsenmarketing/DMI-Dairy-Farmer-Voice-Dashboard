@@ -16,7 +16,7 @@
                 {% if node.hasDescendants() %}
                     {{ macros.navNodes(node) }}
                 {% else %}
-                    <a href="{{ node.url }}" class="px-6 py-4 text-black hover:text-surface-900 hover:bg-surface-300 hover:shadow-inner transition-colors duration-200 w-max" >
+                    <a href="{{ node.url }}" class="font-semibold px-6 py-4 text-black hover:text-white hover:bg-brandBlue hover:shadow-inner transition-colors duration-200 w-max" >
                         {{ node.title }}
                     </a>
                 {% endif %}
