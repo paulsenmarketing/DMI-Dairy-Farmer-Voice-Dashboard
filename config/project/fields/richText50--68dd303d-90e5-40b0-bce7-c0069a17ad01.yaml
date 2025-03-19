@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: richText50
 instructions: null
-name: 'Rich Text (50 word limit)'
+name: 'Rich Text (150 word limit)'
 searchable: false
 settings:
   availableTransforms: ''
@@ -9,13 +9,14 @@ settings:
   ckeConfig: 1bf42d60-5878-4e12-a991-921c36209957 # Simple
   createButtonLabel: null
   defaultTransform: null
-  enableSourceEditingForNonAdmins: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   showWordCount: true
-  wordLimit: 50
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: 150
 translationKeyFormat: null
 translationMethod: none
 type: craft\ckeditor\Field

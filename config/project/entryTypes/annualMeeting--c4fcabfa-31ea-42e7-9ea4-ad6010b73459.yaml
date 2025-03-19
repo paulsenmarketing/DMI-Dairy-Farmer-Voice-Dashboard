@@ -56,7 +56,7 @@ fieldLayouts:
         userCondition: null
 handle: annualMeeting
 hasTitleField: true
-icon: null
+icon: handshake
 name: 'Annual Meeting'
 showSlugField: true
 showStatusField: true

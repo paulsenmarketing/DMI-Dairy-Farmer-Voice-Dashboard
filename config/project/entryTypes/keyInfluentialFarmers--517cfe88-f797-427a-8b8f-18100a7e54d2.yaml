@@ -24,7 +24,7 @@ fieldLayouts:
           -
             dateAdded: '2025-03-12T16:02:29+00:00'
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (150 word limit)
             handle: null
             includeInCards: false
             instructions: null
@@ -56,7 +56,7 @@ fieldLayouts:
           -
             dateAdded: '2025-03-12T16:02:29+00:00'
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (150 word limit)
             handle: richText502
             includeInCards: false
             instructions: null
@@ -74,7 +74,7 @@ fieldLayouts:
         userCondition: null
 handle: keyInfluentialFarmers
 hasTitleField: false
-icon: null
+icon: key
 name: 'Key Influential Farmers'
 showSlugField: true
 showStatusField: true

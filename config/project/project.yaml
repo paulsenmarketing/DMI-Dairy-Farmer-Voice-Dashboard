@@ -1,4 +1,4 @@
-dateModified: 1742328425
+dateModified: 1742395481
 email:
   fromEmail: sysadmin@paulsenmarketing.com
   fromName: craft-five-bp
@@ -71,7 +71,6 @@ meta:
     006f47be-125d-4c02-a884-f7071e7126bc: md # md
     7b7717f3-4618-41ef-8cfc-89ab8eeda216: 'Milk Graph' # Milk Graph
     7cbd6694-a78c-4e20-8e1f-ac1873f67859: Number # Number
-    7d5fd0be-4db9-45f4-990d-68b6f5ee56e4: 'Fact Block' # Fact Block
     8be379de-2386-49c6-be07-24db1825503f: 'Content Background Color' # Content Background Color
     8c15c2fb-e48e-4c43-bd5e-abebc1c5809b: 'Tab Content' # Tab Content
     8d1d81f4-7854-47a3-ac54-9469e6834614: 'Cards Per Row' # Cards Per Row
@@ -81,12 +80,13 @@ meta:
     9fc539a6-3f44-4ab9-8065-1dfd72a83f75: 'CTA Block' # CTA Block
     18b4000d-9250-484e-909b-acd0a19d5f83: 'Barometer Graph' # Barometer Graph
     22cc7cba-13f3-4e15-8405-44388d7a9d16: 'Image Card Entry' # Image Card Entry
+    26f78131-91c6-4921-83f2-7b6f90453409: 'Grassroots Farmers' # Grassroots Farmers
     34c2d3a9-93f5-4d47-9ca6-152a36cfcd2f: Blog # Blog
     41b72d76-53a5-4ce0-a968-96e72740dc36: 'Card Fields' # Card Fields
     42f330ea-8d32-462a-b565-473ac818c838: 'Media Toggle' # Media Toggle
     43e1e321-b408-4cb8-b7f4-c26babd2b9b5: 'Url Field' # Url Field
     65b22a67-97ad-481e-ab6d-d2fd2a2721f8: Padding # Padding
-    68dd303d-90e5-40b0-bce7-c0069a17ad01: 'Rich Text (50 word limit)' # Rich Text (50 word limit)
+    68dd303d-90e5-40b0-bce7-c0069a17ad01: 'Rich Text (150 word limit)' # Rich Text (150 word limit)
     70b3a49b-74b2-4178-b789-79e06e724ffc: 'Fact Fields' # Fact Fields
     74e5a566-f44f-4607-8989-63304848426f: 'Testimonial Matrix' # Testimonial Matrix
     75a04e68-45ae-4f9f-8a38-7cc3eb5ec402: New # New

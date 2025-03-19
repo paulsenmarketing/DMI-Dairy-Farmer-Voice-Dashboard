@@ -56,7 +56,7 @@ fieldLayouts:
         userCondition: null
 handle: homepage
 hasTitleField: true
-icon: null
+icon: house
 name: Homepage
 showSlugField: true
 showStatusField: true

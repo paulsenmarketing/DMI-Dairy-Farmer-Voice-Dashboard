@@ -38,7 +38,7 @@ fieldLayouts:
           -
             dateAdded: '2024-12-17T21:52:41+00:00'
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (150 word limit)
             handle: null
             includeInCards: false
             instructions: null

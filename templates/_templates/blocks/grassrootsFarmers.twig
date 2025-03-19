@@ -1,0 +1,40 @@
+{% import '_templates/elements/image.twig' as Image  %}
+
+<div class="w-full px-8 bg-white py-12 lg:py-20 hp">
+    <div class="block-container">
+        {% set graphBlocks = block.homepageGrid.all() %}
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {% for block in graphBlocks[0:2] %}
+                <div class="flex flex-col h-full">
+                    <h3 class="font-bold overflow-hidden">{{ block.title }}</h3>
+                    <div class="mb-2">{{ block.richText50 }}</div>
+                    <div class="flex-grow overflow-hidden shadow-xl">
+                        {% set image = block.singleImage.eagerly().one() %}
+                        {{ Image.Default(image) }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="flex max-md:flex-wrap pt-8 md:pt-12">
+            {% for block in graphBlocks[2:3] %}
+                <div class="max-w-[900px] mx-auto">
+                    <h3 class="font-bold overflow-hidden">{{ block.title }}</h3>
+                    <div class="mb-2">{{ block.richText50 }}</div>
+                    <div class="flex-grow overflow-hidden shadow-xl">
+                        {% set image = block.singleImage.eagerly().one() %}
+                        {{ Image.Default(image) }}
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hp img {
+        object-fit: contain !important;
+        background: white !important;
+    }
+</style>

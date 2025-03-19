@@ -21,6 +21,11 @@ settings:
       __assoc__:
         -
           - uid
+          - 26f78131-91c6-4921-83f2-7b6f90453409 # Grassroots Farmers
+    -
+      __assoc__:
+        -
+          - uid
           - 517cfe88-f797-427a-8b8f-18100a7e54d2 # Key Influential Farmers
     -
       __assoc__:

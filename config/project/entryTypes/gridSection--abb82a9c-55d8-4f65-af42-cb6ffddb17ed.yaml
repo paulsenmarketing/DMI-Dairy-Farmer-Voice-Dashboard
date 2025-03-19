@@ -38,7 +38,7 @@ fieldLayouts:
           -
             dateAdded: '2025-03-12T18:27:20+00:00'
             elementCondition: null
-            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (50 word limit)
+            fieldUid: 68dd303d-90e5-40b0-bce7-c0069a17ad01 # Rich Text (150 word limit)
             handle: null
             includeInCards: false
             instructions: null
@@ -72,7 +72,7 @@ fieldLayouts:
         userCondition: null
 handle: gridSection
 hasTitleField: true
-icon: null
+icon: grid-2
 name: 'Grid Section'
 showSlugField: true
 showStatusField: true
